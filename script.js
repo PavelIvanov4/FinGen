@@ -15,28 +15,38 @@ let b = 1;
 
 list[0].addEventListener('click', () => {
 	a = 500;
+	b = 1;
 })
 
 list[1].addEventListener('click', () => {
 	a = 200;
+	b = 1;
 })
 
 list[2].addEventListener('click', () => {
 	a = 100;
-	b = 200;
+	b = 201;
 })
 
 list[3].addEventListener('click', () => {
 	a = 100;
-	b = 300;
+	b = 301;
 })
 
 list[4].addEventListener('click', () => {
 	a = 50;
-	b = 400;
+	b = 401;
 })
 
+function tab1() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[i].classList.remove('att');
+	}			
+	
+}
+
 let trying = document.getElementById('try');
+let hear = document.getElementById('hear');
 let show = document.getElementById('show');
 let result = document.getElementById('result');
 
@@ -44,9 +54,16 @@ let type = document.getElementById('type2');
 let gradation = document.getElementById('gradation2');
 let rating = document.getElementById('rating2');
 let trad = document.getElementById('translation2');
+let files = document.getElementById('files');
+let tab_els = document.getElementsByTagName('td');
+
+hear.addEventListener('click', () => {
+	files.play();
+})
 
 function gen() {
 	count = Math.floor(Math.random() * a + b);
+	files.setAttribute('src', `aud${count}.mp3`);
 	switch (count) {
 		case 1:
 		result.innerHTML = 'osa';
@@ -60,14 +77,14 @@ function gen() {
 		trad.innerHTML = 'house';
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '2/200';		
+		rating.innerHTML = '2/200';	
 		break;
 		case 3:
 		result.innerHTML = 'teksti';
 		trad.innerHTML = 'text';
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '3/200';		
+		rating.innerHTML = '3/200';	
 		break;	
 		case 4:
 		result.innerHTML = 'aika';
@@ -88,35 +105,35 @@ function gen() {
 		trad.innerHTML = 'apple';
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '6/200';			
+		rating.innerHTML = '6/200';		
 		break;
 		case 7:
 		result.innerHTML = 'poika';
 		trad.innerHTML = 'boy';
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'IK-J';
-		rating.innerHTML = '7/200';		
+		rating.innerHTML = '7/200';			
 		break;
 		case 8:
 		result.innerHTML = 'auto';
 		trad.innerHTML = 'car';
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '8/200';		
+		rating.innerHTML = '8/200';	
 		break;	
 		case 9:
 		result.innerHTML = 'kuva';
 		trad.innerHTML = 'image';
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '9/200';
+		rating.innerHTML = '9/200';			
 		break;
 		case 10:
 		result.innerHTML = 'elämä';
 		trad.innerHTML = 'life';
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '10/200';		
+		rating.innerHTML = '10/200';	
 		break;	
 		case 11:
 		result.innerHTML = 'käsi';
@@ -1694,7 +1711,7 @@ function gen() {
 		rating.innerHTML = '35/100';		
 		break;		
 		case 236:
-		result.innerHTML = 'myöhainen';
+		result.innerHTML = 'myöhäinen';
 		trad.innerHTML = 'late';
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
@@ -2197,7 +2214,7 @@ function gen() {
 		rating.innerHTML = '7/100';		
 		break;		
 		case 308:
-		result.innerHTML = 'nähda';
+		result.innerHTML = 'nähdä';
 		trad.innerHTML = 'to see';
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
@@ -3009,8 +3026,8 @@ function gen() {
 		rating.innerHTML = '23/50';		
 		break;		
 		case 424:
-		result.innerHTML = 'väri';
-		trad.innerHTML = 'color';
+		result.innerHTML = 'no';
+		trad.innerHTML = 'well';
 		type.innerHTML = 'N/A (adverb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '24/50';		
@@ -3547,6 +3564,9 @@ function gen() {
 		gradation.innerHTML = '—';
 		rating.innerHTML = '—';		
 		break;					
+	}
+	if (count < 300) {
+	nom_sin.innerHTML = result.innerHTML;
 	}
 }
 
