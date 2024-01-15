@@ -45,14 +45,20 @@ table {
 	background : rgb(122, 86, 197);
 	border : 6px solid steelBlue;
 	color : mintCream;
-	font : 20px Lato Bold;
+	font : 18px Lato Bold;
 }
 
 table td, table th {
-	border : 3px solid steelBlue;
+	border : 2px solid steelBlue;
 	outline : 2px solid steelBlue;
 	padding : 6px;
-	min-width : 70px;
+	min-width : 120px;
+}
+
+main {
+	padding : 60px;
+	display : flex;
+	justify-content : space-around;
 }
 
 #settings {
@@ -66,13 +72,11 @@ table td, table th {
 }
 
 #generator {
-	background : #DDDDED;
-	border : 4px solid black;
+	border : 5px solid turquoise;
+	outline : 5px solid turquoise;
+	border-radius : 20px;
 	width : 500px;
 	height : max-content;
-	margin-top : 70px;
-	margin-left : auto;
-	margin-right : auto;
 	box-shadow : 12px 12px rgba(44, 44, 44, 0.7);
 }
 
@@ -90,19 +94,26 @@ table td, table th {
 
 #try {
 	border-right : 1px solid black;
+	border-radius : 10px 0 0 0;
 }
 
 #hear {
 	border-right : 1px solid black;
 }
 
+#show {
+	border-radius : 0 10px 0 0;
+}
+
 #result {
+	background : linear-gradient(to bottom right, azure, turquoise);
+	border-radius : 0 0 16px 16px;
 	width : 100%;
 	height : 136px;
 	padding : 40px;
 	text-align : center;
 	box-sizing : border-box;
-	font : 30px Lato Bold;
+	font : 30px Poppins;
 	cursor : default;
 }
 
@@ -117,11 +128,19 @@ table td, table th {
 }
 
 #type, #gradation, #rating, #translation, #type2, #gradation2, #rating2, #translation2 {
-	background : black;
+	background : steelBlue;
 	color : beige;
-	font : 22px Lato;
-	border : 1px solid beige;
+	font : 22px Poppins;
+	border : 1px solid cadetBlue;
 	padding : 6px;
+}
+
+#rating {
+	border-radius : 0 0 0 12px;
+}
+
+#rating2 {
+	border-radius : 0 0 12px 0;
 }
 
 #nom_info {
@@ -167,6 +186,12 @@ nav ul li:hover {
 	src : url('bebas-neue.ttf');
 	font-family : Bebas Neue;
 }
+
+@font-face {
+	src : url('poppins.ttf');
+	font-family : Poppins;
+}
+
 
 @media (max-width : 520px) {
  body {
