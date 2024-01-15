@@ -9,6 +9,10 @@ opt.addEventListener('click', () => {
 	list[4].classList.toggle('visible');
 })
 
+enter.addEventListener('click', () => {
+	event.currentTarget.innerHTML = '';
+})
+
 let nom_sin_arr = ['osa', 'talo', 'teksti', 'aika', 'kaupunki', 'omena', 'poika', 'auto', 'kuva', 'elämä', 'käsi', 'alue', 'kieli', 'tie', 'tyttö', 'koulu', 'asia', 'päivä', 'maailma', 'huone', 'mies', 'lista', 'nimi', 'vuosi', 'sana', 'ovi', 'koira', 'maa', 'musiikki', 'lapsi', 'paikka', 'kukka', 'nainen', 'väri', 'video', 'artikkeli', 'kahvila', 'pöytä', 'luonto', 'apu', 'kissa', 'sivu', 'puhelin', 'idea', 'ikkuna', 'ruoka', 'dokumentti', 'banaani', 'kirkko', 'luku', 'onnellisuus', 'veli', 'liiketoiminta', 'sydän', 'taivas', 'ryhmä', 'isä', 'kirja', 'pää', 'rakkaus', 'lause', 'vesi', 'kysymys', 'yö', 'silta', 'opettaja', 'syy', 'äiti', 'osoite', 'raha', 'substantiivi', 'meri', 'tavoite', 'tuoli', 'esimerkki', 'vuori', 'toimisto', 'ilta', 'sisko', 'ravintola', 'verbi', 'jalka', 'menestys', 'paita', 'leipä', 'kuppi', 'hinta', 'keittiö', 'laulu', 'kuukausi', 'tuli', 'lääkäri', 'työ', 'vastaus', 'aamiainen', 'kirjasto', 'sää', 'insinööri', 'lippu', 'viesti', 'aamu', 'kävely', 'länsi', 'silmä', 'perhe', 'valo', 'opiskelija', 'laukku', 'jänis', 'tilaisuus', 'puutarha', 'bussi', 'ystävä', 'aurinko', 'uni', 'haku', 'sade', 'palvelu', 'viikko', 'sanakirja', 'ihminen', 'ongelma', 'rakennus', 'matka', 'poika', 'makuuhuone', 'ilma', 'lasi', 'oppitunti', 'kirje', 'hattu', 'laji', 'suu', 'askel', 'katu', 'adjektiivi', 'tapahtuma', 'kauppa', 'pala', 'vihje', 'tuki', 'seutu', 'kesä', 'tunti', 'asiakas', 'pari', 'tietokone', 'lintu', 'hetki', 'juoma', 'piste', 'tieto', 'koko', 'kännykkä', 'kakku', 'kartta', 'valinta', 'tosiasia', 'tytär', 'tilanne', 'pinta', 'vanhempi', 'sänky', 'määrä', 'orava', 'terveys', 'juhla', 'suunta', '—', 'alku', 'metsä', 'pankki', 'loma', 'yliopisto', 'herra', 'toimitus', 'kello', 'itä', 'tyyppi', 'piha', 'yhteiskunta', 'maito', 'kulma', 'vieras', 'nojatuoli', 'kala', 'arvo', 'mänty', 'sääntö', 'joki', 'ajatus', 'ympyrä', 'eläin', 'järjestelmä', 'merkki', 'hiukset', 'klubi', 'oranssi', 'profiili', 'puisto', 'iso', 'hyvä', 'pitkä', 'pieni', 'valkoinen', 'ensimmäinen', 'korkea', 'uusi', 'kiva', 'vapaa', 'nuori', 'keltainen', 'läheinen', 'lyhyt', 'muu', 'iloinen', 'oikea', 'tyytyväinen', 'vanha', 'helppo', 'punainen', 'selkeä', 'mielenkiintoinen', 'matala', 'koko', 'lämmin', 'kylmä', 'kallis', 'tärkeä', 'kaunis', 'seuraava', 'tavallinen', 'sininen', 'hieno', 'tehokas', 'myöhäinen', 'pyöreä', 'sama', 'huono', 'kokenut', 'kuuluisa', 'nopea', 'samanlainen', 'onnellinen', 'vaikea', 'söpö', 'vihreä', 'jännittävä', 'maukas', 'hyödyllinen', 'tyhjä', 'vahva', 'klassinen', 'ruskea', 'väärä', 'ihana', 'oma', 'aikainen', 'ystävällinen', 'merkittävä', 'makea', 'luova', 'ylimääräinen', 'rauhallinen', 'halpa', 'ainutlaatuinen', 'hidas', 'hauska', 'pimeä', 'suosittu', 'täysi', 'pehmeä', 'väsynyt', 'saatavilla', 'avoin', 'paksu', 'kiinnostunut', 'harmaa', 'aurinkoinen', 'leveä', 'nykyinen', 'sopiva', 'rakas', 'suljettu', 'rikas', 'harvinainen', 'ohut', 'viihtyisä', 'kultainen', 'musta', 'utelias', 'vaarallinen', 'pilvinen', 'suosikki', 'syvä', 'mukava', 'kova', 'valmis', 'mahdollinen', 'muodikas'];
 
 let nom_pl_arr = ['osat', 'talot', 'tekstit', 'ajat', 'kaupungit', 'omenat', 'pojat', 'autot', 'kuvat', 'elämät', 'kädet', 'alueet', 'kielet', 'tiet', 'tytöt', 'koulut', 'asiat', 'päivät', 'maailmat', 'huoneet', 'miehet', 'listat', 'nimet', 'vuodet', 'sanat', 'ovet', 'koirat', 'maat', 'musiikit', 'lapset', 'paikat', 'kukat', 'naiset', 'värit', 'videot', 'artikkelit', 'kahvilat', 'pöydät', 'luonnot', 'avut', 'kissat', 'sivut', 'puhelimet', 'ideat', 'ikkunat', 'ruoat', 'dokumentit', 'banaanit', 'kirkot', 'luvut', 'onnellisuudet', 'veljet', 'liiketoiminnat', 'sydämet', 'taivaat', 'ryhmät', 'isät', 'kirjat', 'päät', 'rakkaudet', 'lauseet', 'vedet', 'kysymykset', 'yöt', 'sillat', 'opettajat', 'syyt', 'äidit', 'osoitteet', 'rahat', 'substantiivit', 'meret', 'tavoitteet', 'tuolit', 'esimerkit', 'vuoret', 'toimistot', 'illat', 'sisaret', 'ravintolat', 'verbit', 'jalat', 'menestykset', 'paidat', 'leivät', 'kupit', 'hinnat', 'keittiöt', 'laulut', 'kuukaudet', 'tulet', 'lääkärit', 'työt', 'vastaukset', 'aamiaiset', 'kirjastot', 'säät', 'insinöörit', 'liput', 'viestit', 'aamut', 'kävelyt', 'länsit', 'silmät', 'perheet', 'valot', 'opiskelijat', 'laukut', 'jänikset', 'tilaisuudet', 'puutarhat', 'bussit', 'ystävät', 'auringot', 'unet', 'haut', 'sateet', 'palvelut', 'viikot', 'sanakirjat', 'ihmiset', 'ongelmat', 'rakennukset', 'matkat', 'pojat', 'makuuhuoneet', 'ilmat', 'lasit', 'oppitunnit', 'kirjeet', 'hatut', 'lajit', 'suut', 'askeleet', 'kadut', 'adjektiivit', 'tapahtumat', 'kaupat', 'palat', 'vihjeet', 'tuet', 'seudut', 'kesät', 'tunnit', 'asiakkaat', 'parit', 'tietokoneet', 'linnut', 'hetket', 'juomat', 'pisteet', 'tiedot', 'kokot', 'kännykät', 'kakut', 'kartat', 'valinnat', 'tosiasiat', 'tyttäret', 'tilanteet', 'pinnat', 'vanhemmat', 'sängyt', 'määrät', 'oravat', 'terveydet', 'juhlat', 'suunnat', 'kasvot', 'alut', 'metsät', 'pankit', 'lomat', 'yliopistot', 'herrat', 'toimitukset', 'kellot', 'idät', 'tyypit', 'pihat', 'yhteiskunnat', 'maidot', 'kulmat', 'vieraat', 'nojatuolit', 'kalat', 'arvot', 'männyt', 'säännöt', 'joet', 'ajatukset', 'ympyrät', 'eläimet', 'järjestelmät', 'merkit', 'hiukset', 'klubit', 'oranssit', 'profiilit', 'puistot', 'isot', 'hyvät', 'pitkät', 'pienet', 'valkoiset', 'ensimmäiset', 'korkeat', 'uudet', 'kivat', 'vapaat', 'nuoret', 'keltaiset', 'läheiset', 'lyhyet', 'muut', 'iloiset', 'oikeat', 'tyytyväiset', 'vanhat', 'helpot', 'punaiset', 'selkeät', 'mielenkiintoiset', 'matalat', 'kokoiset', 'lämpimät', 'kylmät', 'kalliit', 'tärkeät', 'kauniit', 'seuraavat', 'tavalliset', 'siniset', 'hienot', 'tehokkaat', 'myöhäiset', 'pyöreät', 'samat', 'huonot', 'kokeneet', 'kuuluisat', 'nopeat', 'samanlaiset', 'onnelliset', 'vaikeat', 'söpöt', 'vihreät', 'jännittävät', 'maukkaat', 'hyödylliset', 'tyhjät', 'vahvat', 'klassiset', 'ruskeat', 'väärät', 'ihanat', 'omat', 'aikaiset', 'ystävälliset', 'merkittävät', 'makeat', 'luovat', 'ylimääräiset', 'rauhalliset', 'halvat', 'ainutlaatuiset', 'hitaat', 'hauskat', 'pimeät', 'suositut', 'täydet', 'pehmeät', 'väsyneet', '—', 'avoimet', 'paksut', 'kiinnostuneet', 'harmaat', 'aurinkoiset', 'leveät', 'nykyiset', 'sopivat', 'rakkaat', 'suljetut', 'rikkaat', 'harvinaiset', 'ohuet', 'viihtyisät', 'kultaiset', 'mustat', 'uteliaat', 'vaaralliset', 'pilviset', 'suosikit', 'syvät', 'mukavat', 'kovat', 'valmiit', 'mahdolliset', 'muodikkaat'];
@@ -97,8 +101,11 @@ hear.addEventListener('click', () => {
 	files.play();
 })
 
-function gen() {
+function randomPick() {
 	count = Math.floor(Math.random() * a + b);
+}
+
+function gen() {
 	files.setAttribute('src', `aud${count}.mp3`);
 	switch (count) {
 		case 1:
@@ -3639,4 +3646,49 @@ show.addEventListener('click', () => {
  }	
 })
 
+trying.addEventListener('click', () => { randomPick() });
 trying.addEventListener('click', () => { gen() });
+
+let nType = 0;
+
+nouns.addEventListener('click', () => {
+	nType = 1;
+	count = 1;
+})
+
+adjs.addEventListener('click', () => {
+	nType = 2;
+	count = 201;
+})
+
+verbs.addEventListener('click', () => {
+	nType = 3;
+	count = 301;
+})
+
+advs.addEventListener('click', () => {
+	nType = 4;
+	count = 401;
+})
+
+bar_go.addEventListener('click', () => {
+	if (nType == 1 && count > 0 && count < 200) {
+		count = Number(enter.innerHTML);
+		gen();
+	}
+	
+	if (nType == 2 && count > 200 && count < 300) {
+		count = 200 + Number(enter.innerHTML);
+		gen();
+	}
+
+	if (nType == 3 && count > 300 && count < 400) {
+		count = 300 + Number(enter.innerHTML);
+		gen();
+	}
+
+	if (nType == 4 && count > 400 && count < 450) {
+		count = 400 + Number(enter.innerHTML);
+		gen();
+	}	
+})
