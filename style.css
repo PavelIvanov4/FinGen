@@ -97,6 +97,15 @@ main {
 	border-radius : 10px 0 0 0;
 }
 
+#try2 {
+	color : aquamarine;
+	cursor : pointer;
+}
+
+#passive, #passive_res {
+	border-top-width : 16px;
+}
+
 #hear {
 	border-right : 1px solid black;
 }
@@ -143,7 +152,7 @@ main {
 	border-radius : 0 0 12px 0;
 }
 
-#nom_info {
+#nom_info, #verb_info {
 	background : steelBlue;
 	text-align : center;
 	font : 22px Lato Bold;
@@ -158,8 +167,8 @@ main {
 	grid-column-gap : 15px;
 	bottom : 10px;
 	left : 10px;
-	background : coral;
-	font : 20px Lato Bold;
+	background : linear-gradient(to bottom right, lightGreen, forestGreen);
+	font : 20px Poppins;
 	width : 460px;
 	height : 50px;
 	padding : 10px;
@@ -169,19 +178,36 @@ main {
 }
 
 #nouns, #adjs, #verbs, #advs, #enter, #bar_go {
-	border : 2px solid black;
+	border : 1px solid black;
 	padding : 1px 3px 1px 3px;
 	min-width : 50px;
 }
 
 #nouns, #adjs, #verbs, #advs, #bar_go {
-	background : burlyWood;
+	background : mintCream;
 	transition : 0.5s;
 	cursor : pointer;
 }
 
 #enter {
 	overflow : hidden;
+}
+
+#verb_table {
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#verb_table td {
+	text-align : center;
+}
+
+#verb_table .verb_start {
+	text-align : left;
+}
+
+#table_wrapper {
+	padding : 75px;
 }
 
 .visible {
@@ -206,7 +232,7 @@ nav ul li:hover {
 }
 
 #nouns:hover, #adjs:hover, #verbs:hover, #advs:hover, #bar_go:hover {
-	background : lightGreen;
+	background : skyBlue;
 }
 
 @font-face {
