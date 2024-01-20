@@ -21,17 +21,17 @@ let gen_sin_arr = ['osan', 'talon', 'tekstin', 'ajan', 'kaupungin', 'omenan', 'p
 
 let gen_pl_arr = ['osien', 'talojen', 'tekstien', 'aikojen', 'kaupunkien', 'omenoiden', 'poikien', 'autojen', 'kuvien', 'elämien', 'käsien', 'alueiden', 'kielien', 'teiden', 'tyttöjen', 'koulujen', 'asioiden', 'päivien', 'maailmojen', 'huoneiden', 'miesten', 'listojen', 'nimien', 'vuosien', 'sanojen', 'ovien', 'koirien', 'maiden', 'musiikkien', 'lasten', 'paikkojen', 'kukkien', 'naisten', 'värien', 'videoiden', 'artikkeleiden', 'kahviloiden', 'pöytien', 'luontojen', 'apujen', 'kissojen', 'sivujen', 'puhelimien', 'ideoiden', 'ikkunoiden', 'ruokien', 'dokumenttien', 'banaanien', 'kirkkojen', 'lukujen', 'onnellisuuksien', 'veljien', 'liiketoimintojen', 'sydänten', 'taivasten', 'ryhmien', 'isien', 'kirjojen', 'päiden', 'rakkauksien', 'lauseiden', 'vesien', 'kysymysten', 'öiden', 'siltojen', 'opettajien', 'syiden', 'äitien', 'osoitteiden', 'rahojen', 'substantiivien', 'merien', 'tavoitteiden', 'tuolien', 'esimerkkien', 'vuorten', 'toimistojen', 'iltojen', 'siskojen', 'ravintoloiden', 'verbien', 'jalkojen', 'menestyksien', 'paitojen', 'leipien', 'kuppien', 'hintojen', 'keittiöiden', 'laulujen', 'kuukausien', 'tulien', 'lääkäreiden', 'töiden', 'vastausten', 'aamiaisten', 'kirjastojen', 'säiden', 'insinöörien', 'lippujen', 'viestien', 'aamujen', 'kävelyjen', 'länsien', 'silmien', 'perheiden', 'valojen', 'opiskelijoiden', 'laukkujen', 'jänisten', 'tilaisuuksien', 'puutarhojen', 'bussien', 'ystävien', 'aurinkojen', 'unien', 'hakujen', 'sateiden', 'palveluiden', 'viikkojen', 'sanakirjojen', 'ihmisten', 'ongelmien', 'rakennusten', 'matkojen', 'poikien', 'makuuhuoneiden', 'ilmien', 'lasien', 'oppituntien', 'kirjeiden', 'hattujen', 'lajien', 'suiden', 'askelten', 'katujen', 'adjektiivien', 'tapahtumien', 'kauppojen', 'palojen', 'vihjeiden', 'tukien', 'seutujen', 'kesien', 'tuntien', 'asiakkaiden', 'parien', 'tietokoneiden', 'lintujen', 'hetkien', 'juomien', 'pisteiden', 'tietojen', 'kokojen', 'kännyköiden', 'kakkujen', 'karttojen', 'valintojen', 'tosiasioiden', 'tyttärien', 'tilanteiden', 'pintojen', 'vanhempien', 'sänkyjen', 'määrien', 'oravien', 'terveyksien', 'juhlien', 'suuntien', 'kasvojen', 'alkujen', 'metsien', 'pankkien', 'lomien', 'yliopistojen', 'herrojen', 'toimitusten', 'kellojen', 'itäjen', 'tyyppien', 'pihojen', 'yhteiskuntien', 'maitojen', 'kulmien', 'vieraiden', 'nojatuolien', 'kalojen', 'arvojen', 'mäntyjen', 'sääntöjen', 'jokien', 'ajatusten', 'ympyröiden', 'eläinten', 'järjestelmien', 'merkkien', 'hiusten', 'klubien', 'oranssien', 'profiilien', 'puistojen', 'isojen', 'hyvien', 'pitkien', 'pienien', 'valkoisten', 'ensimmäisten', 'korkeiden', 'uusien', 'kivojen', 'vapaiden', 'nuorten', 'keltaisten', 'läheisten', 'lyhyiden', 'muiden', 'iloisten', 'oikeiden', 'tyytyväisten', 'vanhojen', 'helppojen', 'punaisten', 'selkeiden', 'mielenkiintoisten', 'matalien', 'kokojen', 'lämpimien', 'kylmien', 'kallisten', 'tärkeiden', 'kauniiden', 'seuraavien', 'tavallisten', 'sinisten', 'hienojen', 'tehokkaiden', 'myöhäisten', 'pyöreiden', 'samojen', 'huonojen', 'kokeneiden', 'kuuluisien', 'nopeiden', 'samanlaisten', 'onnellisten', 'vaikeiden', 'söpöjen', 'vihreiden', 'jännittävien', 'maukaisten', 'hyödyllisten', 'tyhjien', 'vahvojen', 'klassisten', 'ruskeiden', 'väärien', 'ihanien', 'omien', 'aikaisten', 'ystävällisten', 'merkittävien', 'makeiden', 'luovien', 'ylimääräisten', 'rauhallisten', 'halpojen', 'ainutlaatuisien', 'hidasten', 'hauskojen', 'pimeiden', 'suosittujen', 'täyssien', 'pehmeiden', 'väsyneiden', 'saatavillaolevien', 'avoimien', 'paksujen', 'kiinnostuneiden', 'harmaiden', 'aurinkoisten', 'leveiden', 'nykyisten', 'sopivien', 'rakkaiden', 'suljettujen', 'rikasten', 'harvinaisten', 'ohuiden', 'viihtyisien', 'kultaisten', 'mustien', 'uteliaiden', 'vaarallisten', 'pilvisten', 'suosikkien', 'syvien', 'mukavien', 'kovien', 'valmienneiden', 'mahdollisten', 'muodikkaiden'];
 
-let par_sin_arr = ['osaa', 'taloa', 'teksti', 'aikaa', 'kaupunkia', 'omenaa', 'poikaa', 'autoa', 'kuvaa', 'elämää', 'kättä', 'aluetta', 'kieltä', 'tietä', 'tyttöä', 'koulua', 'asiaa', 'päivää', 'maailmaa', 'huonetta', 'miestä', 'listaa', 'nimeä', 'vuotta', 'sanaa', 'ovea', 'koiraa', 'maata', 'musiikkia', 'lasta', 'paikkaa', 'kukkaa', 'naista', 'väriä', 'videota', 'artikkelia', 'kahvilaa', 'pöytää', 'luontoa', 'apua', 'kissaa', 'sivua', 'puhelinta', 'ideaa', 'ikkunaa', 'ruokaa', 'dokumenttia', 'banaania', 'kirkkoa', 'lukua', 'onnellisuutta', 'veljeä', 'liiketoimintaa', 'sydäntä', 'taivasta', 'ryhmää', 'isää', 'kirjaa', 'päätä', 'rakkautta', 'lausetta', 'vettä', 'kysymystä', 'yötä', 'siltaa', 'opettajaa', 'syytä', 'äitiä', 'osoitetta', 'rahaa', 'substantiivia', 'merta', 'tavoitetta', 'tuolia', 'esimerkkiä', 'vuorta', 'toimistoa', 'iltaa', 'siskoa', 'ravintolaa', 'verbi', 'jalkaa', 'menestystä', 'paitaa', 'leipää', 'kuppia', 'hintaa', 'keittiötä', 'laulua', 'kuukautta', 'tulta', 'lääkäriä', 'työtä', 'vastausta', 'aamiaista', 'kirjastoa', 'säätä', 'insinööriä', 'lippua', 'viestiä', 'aamua', 'kävelyä', 'länttä', 'silmää', 'perhettä', 'valoa', 'opiskelijaa', 'laukkua', 'jänistä', 'tilaisuutta', 'puutarhaa', 'bussia', 'ystävää', 'aurinkoa', 'unta', 'hakua', 'sadetta', 'palvelua', 'viikkoa', 'sanakirjaa', 'ihmistä', 'ongelmaa', 'rakennusta', 'matkaa', 'poikaa', 'makuuhuonetta', 'ilmaa', 'lasia', 'oppituntia', 'kirjettä', 'hattua', 'lajia', 'suuta', 'askelta', 'katua', 'adjektiivia', 'tapahtumaa', 'kauppaa', 'palaa', 'vihjettä', 'tukea', 'seutua', 'kesää', 'tuntia', 'asiakasta', 'paria', 'tietokonetta', 'lintua', 'hetkeä', 'juomaa', 'pistettä', 'tietoa', 'kokoa', 'kännykkää', 'kakkua', 'karttaa', 'valintaa', 'tosiasiaa', 'tytärtä', 'tilannetta', 'pintaa', 'vanhempaa', 'sänkyä', 'määrää', 'oravaa', 'terveyttä', 'juhlia', 'suuntaa', '—', 'alkua', 'metsää', 'pankkia', 'lomaa', 'yliopistoa', 'herraa', 'toimitusta', 'kelloa', 'itää', 'tyyppiä', 'pihaa', 'yhteiskuntaa', 'maitoa', 'kulmaa', 'vierasta', 'nojatuolia', 'kalaa', 'arvoa', 'mäntyä', 'sääntöä', 'jokea', 'ajatusta', 'ympyrää', 'eläintä', 'järjestelmää', 'merkkiä', 'hiuksia', 'klubia', 'oranssia', 'profiilia', 'puistoa', 'isoa', 'hyvää', 'pitkää', 'pieniä', 'valkoista', 'ensimmäistä', 'korkeaa', 'uutta', 'kivaa', 'vapaata', 'nuorta', 'keltaista', 'läheistä', 'lyhyttä', 'muuta', 'iloista', 'oikeaa', 'tyytyväistä', 'vanhaa', 'helppoa', 'punaista', 'selkeää', 'mielenkiintoista', 'matalaa', 'kokoa', 'lämmintä', 'kylmää', 'kallista', 'tärkeää', 'kaunista', 'seuraavaa', 'tavallista', 'sinistä', 'hienoa', 'tehokasta', 'myöhäistä', 'pyöreää', 'samaa', 'huonoa', 'kokenutta', 'kuuluisaa', 'nopeaa', 'samanlaista', 'onnellista', 'vaikeaa', 'söpöä', 'vihreää', 'jännittävää', 'maukasta', 'hyödyllistä', 'tyhjää', 'vahvaa', 'klassista', 'ruskeaa', 'väärää', 'ihanaa', 'omaa', 'aikaista', 'ystävällistä', 'merkittävää', 'makeaa', 'luovaa', 'ylimääräistä', 'rauhallista', 'halpaa', 'ainutlaatuista', 'hitaampaa', 'hauskaa', 'pimeämpää', 'suosittua', 'täyttä', 'pehmeää', 'väsynyttä', 'saatavilla', 'avointa', 'paksumpaa', 'kiinnostunutta', 'harmaata', 'aurinkoista', 'leveää', 'nykyistä', 'sopivaa', 'rakasta', 'suljettua', 'rikasta', 'harvinaista', 'ohutta', 'viihtyisää', 'kultaista', 'mustaa', 'uteliasta', 'vaarallista', 'pilvistä', 'suosituinta', 'syvää', 'mukavaa', 'kovaa', 'valmiiksi', 'mahdollista', 'muodikasta']
+let par_sin_arr = ['osaa', 'taloa', 'tekstiä', 'aikaa', 'kaupunkia', 'omenaa', 'poikaa', 'autoa', 'kuvaa', 'elämää', 'kättä', 'aluetta', 'kieltä', 'tietä', 'tyttöä', 'koulua', 'asiaa', 'päivää', 'maailmaa', 'huonetta', 'miestä', 'listaa', 'nimeä', 'vuotta', 'sanaa', 'ovea', 'koiraa', 'maata', 'musiikkia', 'lasta', 'paikkaa', 'kukkaa', 'naista', 'väriä', 'videota', 'artikkelia', 'kahvilaa', 'pöytää', 'luontoa', 'apua', 'kissaa', 'sivua', 'puhelinta', 'ideaa', 'ikkunaa', 'ruokaa', 'dokumenttia', 'banaania', 'kirkkoa', 'lukua', 'onnellisuutta', 'veljeä', 'liiketoimintaa', 'sydäntä', 'taivasta', 'ryhmää', 'isää', 'kirjaa', 'päätä', 'rakkautta', 'lausetta', 'vettä', 'kysymystä', 'yötä', 'siltaa', 'opettajaa', 'syytä', 'äitiä', 'osoitetta', 'rahaa', 'substantiivia', 'merta', 'tavoitetta', 'tuolia', 'esimerkkiä', 'vuorta', 'toimistoa', 'iltaa', 'siskoa', 'ravintolaa', 'verbi', 'jalkaa', 'menestystä', 'paitaa', 'leipää', 'kuppia', 'hintaa', 'keittiötä', 'laulua', 'kuukautta', 'tulta', 'lääkäriä', 'työtä', 'vastausta', 'aamiaista', 'kirjastoa', 'säätä', 'insinööriä', 'lippua', 'viestiä', 'aamua', 'kävelyä', 'länttä', 'silmää', 'perhettä', 'valoa', 'opiskelijaa', 'laukkua', 'jänistä', 'tilaisuutta', 'puutarhaa', 'bussia', 'ystävää', 'aurinkoa', 'unta', 'hakua', 'sadetta', 'palvelua', 'viikkoa', 'sanakirjaa', 'ihmistä', 'ongelmaa', 'rakennusta', 'matkaa', 'poikaa', 'makuuhuonetta', 'ilmaa', 'lasia', 'oppituntia', 'kirjettä', 'hattua', 'lajia', 'suuta', 'askelta', 'katua', 'adjektiivia', 'tapahtumaa', 'kauppaa', 'palaa', 'vihjettä', 'tukea', 'seutua', 'kesää', 'tuntia', 'asiakasta', 'paria', 'tietokonetta', 'lintua', 'hetkeä', 'juomaa', 'pistettä', 'tietoa', 'kokoa', 'kännykkää', 'kakkua', 'karttaa', 'valintaa', 'tosiasiaa', 'tytärtä', 'tilannetta', 'pintaa', 'vanhempaa', 'sänkyä', 'määrää', 'oravaa', 'terveyttä', 'juhlia', 'suuntaa', '—', 'alkua', 'metsää', 'pankkia', 'lomaa', 'yliopistoa', 'herraa', 'toimitusta', 'kelloa', 'itää', 'tyyppiä', 'pihaa', 'yhteiskuntaa', 'maitoa', 'kulmaa', 'vierasta', 'nojatuolia', 'kalaa', 'arvoa', 'mäntyä', 'sääntöä', 'jokea', 'ajatusta', 'ympyrää', 'eläintä', 'järjestelmää', 'merkkiä', 'hiuksia', 'klubia', 'oranssia', 'profiilia', 'puistoa', 'isoa', 'hyvää', 'pitkää', 'pieniä', 'valkoista', 'ensimmäistä', 'korkeaa', 'uutta', 'kivaa', 'vapaata', 'nuorta', 'keltaista', 'läheistä', 'lyhyttä', 'muuta', 'iloista', 'oikeaa', 'tyytyväistä', 'vanhaa', 'helppoa', 'punaista', 'selkeää', 'mielenkiintoista', 'matalaa', 'kokoa', 'lämmintä', 'kylmää', 'kallista', 'tärkeää', 'kaunista', 'seuraavaa', 'tavallista', 'sinistä', 'hienoa', 'tehokasta', 'myöhäistä', 'pyöreää', 'samaa', 'huonoa', 'kokenutta', 'kuuluisaa', 'nopeaa', 'samanlaista', 'onnellista', 'vaikeaa', 'söpöä', 'vihreää', 'jännittävää', 'maukasta', 'hyödyllistä', 'tyhjää', 'vahvaa', 'klassista', 'ruskeaa', 'väärää', 'ihanaa', 'omaa', 'aikaista', 'ystävällistä', 'merkittävää', 'makeaa', 'luovaa', 'ylimääräistä', 'rauhallista', 'halpaa', 'ainutlaatuista', 'hitaampaa', 'hauskaa', 'pimeämpää', 'suosittua', 'täyttä', 'pehmeää', 'väsynyttä', 'saatavilla', 'avointa', 'paksumpaa', 'kiinnostunutta', 'harmaata', 'aurinkoista', 'leveää', 'nykyistä', 'sopivaa', 'rakasta', 'suljettua', 'rikasta', 'harvinaista', 'ohutta', 'viihtyisää', 'kultaista', 'mustaa', 'uteliasta', 'vaarallista', 'pilvistä', 'suosituinta', 'syvää', 'mukavaa', 'kovaa', 'valmiiksi', 'mahdollista', 'muodikasta']
 
 let par_pl_arr = ['osia', 'taloja', 'tekstejä', 'aikoja', 'kaupunkeja', 'omenoita', 'poikia', 'autoja', 'kuvia', 'elämiä', 'käsiä', 'alueita', 'kieliä', 'teitä', 'tyttöjä', 'kouluja', 'asioita', 'päiviä', 'maailmoja', 'huoneita', 'miehiä', 'listoja', 'nimiä', 'vuosia', 'sanoja', 'ovia', 'koiria', 'maita', 'musiikkeja', 'lapsia', 'paikkoja', 'kukkia', 'naisia', 'värejä', 'videoita', 'artikkeleita', 'kahviloita', 'pöytiä', 'luontoja', 'apuja', 'kissoja', 'sivuja', 'puhelimia', 'ideoita', 'ikkunoita', 'ruokia', 'dokumentteja', 'banaaneja', 'kirkkoja', 'lukuja', 'onnellisuuksia', 'veljiä', 'liiketoimintoja', 'sydämiä', 'taivaita', 'ryhmiä', 'isiä', 'kirjoja', 'päitä', 'rakkauksia', 'lauseita', 'vesiä', 'kysymyksiä', 'öitä', 'siltoja', 'opettajia', 'syitä', 'äitejä', 'osoitteita', 'rahoja', 'substantiiveja', 'meriä', 'tavoitteita', 'tuoleja', 'esimerkkejä', 'vuoria', 'toimistoja', 'iltoja', 'sisaria', 'ravintoloita', 'verbejä', 'jalkoja', 'menestyksiä', 'paitoja', 'leipiä', 'kuppeja', 'hintoja', 'keittiöitä', 'lauluja', 'kuukausia', 'tulia', 'lääkäreitä', 'töitä', 'vastauksia', 'aamiaisia', 'kirjastoja', 'säitä', 'insinöörejä', 'lippuja', 'viestejä', 'aamuja', 'kävelyjä', 'lännessä', 'silmiä', 'perheitä', 'valoja', 'opiskelijoita', 'laukkuja', 'jäniksiä', 'tilaisuuksia', 'puutarhoja', 'busseja', 'ystäviä', 'aurinkoja', 'unia', 'hakuja', 'sateita', 'palveluja', 'viikkoja', 'sanakirjoja', 'ihmisiä', 'ongelmia', 'rakennuksia', 'matkoja', 'poikia', 'makuuhuoneita', 'ilmaa', 'laseja', 'oppitunteja', 'kirjeitä', 'hattuja', 'lajeja', 'suita', 'askeleita', 'katuja', 'adjektiiveja', 'tapahtumia', 'kauppoja', 'paloja', 'vihjeitä', 'tukia', 'seutuja', 'kesiä', 'tunteja', 'asiakkaita', 'pareja', 'tietokoneita', 'lintuja', 'hetkiä', 'juomia', 'pisteitä', 'tietoja', 'kokoja', 'kännyköitä', 'kakkuja', 'karttoja', 'valintoja', 'tosiasioita', 'tyttäriä', 'tilanteita', 'pintoja', 'vanhempia', 'sänkyjä', 'määriä', 'oravia', 'terveyksiä', 'juhlia', 'suuntia', 'kasvoja', 'alkuja', 'metsiä', 'pankkeja', 'lomia', 'yliopistoja', 'herroja', 'toimituksia', 'kelloja', 'itäjä', 'tyyppejä', 'pihoja', 'yhteiskuntia', 'maitoja', 'kulmia', 'vieraita', 'nojatuoleja', 'kaloja', 'arvoja', 'mäntyjä', 'sääntöjä', 'jokia', 'ajatuksia', 'ympyröitä', 'eläimiä', 'järjestelmiä', 'merkkejä', 'hiuksia', 'klubeja', 'oransseja', 'profiileja', 'puistoja', 'isoja', 'hyviä', 'pitkiä', 'pieniä', 'valkoisia', 'ensimmäisiä', 'korkeita', 'uusia', 'kivoja', 'vapaita', 'nuoria', 'keltaisia', 'läheisiä', 'lyhyitä', 'muita', 'iloisia', 'oikeita', 'tyytyväisiä', 'vanhoja', 'helppoja', 'punaisia', 'selkeitä', 'mielenkiintoisia', 'matalia', 'kokoja', 'lämpimiä', 'kylmiä', 'kalliita', 'tärkeitä', 'kauniita', 'seuraavia', 'tavallisia', 'sinisiä', 'hienoja', 'tehokkaita', 'myöhäisiä', 'pyöreitä', 'samoja', 'huonoja', 'kokeneita', 'kuuluisia', 'nopeita', 'samanlaisia', 'onnellisia', 'vaikeita', 'söpöjä', 'vihreitä', 'jännittäviä', 'maukkaita', 'hyödyllisiä', 'tyhjiä', 'vahvoja', 'klassisia', 'ruskeita', 'vääriä', 'ihania', 'omia', 'aikaisia', 'ystävällisiä', 'merkittäviä', 'makeita', 'luovia', 'ylimääräisiä', 'rauhallisia', 'halpoja', 'ainutlaatuisia', 'hidas', 'hauskoja', 'pimeitä', 'suosittuja', 'täysiä', 'pehmeitä', 'väsyneitä', 'saatavilla', 'avoin', 'paksumpia', 'kiinnostuneita', 'harmaampi', 'aurinkoisia', 'leveitä', 'nykyisiä', 'sopivia', 'rakkaita', 'suljettuja', 'rikkaampia', 'harvinaisempia', 'ohuempia', 'viihtyisempiä', 'kultaisia', 'mustia', 'uteliaita', 'vaarallisia', 'pilvisempiä', 'suosikkeja', 'syviä', 'mukavia', 'kovia', 'valmiita', 'mahdollisia', 'muodikkaita'];
 
 let ine_sin_arr = ['osassa','talossa','tekstissä','ajassa','kaupungissa','omenassa','pojassa','autossa','kuvassa','elämässä','kädessä','alueessa','kielessä','tiessä','tytössä','koulussa','asiassa','päivässä','maailmassa','huoneessa','miehessä','listassa','nimessä','vuodessa','sanassa','ovessa','koirassa','maassa','musiikissa','lapsessa','paikassa','kukassa','naisessa','värissä','videossa','artikkelissa','kahvilassa','pöydässä','luonnossa','avussa','kissassa','sivussa','puhelimessa','ideassa','ikkunassa','ruoassa','dokumentissa','banaanissa','kirkossa','luvussa','onnellisuudessa','veljessä','liiketoiminnassa','sydämessä','taivaassa','ryhmässä','isässä','kirjassa','päässä','rakkaudessa','lauseessa','vedessä','kysymyksessä','yössä','sillassa','opettajassa','syyssä','äidissä','osoitteessa','rahassa','substantiivissa','meressä','tavoitteessa','tuolissa','esimerkissä','vuoressa','toimistossa','illassa','sisaressa','ravintolassa','verbissä','jalassa','menestyksessä','paidassa','leivässä','kupissa','hinnassa','keittiössä','laulussa','kuukaudessa','tulessa','lääkärissä','työssä','vastauksessa','aamiaisessa','kirjastossa','säässä','insinöörissä','lipussa','viestissä','aamussa','kävelyssä','länsissä','silmässä','perheessä','valossa','opiskelijassa','laukussa','jäniksessä','tilaisuudessa','puutarhassa','bussissa','ystävässä','auringossa','unessa','haussa','sateessa','palvelussa','viikossa','sanakirjassa','ihmisessä','ongelmassa','rakennuksessa','matkassa','pojassa','makuuhuoneessa','ilmassa','lasissa','oppitunnissa','kirjeessä','hatussa','lajissa','suussa','askeleessa','kadussa','adjektiivissa','tapahtumassa','kaupassa','palassa','vihjeessa','tuessa','seudussa','kesässä','tunnissa','asiakkaassa','parissa','tietokoneessa','linnussa','hetkessä','juomassa','pisteessä','tiedossa','kokossa','kännykässä','kakussa','kartassa','valinnassa','tosiasiassa','tyttäressä','tilanteessa','pinnassa','vanhemmassa','sängyssä','määrässä','oravassa','terveydessä','juhlassa','suunnassa', '—', 'alussa','metsässä','pankissa','lomassa','yliopistossa','herrassa','toimituksessa','kellossa','idässä','tyypissä','pihassa','yhteiskunnassa','maidossa','kulmassa','vieraassa','nojatuolissa','kalassa','arvossa','männyssä','säännössä','joessa','ajatuksessa','ympyrässä','eläimessä','järjestelmässä','merkissä','hiuksessa','klubissa','oranssissa','profiilissa','puistossa','isossa','hyvässä','pitkässä','pienessä','valkoisessa','ensimmäisessä','korkeassa','uudessa','kivassa','vapaassa','nuoressa','keltaisessa','läheisessä','lyhyessä','muussa','iloisessa','oikeassa','tyytyväisessä','vanhassa','helpossa','punaisessa','selkeässä','mielenkiintoisessa','matalassa','kokoisessa','lämpimässä','kylmässä','kalliissa','tärkeässä','kauniissa','seuraavassa','tavallisessa','sinisessä','hienossa','tehokkaassa','myöhäisessä','pyöreässä','samassa','huonossa','kokeneessa','kuuluisassa','nopeassa','samanlaisessa','onnellisessa','vaikeassa','söpössä','vihreässä','jännittävässä','maukkaassa','hyödyllisessä','tyhjässä','vahvassa','klassisessa','ruskeassa','väärässä','ihanassa','omassa','aikaisessa','ystävällisessä','merkittävässä','makeassa','luovassa','ylimääräisessä','rauhallisessa','halvassa','ainutlaatuisessa','hitaassa','hauskassa','pimeässä','suositussa','täydessä','pehmeässä','väsyneessä','—','avoimessa','paksussa','kiinnostuneessa','harmaassa','aurinkoisessa','leveässä','nykyisessä','sopivassa','rakkaassa','suljetussa','rikkaassa','harvinaisessa','ohuessa','viihtyisässä','kultaisessa','mustassa','uteliaassa','vaarallisessa','pilvisessä','suosikissa','syvässä','mukavassa','kovassa','valmiissa','mahdollisessa','muodikkaassa'];
 
-let ine_pl_arr = ['osissa', 'taloissa', 'tekstissä', 'ajoissa', 'kaupungeissa', 'omenissa', 'pojissa', 'autoissa', 'kuvissa', 'elämissä', 'käsissä', 'alueilla', 'kielissä', 'teillä', 'tytöissä', 'kouluissa', 'asioissa', 'päivissä', 'maailmoissa', 'huoneissa', 'miehissä', 'listoissa', 'nimissä', 'vuosissa', 'sanoissa', 'ovissa', 'koirissa', 'maissa', 'musiikeissa', 'lapsissa', 'paikoissa', 'kukissa', 'naisissa', 'väreissä', 'videoissa', 'artikkeleissa', 'kahviloissa', 'pöydissä', 'luonnoissa', 'avuissa', 'kissoissa', 'sivuissa', 'puhelimissa', 'ideoissa', 'ikkunoissa', 'ruoissa', 'dokumenteissa', 'banaaneissa', 'kirkoissa', 'luvuissa', 'onnellisuuksissa', 'veljissä', 'liiketoimissa', 'sydämissä', 'taivoissa', 'ryhmissä', 'isissä', 'kirjoissa', 'päissä', 'rakkaudessa', 'lauseissa', 'vedessä', 'kysymyksissä', 'öissä', 'silloissa', 'opettajissa', 'syissä', 'äideissä', 'osoitteissa', 'rahoissa', 'substantiiveissa', 'merissä', 'tavoitteissa', 'tuoleissa', 'esimerkeissä', 'vuorissa', 'toimistoissa', 'illoissa', 'siskoissa', 'ravintoloissa', 'verbeissä', 'jaloissa', 'menestyksissä', 'paidoissa', 'leivissä', 'kupeissa', 'hinnoissa', 'keittiöissä', 'lauluissa', 'kuukausissa', 'tulissa', 'lääkäreissä', 'töissä', 'vastauksissa', 'aamiaisissa', 'kirjastoissa', 'säissä', 'insinööreissä', 'lipuissa', 'viesteissä', 'aamuissa', 'kävelyissä', 'länsissä', 'silmässä', 'perheissä', 'valoissa', 'opiskelijoissa', 'laukuissa', 'jäniksissä', 'tilaisuuksissa', 'puutarhoissa', 'busseissa', 'ystävissä', 'auringoissa', 'unissa', 'haussa', 'sateessa', 'palveluissa', 'viikoissa', 'sanakirjoissa', 'ihmisissä', 'ongelmissa', 'rakennuksissa', 'matkoissa', 'pojissa', 'makuuhuoneissa', 'ilmassa', 'laseissa', 'oppitunneissa', 'kirjeissä', 'hatuissa', 'lajeissa', 'suissa', 'askelissa', 'kaduissa', 'adjektiiveissa', 'tapahtumissa', 'kaupoissa', 'paloissa', 'vinheissä', 'tuissa', 'seuduissa', 'kesissä', 'tunneissa', 'asiakkaissa', 'pareissa', 'tietokoneissa', 'linnuissa', 'hetkissä', 'juomissa', 'pisteissä', 'tiedoissa', 'kokoissa', 'kännyköissä', 'kakuissa', 'kartoissa', 'valinnoissa', 'tosiasioissa', 'tyttärissä', 'tilanteissa', 'pinnoissa', 'vanhemmissa', 'sängyissä', 'määrissä', 'oravissa', 'terveyksissä', 'juhlissa', 'suunnissa', 'kasvoissa', 'alkuissa', 'metsissä', 'pankeissa', 'lomissa', 'yliopistoissa', 'herroissa', 'toimituksissa', 'kelloissa', 'itäisissä', 'tyypeissä', 'pihoissa', 'yhteiskunnissa', 'maidossa', 'kulmissa', 'vierailijoissa', 'nojatuoleissa', 'kaloissa', 'arvoissa', 'männyissä', 'säännöissä', 'joissa', 'ajatuksissa', 'ympyröissä', 'eläimissä', 'järjestelmissä', 'merkeissä', 'hiuksissa', 'klubeissa', 'oransseissa', 'profiileissa', 'puistoissa', 'isoissa', 'hyvissä', 'pitkissä', 'pienissä', 'valkoisissa', 'ensimmäisissä', 'korkeissa', 'uusissa', 'kivoissa', 'vapaissa', 'nuorissa', 'keltaisissa', 'läheisissä', 'lyhyissä', 'muissa', 'iloisissa', 'oikeissa', 'tyytyväisissä', 'vanhoissa', 'helpoissa', 'punaisissa', 'selkeissä', 'mielenkiintoisissa', 'matalissa', 'kokoisissa', 'lämpimissä', 'kylmissä', 'kallisissa', 'tärkeissä', 'kauniissa', 'seuraavissa', 'tavallisissa', 'sinisissä', 'hienoissa', 'tehokkaissa', 'myöhäisissä', 'pyöreissä', 'samoissa', 'huonoissa', 'kokeneissa', 'kuuluisissa', 'nopeissa', 'samanlaisissa', 'onnellisissa', 'vaikeissa', 'söpöissä', 'vihreissä', 'jännittävissä', 'maukkaissa', 'hyödyllisissä', 'tyhjissä', 'vahvoissa', 'klassisissa', 'ruskeissa', 'väärien', 'ihanissa', 'omissa', 'aikaisissa', 'ystävällisissä', 'merkittävissä', 'makeissa', 'luovissa', 'ylimääräisissä', 'rauhallisissa', 'halvoissa', 'ainutlaatuisissa', 'hitaissa', 'hauskoissa', 'pimeissä', 'suosituissa', 'täysissä', 'pehmeissä', 'väsyneissä', 'saatavilla', 'avoin', 'paksuissa', 'kiinnostuneissa', 'harmaissa', 'aurinkoisissa', 'leveissä', 'nykyisissä', 'sopivissa', 'rakkaille', 'suljetuille', 'rikkaissa', 'harvinaisissa', 'ohuissa', 'viihtyisissä', 'kultaisissa', 'mustissa', 'uteliaissa', 'vaarallisissa', 'pilvisissä', 'suosikeissa', 'syvissä', 'mukavissa', 'kovissa', 'valmiissa', 'mahdollisissa', 'muodikkaissa']
+let ine_pl_arr = ['osissa', 'taloissa', 'teksteissä', 'ajoissa', 'kaupungeissa', 'omenissa', 'pojissa', 'autoissa', 'kuvissa', 'elämissä', 'käsissä', 'alueilla', 'kielissä', 'teillä', 'tytöissä', 'kouluissa', 'asioissa', 'päivissä', 'maailmoissa', 'huoneissa', 'miehissä', 'listoissa', 'nimissä', 'vuosissa', 'sanoissa', 'ovissa', 'koirissa', 'maissa', 'musiikeissa', 'lapsissa', 'paikoissa', 'kukissa', 'naisissa', 'väreissä', 'videoissa', 'artikkeleissa', 'kahviloissa', 'pöydissä', 'luonnoissa', 'avuissa', 'kissoissa', 'sivuissa', 'puhelimissa', 'ideoissa', 'ikkunoissa', 'ruoissa', 'dokumenteissa', 'banaaneissa', 'kirkoissa', 'luvuissa', 'onnellisuuksissa', 'veljissä', 'liiketoimissa', 'sydämissä', 'taivoissa', 'ryhmissä', 'isissä', 'kirjoissa', 'päissä', 'rakkaudessa', 'lauseissa', 'vedessä', 'kysymyksissä', 'öissä', 'silloissa', 'opettajissa', 'syissä', 'äideissä', 'osoitteissa', 'rahoissa', 'substantiiveissa', 'merissä', 'tavoitteissa', 'tuoleissa', 'esimerkeissä', 'vuorissa', 'toimistoissa', 'illoissa', 'siskoissa', 'ravintoloissa', 'verbeissä', 'jaloissa', 'menestyksissä', 'paidoissa', 'leivissä', 'kupeissa', 'hinnoissa', 'keittiöissä', 'lauluissa', 'kuukausissa', 'tulissa', 'lääkäreissä', 'töissä', 'vastauksissa', 'aamiaisissa', 'kirjastoissa', 'säissä', 'insinööreissä', 'lipuissa', 'viesteissä', 'aamuissa', 'kävelyissä', 'länsissä', 'silmässä', 'perheissä', 'valoissa', 'opiskelijoissa', 'laukuissa', 'jäniksissä', 'tilaisuuksissa', 'puutarhoissa', 'busseissa', 'ystävissä', 'auringoissa', 'unissa', 'haussa', 'sateessa', 'palveluissa', 'viikoissa', 'sanakirjoissa', 'ihmisissä', 'ongelmissa', 'rakennuksissa', 'matkoissa', 'pojissa', 'makuuhuoneissa', 'ilmassa', 'laseissa', 'oppitunneissa', 'kirjeissä', 'hatuissa', 'lajeissa', 'suissa', 'askelissa', 'kaduissa', 'adjektiiveissa', 'tapahtumissa', 'kaupoissa', 'paloissa', 'vinheissä', 'tuissa', 'seuduissa', 'kesissä', 'tunneissa', 'asiakkaissa', 'pareissa', 'tietokoneissa', 'linnuissa', 'hetkissä', 'juomissa', 'pisteissä', 'tiedoissa', 'kokoissa', 'kännyköissä', 'kakuissa', 'kartoissa', 'valinnoissa', 'tosiasioissa', 'tyttärissä', 'tilanteissa', 'pinnoissa', 'vanhemmissa', 'sängyissä', 'määrissä', 'oravissa', 'terveyksissä', 'juhlissa', 'suunnissa', 'kasvoissa', 'alkuissa', 'metsissä', 'pankeissa', 'lomissa', 'yliopistoissa', 'herroissa', 'toimituksissa', 'kelloissa', 'itäisissä', 'tyypeissä', 'pihoissa', 'yhteiskunnissa', 'maidossa', 'kulmissa', 'vierailijoissa', 'nojatuoleissa', 'kaloissa', 'arvoissa', 'männyissä', 'säännöissä', 'joissa', 'ajatuksissa', 'ympyröissä', 'eläimissä', 'järjestelmissä', 'merkeissä', 'hiuksissa', 'klubeissa', 'oransseissa', 'profiileissa', 'puistoissa', 'isoissa', 'hyvissä', 'pitkissä', 'pienissä', 'valkoisissa', 'ensimmäisissä', 'korkeissa', 'uusissa', 'kivoissa', 'vapaissa', 'nuorissa', 'keltaisissa', 'läheisissä', 'lyhyissä', 'muissa', 'iloisissa', 'oikeissa', 'tyytyväisissä', 'vanhoissa', 'helpoissa', 'punaisissa', 'selkeissä', 'mielenkiintoisissa', 'matalissa', 'kokoisissa', 'lämpimissä', 'kylmissä', 'kallisissa', 'tärkeissä', 'kauniissa', 'seuraavissa', 'tavallisissa', 'sinisissä', 'hienoissa', 'tehokkaissa', 'myöhäisissä', 'pyöreissä', 'samoissa', 'huonoissa', 'kokeneissa', 'kuuluisissa', 'nopeissa', 'samanlaisissa', 'onnellisissa', 'vaikeissa', 'söpöissä', 'vihreissä', 'jännittävissä', 'maukkaissa', 'hyödyllisissä', 'tyhjissä', 'vahvoissa', 'klassisissa', 'ruskeissa', 'väärien', 'ihanissa', 'omissa', 'aikaisissa', 'ystävällisissä', 'merkittävissä', 'makeissa', 'luovissa', 'ylimääräisissä', 'rauhallisissa', 'halvoissa', 'ainutlaatuisissa', 'hitaissa', 'hauskoissa', 'pimeissä', 'suosituissa', 'täysissä', 'pehmeissä', 'väsyneissä', 'saatavilla', 'avoin', 'paksuissa', 'kiinnostuneissa', 'harmaissa', 'aurinkoisissa', 'leveissä', 'nykyisissä', 'sopivissa', 'rakkaille', 'suljetuille', 'rikkaissa', 'harvinaisissa', 'ohuissa', 'viihtyisissä', 'kultaisissa', 'mustissa', 'uteliaissa', 'vaarallisissa', 'pilvisissä', 'suosikeissa', 'syvissä', 'mukavissa', 'kovissa', 'valmiissa', 'mahdollisissa', 'muodikkaissa']
 
 let ela_sin_arr = ['osasta','talosta','tekstistä','ajasta','kaupungista','omenasta','pojasta','autosta','kuvasta','elämästä','kädestä','alueesta','kielestä','tiestä','tytöstä','koulusta','asiasta','päivästä','maailmasta','huoneesta','miehestä','listasta','nimestä','vuodesta','sanasta','ovesta','koirasta','maasta','musiikista','lapsesta','paikasta','kukasta','naisesta','väristä','videosta','artikkelista','kahvilasta','pöydästä','luonnosta','avusta','kissasta','sivusta','puhelimesta','ideasta','ikkunasta','ruoasta','dokumentista','banaanista','kirkosta','luvusta','onnellisuudesta','veljestä','liiketoiminnasta','sydämestä','taivaasta','ryhmästä','isästä','kirjasta','päästä','rakkaudesta','lauseesta','vedestä','kysymyksestä','yöstä','sillasta','opettajasta','syystä','äidistä','osoitteesta','rahasta','substantiivista','merestä','tavoitteesta','tuolista','esimerkistä','vuoresta','toimistosta','illasta','sisaresta','ravintolasta','verbistä','jalasta','menestyksestä','paidasta','leivästä','kupista','hinnasta','keittiöstä','laulusta','kuukaudesta','tulesta','lääkäristä','työstä','vastauksesta','aamiaisesta','kirjastosta','säästä','insinööristä','lipusta','viestistä','aamusta','kävelystä','länsistä','silmästä','perheestä','valosta','opiskelijasta','laukusta','jäniksestä','tilaisuudesta','puutarhasta','bussista','ystävästä','auringosta','unesta','hausta','sateesta','palvelusta','viikosta','sanakirjasta','ihmisestä','ongelmasta','rakennuksesta','matkasta','pojasta','makuuhuoneesta','ilmasta','lasista','oppitunnista','kirjeestä','hatusta','lajista','suusta','askeleesta','kadusta','adjektiivista','tapahtumasta','kaupasta','palasta','vihjeesta','tuesta','seudusta','kesästä','tunnista','asiakkaasta','parista','tietokoneesta','linnusta','hetkestä','juomasta','pisteestä','tiedosta','kokosta','kännykästä','kakusta','kartasta','valinnasta','tosiasiasta','tyttärestä','tilanteesta','pinnasta','vanhemmasta','sängystä','määrästä','oravasta','terveydestä','juhlasta','suunnasta','—','alusta','metsästä','pankista','lomasta','yliopistosta','herrasta','toimituksesta','kellosta','idästä','tyypistä','pihasta','yhteiskunnasta','maidosta','kulmasta','vieraasta','nojatuolista','kalasta','arvosta','männystä','säännöstä','joesta','ajatuksesta','ympyrästä','eläimestä','järjestelmästä','merkistä','hiuksesta','klubista','oranssista','profiilista','puistosta','isosta','hyvästä','pitkästä','pienestä','valkoisesta','ensimmäisestä','korkeasta','uudesta','kivasta','vapaasta','nuoresta','keltaisesta','läheisestä','lyhyestä','muusta','iloisesta','oikeasta','tyytyväisestä','vanhasta','helposta','punaisesta','selkeästä','mielenkiintoisesta','matalasta','kokoisesta','lämpimästä','kylmästä','kalliista','tärkeästä','kauniista','seuraavasta','tavallisesta','sinisestä','hienosta','tehokkaasta','myöhäisestä','pyöreästä','samasta','huonosta','kokeneesta','kuuluisasta','nopeasta','samanlaisesta','onnellisesta','vaikeasta','söpöstä','vihreästä','jännittävästä','maukkaasta','hyödyllisestä','tyhjästä','vahvasta','klassisesta','ruskeasta','väärästä','ihanasta','omasta','aikaisesta','ystävällisestä','merkittävästä','makeasta','luovasta','ylimääräisestä','rauhallisesta','halvasta','ainutlaatuisesta','hitaasta','hauskasta','pimeästä','suositusta','täydestä','pehmeästä','väsyneestä','—','avoimesta','paksusta','kiinnostuneesta','harmaasta','aurinkoisesta','leveästä','nykyisestä','sopivasta','rakkaasta','suljetusta','rikkaasta','harvinaisesta','ohuesta','viihtyisästä','kultaisesta','mustasta','uteliaasta','vaarallisesta','pilvisestä','suosikista','syvästä','mukavasta','kovasta','valmiista','mahdollisesta','muodikkaasta'];
 
-let ela_pl_arr = ["osista","taloista","tekstistä","ajoista","kaupungeista","omenista","pojista","autoista","kuvista","elämistä","käsistä","alueilla","kielistä","teillä","tytöistä","kouluista","asioista","päivistä","maailmoista","huoneista","miehistä","listoista","nimistä","vuosista","sanoista","ovista","koirista","maista","musiikeista","lapsista","paikoista","kukista","naisista","väreistä","videoista","artikkeleista","kahviloista","pöydistä","luonnoista","avuista","kissoista","sivuista","puhelimista","ideoista","ikkunoista","ruoista","dokumenteista","banaaneista","kirkoista","luvuista","onnellisuuksista","veljistä","liiketoimista","sydämistä","taivoista","ryhmistä","isistä","kirjoista","päistä","rakkaudesta","lauseista","vedestä","kysymyksistä","öistä","silloista","opettajista","syistä","äideistä","osoitteista","rahoista","substantiiveista","meristä","tavoitteista","tuoleista","esimerkeistä","vuorista","toimistoista","illoista","siskoista","ravintoloista","verbeistä","jaloista","menestyksistä","paidoista","leivistä","kupeista","hinnoista","keittiöistä","lauluista","kuukausista","tulista","lääkäreistä","töistä","vastauksista","aamiaisista","kirjastoista","säistä","insinööreistä","lipuista","viesteistä","aamuista","kävelyistä","länsistä","silmästä","perheistä","valoista","opiskelijoista","laukuista","jäniksistä","tilaisuuksista","puutarhoista","busseista","ystävistä","auringoista","unista","hausta","sateesta","palveluista","viikoista","sanakirjoista","ihmisistä","ongelmista","rakennuksista","matkoista","pojista","makuuhuoneista","ilmasta","laseista","oppitunneista","kirjeistä","hatuista","lajeista","suista","askelista","kaduista","adjektiiveista","tapahtumista","kaupoista","paloista","vinheistä","tuista","seuduista","kesistä","tunneista","asiakkaista","pareista","tietokoneista","linnuista","hetkistä","juomista","pisteistä","tiedoista","kokoista","kännyköistä","kakuista","kartoista","valinnoista","tosiasioista","tyttäristä","tilanteista","pinnoista","vanhemmista","sängyistä","määristä","oravista","terveyksistä","juhlista","suunnista","kasvoista","alkuista","metsistä","pankeista","lomista","yliopistoista","herroista","toimituksista","kelloista","itäisistä","tyypeistä","pihoista","yhteiskunnista","maidosta","kulmista","vierailijoista","nojatuoleista","kaloista","arvoista","männyistä","säännöistä","joista","ajatuksista","ympyröistä","eläimistä","järjestelmistä","merkeistä","hiuksista","klubeista","oransseista","profiileista","puistoista","isoista","hyvistä","pitkistä","pienistä","valkoisista","ensimmäisistä","korkeista","uusista","kivoista","vapaista","nuorista","keltaisista","läheisistä","lyhyistä","muista","iloisista","oikeista","tyytyväisistä","vanhoista","helpoista","punaisista","selkeistä","mielenkiintoisista","matalista","kokoisista","lämpimistä","kylmistä","kallisista","tärkeistä","kauniista","seuraavista","tavallisista","sinisistä","hienoista","tehokkaista","myöhäisistä","pyöreistä","samoista","huonoista","kokeneista","kuuluisista","nopeista","samanlaisista","onnellisista","vaikeista","söpöistä","vihreistä","jännittävistä","maukkaista","hyödyllisistä","tyhjistä","vahvoista","klassisista","ruskeista","väärien","ihanista","omista","aikaisista","ystävällisistä","merkittävistä","makeista","luovista","ylimääräisistä","rauhallisista","halvoista","ainutlaatuisista","hitaista","hauskoista","pimeistä","suosituista","täysistä","pehmeistä","väsyneistä","saatavilla","avoin","paksuista","kiinnostuneista","harmaista","aurinkoisista","leveistä","nykyisistä","sopivista","rakkaille","suljetuille","rikkaista","harvinaisista","ohuista","viihtyisistä","kultaisista","mustista","uteliaista","vaarallisista","pilvisistä","suosikeista","syvistä","mukavista","kovista","valmiista","mahdollisista","muodikkaista"]
+let ela_pl_arr = ["osista","taloista","teksteistä","ajoista","kaupungeista","omenista","pojista","autoista","kuvista","elämistä","käsistä","alueilla","kielistä","teillä","tytöistä","kouluista","asioista","päivistä","maailmoista","huoneista","miehistä","listoista","nimistä","vuosista","sanoista","ovista","koirista","maista","musiikeista","lapsista","paikoista","kukista","naisista","väreistä","videoista","artikkeleista","kahviloista","pöydistä","luonnoista","avuista","kissoista","sivuista","puhelimista","ideoista","ikkunoista","ruoista","dokumenteista","banaaneista","kirkoista","luvuista","onnellisuuksista","veljistä","liiketoimista","sydämistä","taivoista","ryhmistä","isistä","kirjoista","päistä","rakkaudesta","lauseista","vedestä","kysymyksistä","öistä","silloista","opettajista","syistä","äideistä","osoitteista","rahoista","substantiiveista","meristä","tavoitteista","tuoleista","esimerkeistä","vuorista","toimistoista","illoista","siskoista","ravintoloista","verbeistä","jaloista","menestyksistä","paidoista","leivistä","kupeista","hinnoista","keittiöistä","lauluista","kuukausista","tulista","lääkäreistä","töistä","vastauksista","aamiaisista","kirjastoista","säistä","insinööreistä","lipuista","viesteistä","aamuista","kävelyistä","länsistä","silmästä","perheistä","valoista","opiskelijoista","laukuista","jäniksistä","tilaisuuksista","puutarhoista","busseista","ystävistä","auringoista","unista","hausta","sateesta","palveluista","viikoista","sanakirjoista","ihmisistä","ongelmista","rakennuksista","matkoista","pojista","makuuhuoneista","ilmasta","laseista","oppitunneista","kirjeistä","hatuista","lajeista","suista","askelista","kaduista","adjektiiveista","tapahtumista","kaupoista","paloista","vinheistä","tuista","seuduista","kesistä","tunneista","asiakkaista","pareista","tietokoneista","linnuista","hetkistä","juomista","pisteistä","tiedoista","kokoista","kännyköistä","kakuista","kartoista","valinnoista","tosiasioista","tyttäristä","tilanteista","pinnoista","vanhemmista","sängyistä","määristä","oravista","terveyksistä","juhlista","suunnista","kasvoista","alkuista","metsistä","pankeista","lomista","yliopistoista","herroista","toimituksista","kelloista","itäisistä","tyypeistä","pihoista","yhteiskunnista","maidosta","kulmista","vierailijoista","nojatuoleista","kaloista","arvoista","männyistä","säännöistä","joista","ajatuksista","ympyröistä","eläimistä","järjestelmistä","merkeistä","hiuksista","klubeista","oransseista","profiileista","puistoista","isoista","hyvistä","pitkistä","pienistä","valkoisista","ensimmäisistä","korkeista","uusista","kivoista","vapaista","nuorista","keltaisista","läheisistä","lyhyistä","muista","iloisista","oikeista","tyytyväisistä","vanhoista","helpoista","punaisista","selkeistä","mielenkiintoisista","matalista","kokoisista","lämpimistä","kylmistä","kallisista","tärkeistä","kauniista","seuraavista","tavallisista","sinisistä","hienoista","tehokkaista","myöhäisistä","pyöreistä","samoista","huonoista","kokeneista","kuuluisista","nopeista","samanlaisista","onnellisista","vaikeista","söpöistä","vihreistä","jännittävistä","maukkaista","hyödyllisistä","tyhjistä","vahvoista","klassisista","ruskeista","väärien","ihanista","omista","aikaisista","ystävällisistä","merkittävistä","makeista","luovista","ylimääräisistä","rauhallisista","halvoista","ainutlaatuisista","hitaista","hauskoista","pimeistä","suosituista","täysistä","pehmeistä","väsyneistä","saatavilla","avoin","paksuista","kiinnostuneista","harmaista","aurinkoisista","leveistä","nykyisistä","sopivista","rakkaille","suljetuille","rikkaista","harvinaisista","ohuista","viihtyisistä","kultaisista","mustista","uteliaista","vaarallisista","pilvisistä","suosikeista","syvistä","mukavista","kovista","valmiista","mahdollisista","muodikkaista"]
 
 let ill_sin_arr = ['osaan', 'taloon', 'tekstiin', 'aikaan', 'kaupunkiin', 'omenaan', 'poikaan', 'autoon', 'kuvaan', 'elämään', 'käteen', 'alueeseen', 'kieleen', 'tiehen', 'tyttöön', 'kouluun', 'asiaan', 'päivään', 'maailmaan', 'huoneeseen', 'mieheen', 'listaan', 'nimeen', 'vuoteen', 'sanaan', 'oveen', 'koiraan', 'maahan', 'musiikkiin', 'lapseen', 'paikkaan', 'kukkaan', 'naiseen', 'väriin', 'videoon', 'artikkeliin', 'kahvilaan', 'pöytään', 'luontoon', 'apuun', 'kissaan', 'sivuun', 'puhelimeen', 'ideaan', 'ikkunaan', 'ruokaan', 'dokumenttiin', 'banaaniin', 'kirkkoon', 'lukuun', 'onnellisuuteen', 'veljeen', 'liiketoimintaan', 'sydämeen', 'taivaaseen', 'ryhmään', 'isään', 'kirjaan', 'päähän', 'rakkauteen', 'lauseeseen', 'veteen', 'kysymykseen', 'yöhön', 'siltaan', 'opettajaan', 'syyhyn', 'äitiin', 'osoitteeseen', 'rahaan', 'substantiiviin', 'mereen', 'tavoitteeseen', 'tuoliin', 'esimerkkiin', 'vuoreen', 'toimistoon', 'iltaan', 'siskoon', 'ravintolaan', 'verbiin', 'jalkaan', 'menestykseen', 'paitaan', 'leipään', 'kuppiin', 'hintaan', 'keittiöön', 'lauluun', 'kuukauteen', 'tuleen', 'lääkäriin', 'työhön', 'vastaukseen', 'aamiaiseen', 'kirjastoon', 'säähän', 'insinööriin', 'lippuun', 'viestiin', 'aamuun', 'kävelyyn', 'länteen', 'silmään', 'perheeseen', 'valoon', 'opiskelijaan', 'laukkuun', 'jänikseen', 'tilaisuuteen', 'puutarhaan', 'bussiin', 'ystävään', 'aurinkoon', 'uneen', 'hakuun', 'sateeseen', 'palveluun', 'viikkoon', 'sanakirjaan', 'ihmiseen', 'ongelmaan', 'rakennukseen', 'matkaan', 'poikaan', 'makuuhuoneeseen', 'ilmaan', 'lasiin', 'oppituntiin', 'kirjeeseen', 'hattuun', 'lajiin', 'suuhun', 'askeleeseen', 'katuun', 'adjektiiviin', 'tapahtumaan', 'kauppaan', 'palaseen', 'vihjeeseen', 'tukeen', 'seutuun', 'kesään', 'tuntiin', 'asiakkaaseen', 'pariin', 'tietokoneeseen', 'lintuun', 'hetkeen', 'juomaan', 'pisteeseen', 'tietoon', 'kokoon', 'kännykkään', 'kakkuun', 'karttaan', 'valintaan', 'tosiasiaan', 'tyttäreen', 'tilanteeseen', 'pintaan', 'vanhempaan', 'sänkyyn', 'määrään', 'oravaan', 'terveyteen', 'juhlaan', 'suuntaan', '—', 'alkuun', 'metsään', 'pankkiin', 'lomaan', 'yliopistoon', 'herraan', 'toimitukseen', 'kelloon', 'itään', 'tyyppiin', 'pihaan', 'yhteiskuntaan', 'maitoon', 'kulmaan', 'vieraseen', 'nojatuoliin', 'kalaan', 'arvoon', 'mäntyyn', 'sääntöön', 'jokeen', 'ajatukseen', 'ympyrään', 'eläimeen', 'järjestelmään', 'merkkiin', 'hiuksiin', 'klubiin', 'oranssiin', 'profiiliin', 'puistoon', 'isoon', 'hyvään', 'pitkään', 'pieneen', 'valkoiseen', 'ensimmäiseen', 'korkeaan', 'uuteen', 'kivaan', 'vapaaseen', 'nuoreen', 'keltaiseen', 'läheiseen', 'lyhyeen', 'muuhun', 'iloiseen', 'oikeaan', 'tyytyväiseen', 'vanhaan', 'helppoon', 'punaiseen', 'selkeään', 'mielenkiintoiseen', 'matalaan', 'kokoon', 'lämpimään', 'kylmään', 'kalliiseen', 'tärkeään', 'kauniiseen', 'seuraavaan', 'tavalliseen', 'siniseen', 'hienoon', 'tehokkaaseen', 'myöhäiseen', 'pyöreään', 'samaan', 'huonoon', 'kokeneeseen', 'kuuluisaan', 'nopeaan', 'samanlaiseen', 'onnelliseen', 'vaikeaan', 'söpöön', 'vihreään', 'jännittävään', 'maukkaaseen', 'hyödylliseen', 'tyhjään', 'vahvaan', 'klassiseen', 'ruskeaan', 'väärään', 'ihanaan', 'omaan', 'aikaiseen', 'ystävälliseen', 'merkittävään', 'makeaan', 'luovaan', 'ylimääräiseen', 'rauhalliseen', 'halpaan', 'ainutlaatuiseen', 'hitaaseen', 'hauskaan', 'pimeään', 'suosittuun', 'täyteen', 'pehmeään', 'väsyneeseen', 'saatavilla olevaan', 'avoimeen', 'paksumpaan', 'kiinnostuneeseen', 'harmaaseen', 'aurinkoiseen', 'leveään', 'nykyiseen', 'soveltuvaan', 'rakkaaseen', 'suljettuun', 'rikkaaseen', 'harvinaiseen', 'ohueen', 'viihtyisään', 'kultaiseen', 'mustaan', 'uteliaaseen', 'vaaralliseen', 'pilviseen', 'suosikkiin', 'syvään', 'mukavaan', 'kovaa', 'valmiiseen', 'mahdolliseen', 'muodikkaaseen'];
 
@@ -39,15 +39,61 @@ let ill_pl_arr = ['osiin', 'taloihin', 'teksteihin', 'aikoihin', 'kaupunkeihin',
 
 let ade_sin_arr = ["osalla","talolla","tekstillä","ajalla","kaupungilla","omenalla","pojalla","autolla","kuvalla","elämällä","kädellä","alueella","kielellä","tiellä","tytöllä","koululla","asialla","päivällä","maailmalla","huoneella","miehellä","listalla","nimellä","vuodella","sanalla","ovella","koiralla","maalla","musiikilla","lapsella","paikalla","kukalla","naisella","värillä","videolla","artikkelilla","kahvilalla","pöydällä","luonnolla","avulla","kissalla","sivulla","puhelimella","idealla","ikkunalla","ruoalla","dokumentilla","banaanilla","kirkolla","luvulla","onnellisuudella","veljellä","liiketoiminnalla","sydämellä","taivaalla","ryhmällä","isällä","kirjalla","päällä","rakkaudella","lauseella","vedellä","kysymyksellä","yöllä","sillalla","opettajalla","syyllä","äidillä","osoitteella","rahalla","substantiivilla","merellä","tavoitteella","tuolilla","esimerkillä","vuorella","toimistolla","illalla","sisarella","ravintolalla","verbillä","jalalla","menestyksellä","paidalla","leivällä","kupilla","hinnalla","keittiöllä","laululla","kuukaudella","tulella","lääkärillä","työllä","vastauksella","aamiaisella","kirjastolla","säällä","insinöörillä","lipulla","viestillä","aamulla","kävelyllä","länsillä","silmällä","perheellä","valolla","opiskelijalla","laukulla","jäniksellä","tilaisuudella","puutarhalla","bussilla","ystävällä","auringolla","unella","haulla","sateella","palvelulla","viikolla","sanakirjalla","ihmisellä","ongelmalla","rakennuksella","matkalla","pojalla","makuuhuoneella","ilmalla","lasilla","oppitunnilla","kirjeellä","hatulla","lajilla","suulla","askeleella","kadulla","adjektiivilla","tapahtumalla","kaupalla","palalla","vihjeella","tuella","seudulla","kesällä","tunnilla","asiakkaalla","parilla","tietokoneella","linnulla","hetkellä","juomalla","pisteellä","tiedolla","kokolla","kännykällä","kakulla","kartalla","valinnalla","tosiasialla","tyttärellä","tilanteella","pinnalla","vanhemmalla","sängyllä","määrällä","oravalla","terveydellä","juhlalla","suunnalla","—","alulla","metsällä","pankilla","lomalla","yliopistolla","herralla","toimituksella","kellolla","idällä","tyypillä","pihalla","yhteiskunnalla","maidolla","kulmalla","vieraalla","nojatuolilla","kalalla","arvolla","männyllä","säännöllä","joella","ajatuksella","ympyrällä","eläimellä","järjestelmällä","merkillä","hiuksella","klubilla","oranssilla","profiililla","puistolla","isolla","hyvällä","pitkällä","pienellä","valkoisella","ensimmäisellä","korkealla","uudella","kivalla","vapaalla","nuorella","keltaisella","läheisellä","lyhyellä","muulla","iloisella","oikealla","tyytyväisellä","vanhalla","helpolla","punaisella","selkeällä","mielenkiintoisella","matalalla","kokoisella","lämpimällä","kylmällä","kalliilla","tärkeällä","kauniilla","seuraavalla","tavallisella","sinisellä","hienolla","tehokkaalla","myöhäisellä","pyöreällä","samalla","huonolla","kokeneella","kuuluisalla","nopealla","samanlaisella","onnellisella","vaikealla","söpöllä","vihreällä","jännittävällä","maukkaalla","hyödyllisellä","tyhjällä","vahvalla","klassisella","ruskealla","väärällä","ihanalla","omalla","aikaisella","ystävällisellä","merkittävällä","makealla","luovalla","ylimääräisellä","rauhallisella","halvalla","ainutlaatuisella","hitaalla","hauskalla","pimeällä","suositulla","täydellä","pehmeällä","väsyneellä","—","avoimella","paksulla","kiinnostuneella","harmaalla","aurinkoisella","leveällä","nykyisellä","sopivalla","rakkaalla","suljetulla","rikkaalla","harvinaisella","ohuella","viihtyisällä","kultaisella","mustalla","uteliaalla","vaarallisella","pilvisellä","suosikilla","syvällä","mukavalla","kovalla","valmiilla","mahdollisella","muodikkaalla"];
 
-let ade_pl_arr = ["osilla","taloilla","tekstillä","ajoilla","kaupungeilla","omenilla","pojilla","autoilla","kuvilla","elämillä","käsillä","alueilla","kielillä","teillä","tytöillä","kouluilla","asioilla","päivillä","maailmoilla","huoneilla","miehillä","listoilla","nimillä","vuosilla","sanoilla","ovilla","koirilla","mailla","musiikeilla","lapsilla","paikoilla","kukilla","naisilla","väreillä","videoilla","artikkeleilla","kahviloilla","pöydillä","luonnoilla","avuilla","kissoilla","sivuilla","puhelimilla","ideoilla","ikkunoilla","ruoilla","dokumenteilla","banaaneilla","kirkoilla","luvuilla","onnellisuuksilla","veljillä","liiketoimilla","sydämillä","taivoilla","ryhmillä","isillä","kirjoilla","päillä","rakkaudella","lauseilla","vedellä","kysymyksillä","öillä","silloilla","opettajilla","syillä","äideillä","osoitteilla","rahoilla","substantiiveilla","merillä","tavoitteilla","tuoleilla","esimerkeillä","vuorilla","toimistoilla","illoilla","siskoilla","ravintoloilla","verbeillä","jaloilla","menestyksillä","paidoilla","leivillä","kupeilla","hinnoilla","keittiöillä","lauluilla","kuukausilla","tulilla","lääkäreillä","töillä","vastauksilla","aamiaisilla","kirjastoilla","säillä","insinööreillä","lipuilla","viesteillä","aamuilla","kävelyillä","länsillä","silmällä","perheillä","valoilla","opiskelijoilla","laukuilla","jäniksillä","tilaisuuksilla","puutarhoilla","busseilla","ystävillä","auringoilla","unilla","haulla","sateella","palveluilla","viikoilla","sanakirjoilla","ihmisillä","ongelmilla","rakennuksilla","matkoilla","pojilla","makuuhuoneilla","ilmalla","laseilla","oppitunneilla","kirjeillä","hatuilla","lajeilla","suilla","askelilla","kaduilla","adjektiiveilla","tapahtumilla","kaupoilla","paloilla","vinheillä","tuilla","seuduilla","kesillä","tunneilla","asiakkailla","pareilla","tietokoneilla","linnuilla","hetkillä","juomilla","pisteillä","tiedoilla","kokoilla","kännyköillä","kakuilla","kartoilla","valinnoilla","tosiasioilla","tyttärillä","tilanteilla","pinnoilla","vanhemmilla","sängyillä","määrillä","oravilla","terveyksillä","juhlilla","suunnilla","kasvoilla","alkuilla","metsillä","pankeilla","lomilla","yliopistoilla","herroilla","toimituksilla","kelloilla","itäisillä","tyypeillä","pihoilla","yhteiskunnilla","maidolla","kulmilla","vierailijoilla","nojatuoleilla","kaloilla","arvoilla","männyillä","säännöillä","joilla","ajatuksilla","ympyröillä","eläimillä","järjestelmillä","merkeillä","hiuksilla","klubeilla","oransseilla","profiileilla","puistoilla","isoilla","hyvillä","pitkillä","pienillä","valkoisilla","ensimmäisillä","korkeilla","uusilla","kivoilla","vapailla","nuorilla","keltaisilla","läheisillä","lyhyillä","muilla","iloisilla","oikeilla","tyytyväisillä","vanhoilla","helpoilla","punaisilla","selkeillä","mielenkiintoisilla","matalilla","kokoisilla","lämpimillä","kylmillä","kallisilla","tärkeillä","kauniilla","seuraavilla","tavallisilla","sinisillä","hienoilla","tehokkailla","myöhäisillä","pyöreillä","samoilla","huonoilla","kokeneilla","kuuluisilla","nopeilla","samanlaisilla","onnellisilla","vaikeilla","söpöillä","vihreillä","jännittävillä","maukkailla","hyödyllisillä","tyhjillä","vahvoilla","klassisilla","ruskeilla","väärien","ihanilla","omilla","aikaisilla","ystävällisillä","merkittävillä","makeilla","luovilla","ylimääräisillä","rauhallisilla","halvoilla","ainutlaatuisilla","hitailla","hauskoilla","pimeillä","suosituilla","täysillä","pehmeillä","väsyneillä","saatavilla","avoin","paksuilla","kiinnostuneilla","harmailla","aurinkoisilla","leveillä","nykyisillä","sopivilla","rakkaille","suljetuille","rikkailla","harvinaisilla","ohuilla","viihtyisillä","kultaisilla","mustilla","uteliailla","vaarallisilla","pilvisillä","suosikeilla","syvillä","mukavilla","kovilla","valmiilla","mahdollisilla","muodikkailla"];
+let ade_pl_arr = ["osilla","taloilla","teksteillä","ajoilla","kaupungeilla","omenilla","pojilla","autoilla","kuvilla","elämillä","käsillä","alueilla","kielillä","teillä","tytöillä","kouluilla","asioilla","päivillä","maailmoilla","huoneilla","miehillä","listoilla","nimillä","vuosilla","sanoilla","ovilla","koirilla","mailla","musiikeilla","lapsilla","paikoilla","kukilla","naisilla","väreillä","videoilla","artikkeleilla","kahviloilla","pöydillä","luonnoilla","avuilla","kissoilla","sivuilla","puhelimilla","ideoilla","ikkunoilla","ruoilla","dokumenteilla","banaaneilla","kirkoilla","luvuilla","onnellisuuksilla","veljillä","liiketoimilla","sydämillä","taivoilla","ryhmillä","isillä","kirjoilla","päillä","rakkaudella","lauseilla","vedellä","kysymyksillä","öillä","silloilla","opettajilla","syillä","äideillä","osoitteilla","rahoilla","substantiiveilla","merillä","tavoitteilla","tuoleilla","esimerkeillä","vuorilla","toimistoilla","illoilla","siskoilla","ravintoloilla","verbeillä","jaloilla","menestyksillä","paidoilla","leivillä","kupeilla","hinnoilla","keittiöillä","lauluilla","kuukausilla","tulilla","lääkäreillä","töillä","vastauksilla","aamiaisilla","kirjastoilla","säillä","insinööreillä","lipuilla","viesteillä","aamuilla","kävelyillä","länsillä","silmällä","perheillä","valoilla","opiskelijoilla","laukuilla","jäniksillä","tilaisuuksilla","puutarhoilla","busseilla","ystävillä","auringoilla","unilla","haulla","sateella","palveluilla","viikoilla","sanakirjoilla","ihmisillä","ongelmilla","rakennuksilla","matkoilla","pojilla","makuuhuoneilla","ilmalla","laseilla","oppitunneilla","kirjeillä","hatuilla","lajeilla","suilla","askelilla","kaduilla","adjektiiveilla","tapahtumilla","kaupoilla","paloilla","vinheillä","tuilla","seuduilla","kesillä","tunneilla","asiakkailla","pareilla","tietokoneilla","linnuilla","hetkillä","juomilla","pisteillä","tiedoilla","kokoilla","kännyköillä","kakuilla","kartoilla","valinnoilla","tosiasioilla","tyttärillä","tilanteilla","pinnoilla","vanhemmilla","sängyillä","määrillä","oravilla","terveyksillä","juhlilla","suunnilla","kasvoilla","alkuilla","metsillä","pankeilla","lomilla","yliopistoilla","herroilla","toimituksilla","kelloilla","itäisillä","tyypeillä","pihoilla","yhteiskunnilla","maidolla","kulmilla","vierailijoilla","nojatuoleilla","kaloilla","arvoilla","männyillä","säännöillä","joilla","ajatuksilla","ympyröillä","eläimillä","järjestelmillä","merkeillä","hiuksilla","klubeilla","oransseilla","profiileilla","puistoilla","isoilla","hyvillä","pitkillä","pienillä","valkoisilla","ensimmäisillä","korkeilla","uusilla","kivoilla","vapailla","nuorilla","keltaisilla","läheisillä","lyhyillä","muilla","iloisilla","oikeilla","tyytyväisillä","vanhoilla","helpoilla","punaisilla","selkeillä","mielenkiintoisilla","matalilla","kokoisilla","lämpimillä","kylmillä","kallisilla","tärkeillä","kauniilla","seuraavilla","tavallisilla","sinisillä","hienoilla","tehokkailla","myöhäisillä","pyöreillä","samoilla","huonoilla","kokeneilla","kuuluisilla","nopeilla","samanlaisilla","onnellisilla","vaikeilla","söpöillä","vihreillä","jännittävillä","maukkailla","hyödyllisillä","tyhjillä","vahvoilla","klassisilla","ruskeilla","väärien","ihanilla","omilla","aikaisilla","ystävällisillä","merkittävillä","makeilla","luovilla","ylimääräisillä","rauhallisilla","halvoilla","ainutlaatuisilla","hitailla","hauskoilla","pimeillä","suosituilla","täysillä","pehmeillä","väsyneillä","saatavilla","avoin","paksuilla","kiinnostuneilla","harmailla","aurinkoisilla","leveillä","nykyisillä","sopivilla","rakkaille","suljetuille","rikkailla","harvinaisilla","ohuilla","viihtyisillä","kultaisilla","mustilla","uteliailla","vaarallisilla","pilvisillä","suosikeilla","syvillä","mukavilla","kovilla","valmiilla","mahdollisilla","muodikkailla"];
 
 let abl_sin_arr = ["osalta","talolta","tekstiltä","ajalta","kaupungilta","omenalta","pojalta","autolta","kuvalta","elämältä","kädeltä","alueelta","kieleltä","tieltä","tytöltä","koululta","asialta","päivältä","maailmalta","huoneelta","mieheltä","listalta","nimeltä","vuodelta","sanalta","ovelta","koiralta","maalta","musiikilta","lapselta","paikalta","kukalta","naiselta","väriltä","videolta","artikkelilta","kahvilalta","pöydältä","luonnolta","avulta","kissalta","sivulta","puhelimelta","idealta","ikkunalta","ruoalta","dokumentilta","banaanilta","kirkolta","luvulta","onnellisuudelta","veljeltä","liiketoiminnalta","sydämeltä","taivaalta","ryhmältä","isältä","kirjalta","päältä","rakkaudelta","lauseelta","vedeltä","kysymykseltä","yöltä","sillalta","opettajalta","syyltä","äidiltä","osoitteelta","rahalta","substantiivilta","mereltä","tavoitteelta","tuolilta","esimerkiltä","vuorelta","toimistolta","illalta","sisarelta","ravintolalta","verbiltä","jalalta","menestykseltä","paidalta","leivältä","kupilta","hinnalta","keittiöltä","laululta","kuukaudelta","tulelta","lääkäriltä","työltä","vastaukselta","aamiaiselta","kirjastolta","säältä","insinööriltä","lipulta","viestiltä","aamulta","kävelyltä","länsiltä","silmältä","perheeltä","valolta","opiskelijalta","laukulta","jänikseltä","tilaisuudelta","puutarhalta","bussilta","ystävältä","auringolta","unelta","haulta","sateelta","palvelulta","viikolta","sanakirjalta","ihmiseltä","ongelmalta","rakennukselta","matkalta","pojalta","makuuhuoneelta","ilmalta","lasilta","oppitunnilta","kirjeeltä","hatulta","lajilta","suulta","askeleelta","kadulta","adjektiivilta","tapahtumalta","kaupalta","palalta","vihjeelta","tuelta","seudulta","kesältä","tunnilta","asiakkaalta","parilta","tietokoneelta","linnulta","hetkeltä","juomalta","pisteeltä","tiedolta","kokolta","kännykältä","kakulta","kartalta","valinnalta","tosiasialta","tyttäreltä","tilanteelta","pinnalta","vanhemmalta","sängyltä","määrältä","oravalta","terveydeltä","juhlalta","suunnalta","—","alulta","metsältä","pankilta","lomalta","yliopistolta","herralta","toimitukselta","kellolta","idältä","tyypiltä","pihalta","yhteiskunnalta","maidolta","kulmalta","vieraalta","nojatuolilta","kalalta","arvolta","männyltä","säännöltä","joelta","ajatukselta","ympyrältä","eläimeltä","järjestelmältä","merkiltä","hiukselta","klubilta","oranssilta","profiililta","puistolta","isolta","hyvältä","pitkältä","pieneltä","valkoiselta","ensimmäiseltä","korkealta","uudelta","kivalta","vapaalta","nuorelta","keltaiselta","läheiseltä","lyhyeltä","muulta","iloiselta","oikealta","tyytyväiseltä","vanhalta","helpolta","punaiselta","selkeältä","mielenkiintoiselta","matalalta","kokoiselta","lämpimältä","kylmältä","kalliilta","tärkeältä","kauniilta","seuraavalta","tavalliselta","siniseltä","hienolta","tehokkaalta","myöhäiseltä","pyöreältä","samalta","huonolta","kokeneelta","kuuluisalta","nopealta","samanlaiselta","onnelliselta","vaikealta","söpöltä","vihreältä","jännittävältä","maukkaalta","hyödylliseltä","tyhjältä","vahvalta","klassiselta","ruskealta","väärältä","ihanalta","omalta","aikaiselta","ystävälliseltä","merkittävältä","makealta","luovalta","ylimääräiseltä","rauhalliselta","halvalta","ainutlaatuiselta","hitaalta","hauskalta","pimeältä","suositulta","täydeltä","pehmeältä","väsyneeltä","—","avoimelta","paksulta","kiinnostuneelta","harmaalta","aurinkoiselta","leveältä","nykyiseltä","sopivalta","rakkaalta","suljetulta","rikkaalta","harvinaiselta","ohuelta","viihtyisältä","kultaiselta","mustalta","uteliaalta","vaaralliselta","pilviseltä","suosikilta","syvältä","mukavalta","kovalta","valmiilta","mahdolliselta","muodikkaalta"];
 
-let abl_pl_arr = ["osilta","taloilta","tekstiltä","ajoilta","kaupungeilta","omenilta","pojilta","autoilta","kuvilta","elämiltä","käsiltä","alueilla","kieliltä","teillä","tytöiltä","kouluilta","asioilta","päiviltä","maailmoilta","huoneilta","miehiltä","listoilta","nimiltä","vuosilta","sanoilta","ovilta","koirilta","mailta","musiikeilta","lapsilta","paikoilta","kukilta","naisilta","väreiltä","videoilta","artikkeleilta","kahviloilta","pöydiltä","luonnoilta","avuilta","kissoilta","sivuilta","puhelimilta","ideoilta","ikkunoilta","ruoilta","dokumenteilta","banaaneilta","kirkoilta","luvuilta","onnellisuuksilta","veljiltä","liiketoimilta","sydämiltä","taivoilta","ryhmiltä","isiltä","kirjoilta","päiltä","rakkaudelta","lauseilta","vedeltä","kysymyksiltä","öiltä","silloilta","opettajilta","syiltä","äideiltä","osoitteilta","rahoilta","substantiiveilta","meriltä","tavoitteilta","tuoleilta","esimerkeiltä","vuorilta","toimistoilta","illoilta","siskoilta","ravintoloilta","verbeiltä","jaloilta","menestyksiltä","paidoilta","leiviltä","kupeilta","hinnoilta","keittiöiltä","lauluilta","kuukausilta","tulilta","lääkäreiltä","töiltä","vastauksilta","aamiaisilta","kirjastoilta","säiltä","insinööreiltä","lipuilta","viesteiltä","aamuilta","kävelyiltä","länsiltä","silmältä","perheiltä","valoilta","opiskelijoilta","laukuilta","jäniksiltä","tilaisuuksilta","puutarhoilta","busseilta","ystäviltä","auringoilta","unilta","haulta","sateelta","palveluilta","viikoilta","sanakirjoilta","ihmisiltä","ongelmilta","rakennuksilta","matkoilta","pojilta","makuuhuoneilta","ilmalta","laseilta","oppitunneilta","kirjeiltä","hatuilta","lajeilta","suilta","askelilta","kaduilta","adjektiiveilta","tapahtumilta","kaupoilta","paloilta","vinheiltä","tuilta","seuduilta","kesiltä","tunneilta","asiakkailta","pareilta","tietokoneilta","linnuilta","hetkiltä","juomilta","pisteiltä","tiedoilta","kokoilta","kännyköiltä","kakuilta","kartoilta","valinnoilta","tosiasioilta","tyttäriltä","tilanteilta","pinnoilta","vanhemmilta","sängyiltä","määriltä","oravilta","terveyksiltä","juhlilta","suunnilta","kasvoilta","alkuilta","metsiltä","pankeilta","lomilta","yliopistoilta","herroilta","toimituksilta","kelloilta","itäisiltä","tyypeiltä","pihoilta","yhteiskunnilta","maidolta","kulmilta","vierailijoilta","nojatuoleilta","kaloilta","arvoilta","männyiltä","säännöiltä","joilta","ajatuksilta","ympyröiltä","eläimiltä","järjestelmiltä","merkeiltä","hiuksilta","klubeilta","oransseilta","profiileilta","puistoilta","isoilta","hyviltä","pitkiltä","pieniltä","valkoisilta","ensimmäisiltä","korkeilta","uusilta","kivoilta","vapailta","nuorilta","keltaisilta","läheisiltä","lyhyiltä","muilta","iloisilta","oikeilta","tyytyväisiltä","vanhoilta","helpoilta","punaisilta","selkeiltä","mielenkiintoisilta","matalilta","kokoisilta","lämpimiltä","kylmiltä","kallisilta","tärkeiltä","kauniilta","seuraavilta","tavallisilta","sinisiltä","hienoilta","tehokkailta","myöhäisiltä","pyöreiltä","samoilta","huonoilta","kokeneilta","kuuluisilta","nopeilta","samanlaisilta","onnellisilta","vaikeilta","söpöiltä","vihreiltä","jännittäviltä","maukkailta","hyödyllisiltä","tyhjiltä","vahvoilta","klassisilta","ruskeilta","väärien","ihanilta","omilta","aikaisilta","ystävällisiltä","merkittäviltä","makeilta","luovilta","ylimääräisiltä","rauhallisilta","halvoilta","ainutlaatuisilta","hitailta","hauskoilta","pimeiltä","suosituilta","täysiltä","pehmeiltä","väsyneiltä","saatavilla","avoin","paksuilta","kiinnostuneilta","harmailta","aurinkoisilta","leveiltä","nykyisiltä","sopivilta","rakkaille","suljetuille","rikkailta","harvinaisilta","ohuilta","viihtyisiltä","kultaisilta","mustilta","uteliailta","vaarallisilta","pilvisiltä","suosikeilta","syviltä","mukavilta","kovilta","valmiilta","mahdollisilta","muodikkailta"];
+let abl_pl_arr = ["osilta","taloilta","teksteiltä","ajoilta","kaupungeilta","omenilta","pojilta","autoilta","kuvilta","elämiltä","käsiltä","alueilla","kieliltä","teillä","tytöiltä","kouluilta","asioilta","päiviltä","maailmoilta","huoneilta","miehiltä","listoilta","nimiltä","vuosilta","sanoilta","ovilta","koirilta","mailta","musiikeilta","lapsilta","paikoilta","kukilta","naisilta","väreiltä","videoilta","artikkeleilta","kahviloilta","pöydiltä","luonnoilta","avuilta","kissoilta","sivuilta","puhelimilta","ideoilta","ikkunoilta","ruoilta","dokumenteilta","banaaneilta","kirkoilta","luvuilta","onnellisuuksilta","veljiltä","liiketoimilta","sydämiltä","taivoilta","ryhmiltä","isiltä","kirjoilta","päiltä","rakkaudelta","lauseilta","vedeltä","kysymyksiltä","öiltä","silloilta","opettajilta","syiltä","äideiltä","osoitteilta","rahoilta","substantiiveilta","meriltä","tavoitteilta","tuoleilta","esimerkeiltä","vuorilta","toimistoilta","illoilta","siskoilta","ravintoloilta","verbeiltä","jaloilta","menestyksiltä","paidoilta","leiviltä","kupeilta","hinnoilta","keittiöiltä","lauluilta","kuukausilta","tulilta","lääkäreiltä","töiltä","vastauksilta","aamiaisilta","kirjastoilta","säiltä","insinööreiltä","lipuilta","viesteiltä","aamuilta","kävelyiltä","länsiltä","silmältä","perheiltä","valoilta","opiskelijoilta","laukuilta","jäniksiltä","tilaisuuksilta","puutarhoilta","busseilta","ystäviltä","auringoilta","unilta","haulta","sateelta","palveluilta","viikoilta","sanakirjoilta","ihmisiltä","ongelmilta","rakennuksilta","matkoilta","pojilta","makuuhuoneilta","ilmalta","laseilta","oppitunneilta","kirjeiltä","hatuilta","lajeilta","suilta","askelilta","kaduilta","adjektiiveilta","tapahtumilta","kaupoilta","paloilta","vinheiltä","tuilta","seuduilta","kesiltä","tunneilta","asiakkailta","pareilta","tietokoneilta","linnuilta","hetkiltä","juomilta","pisteiltä","tiedoilta","kokoilta","kännyköiltä","kakuilta","kartoilta","valinnoilta","tosiasioilta","tyttäriltä","tilanteilta","pinnoilta","vanhemmilta","sängyiltä","määriltä","oravilta","terveyksiltä","juhlilta","suunnilta","kasvoilta","alkuilta","metsiltä","pankeilta","lomilta","yliopistoilta","herroilta","toimituksilta","kelloilta","itäisiltä","tyypeiltä","pihoilta","yhteiskunnilta","maidolta","kulmilta","vierailijoilta","nojatuoleilta","kaloilta","arvoilta","männyiltä","säännöiltä","joilta","ajatuksilta","ympyröiltä","eläimiltä","järjestelmiltä","merkeiltä","hiuksilta","klubeilta","oransseilta","profiileilta","puistoilta","isoilta","hyviltä","pitkiltä","pieniltä","valkoisilta","ensimmäisiltä","korkeilta","uusilta","kivoilta","vapailta","nuorilta","keltaisilta","läheisiltä","lyhyiltä","muilta","iloisilta","oikeilta","tyytyväisiltä","vanhoilta","helpoilta","punaisilta","selkeiltä","mielenkiintoisilta","matalilta","kokoisilta","lämpimiltä","kylmiltä","kallisilta","tärkeiltä","kauniilta","seuraavilta","tavallisilta","sinisiltä","hienoilta","tehokkailta","myöhäisiltä","pyöreiltä","samoilta","huonoilta","kokeneilta","kuuluisilta","nopeilta","samanlaisilta","onnellisilta","vaikeilta","söpöiltä","vihreiltä","jännittäviltä","maukkailta","hyödyllisiltä","tyhjiltä","vahvoilta","klassisilta","ruskeilta","väärien","ihanilta","omilta","aikaisilta","ystävällisiltä","merkittäviltä","makeilta","luovilta","ylimääräisiltä","rauhallisilta","halvoilta","ainutlaatuisilta","hitailta","hauskoilta","pimeiltä","suosituilta","täysiltä","pehmeiltä","väsyneiltä","saatavilla","avoin","paksuilta","kiinnostuneilta","harmailta","aurinkoisilta","leveiltä","nykyisiltä","sopivilta","rakkaille","suljetuille","rikkailta","harvinaisilta","ohuilta","viihtyisiltä","kultaisilta","mustilta","uteliailta","vaarallisilta","pilvisiltä","suosikeilta","syviltä","mukavilta","kovilta","valmiilta","mahdollisilta","muodikkailta"];
 
 let all_sin_arr = ["osalle","talolle","tekstille","ajalle","kaupungille","omenalle","pojalle","autolle","kuvalle","elämälle","kädelle","alueelle","kielelle","tielle","tytölle","koululle","asialle","päivälle","maailmalle","huoneelle","miehelle","listalle","nimelle","vuodelle","sanalle","ovelle","koiralle","maalle","musiikille","lapselle","paikalle","kukalle","naiselle","värille","videolle","artikkelille","kahvilalle","pöydälle","luonnolle","avulle","kissalle","sivulle","puhelimelle","idealle","ikkunalle","ruoalle","dokumentille","banaanille","kirkolle","luvulle","onnellisuudelle","veljelle","liiketoiminnalle","sydämelle","taivaalle","ryhmälle","isälle","kirjalle","päälle","rakkaudelle","lauseelle","vedelle","kysymykselle","yölle","sillalle","opettajalle","syylle","äidille","osoitteelle","rahalle","substantiiville","merelle","tavoitteelle","tuolille","esimerkille","vuorelle","toimistolle","illalle","sisarelle","ravintolalle","verbille","jalalle","menestykselle","paidalle","leivälle","kupille","hinnalle","keittiölle","laululle","kuukaudelle","tulelle","lääkärille","työlle","vastaukselle","aamiaiselle","kirjastolle","säälle","insinöörille","lipulle","viestille","aamulle","kävelylle","länsille","silmälle","perheelle","valolle","opiskelijalle","laukulle","jänikselle","tilaisuudelle","puutarhalle","bussille","ystävälle","auringolle","unelle","haulle","sateelle","palvelulle","viikolle","sanakirjalle","ihmiselle","ongelmalle","rakennukselle","matkalle","pojalle","makuuhuoneelle","ilmalle","lasille","oppitunnille","kirjeelle","hatulle","lajille","suulle","askeleelle","kadulle","adjektiiville","tapahtumalle","kaupalle","palalle","vihjeelle","tuelle","seudulle","kesälle","tunnille","asiakkaalle","parille","tietokoneelle","linnulle","hetkelle","juomalle","pisteelle","tiedolle","kokolle","kännykälle","kakulle","kartalle","valinnalle","tosiasialle","tyttärelle","tilanteelle","pinnalle","vanhemmalle","sängylle","määrälle","oravalle","terveydelle","juhlalle","suunnalle","—","alulle","metsälle","pankille","lomalle","yliopistolle","herralle","toimitukselle","kellolle","idälle","tyypille","pihalle","yhteiskunnalle","maidolle","kulmalle","vieraalle","nojatuolille","kalalle","arvolle","männylle","säännölle","joelle","ajatukselle","ympyrälle","eläimelle","järjestelmälle","merkille","hiukselle","klubille","oranssille","profiilille","puistolle","isolle","hyvälle","pitkälle","pienelle","valkoiselle","ensimmäiselle","korkealle","uudelle","kivalle","vapaalle","nuorelle","keltaiselle","läheiselle","lyhyelle","muulle","iloiselle","oikealle","tyytyväiselle","vanhalle","helpolle","punaiselle","selkeälle","mielenkiintoiselle","matalalle","kokoiselle","lämpimälle","kylmälle","kalliille","tärkeälle","kauniille","seuraavalle","tavalliselle","siniselle","hienolle","tehokkaalle","myöhäiselle","pyöreälle","samalle","huonolle","kokeneelle","kuuluisalle","nopealle","samanlaiselle","onnelliselle","vaikealle","söpölle","vihreälle","jännittävälle","maukkaalle","hyödylliselle","tyhjälle","vahvalle","klassiselle","ruskealle","väärälle","ihanalle","omalle","aikaiselle","ystävälliselle","merkittävälle","makealle","luovalle","ylimääräiselle","rauhalliselle","halvalle","ainutlaatuiselle","hitaalle","hauskalle","pimeälle","suositulle","täydelle","pehmeälle","väsyneelle","—","avoimelle","paksulle","kiinnostuneelle","harmaalle","aurinkoiselle","leveälle","nykyiselle","sopivalle","rakkaalle","suljetulle","rikkaalle","harvinaiselle","ohuelle","viihtyisälle","kultaiselle","mustalle","uteliaalle","vaaralliselle","pilviselle","suosikille","syvälle","mukavalle","kovalle","valmiille","mahdolliselle","muodikkaalle"];
 
 let all_pl_arr = ['osille', 'taloille', 'teksteille', 'ajoille', 'kaupungeille', 'omenoille', 'pojille', 'autoille', 'kuville', 'elämille', 'käsille', 'alueille', 'kielille', 'teille', 'tytöille', 'kouluille', 'asioille', 'päiville', 'maailmoille', 'huoneille', 'miehille', 'listoille', 'nimille', 'vuosille', 'sanoille', 'oville', 'koirille', 'maoille', 'musiikeille', 'lapsille', 'paikoille', 'kukille', 'naisille', 'väreille', 'videoille', 'artikkeleille', 'kahviloille', 'pöydille', 'luontoille', 'avuille', 'kissoille', 'sivuille', 'puhelimille', 'ideoille', 'ikkunoille', 'ruoille', 'dokumenteille', 'banaaneille', 'kirkoille', 'luvuille', 'onnellisuuksille', 'veljille', 'liiketoiminnalle', 'sydämille', 'taivaille', 'ryhmille', 'isille', 'kirjoille', 'päille', 'rakkaudelle', 'lauseille', 'vesille', 'kysymyksille', 'öille', 'silloille', 'opettajille', 'syille', 'äideille', 'osoitteille', 'rahalle', 'substantiiveille', 'merille', 'tavoitteille', 'tuoleille', 'esimerkeille', 'vuorille', 'toimistoille', 'illoille', 'sisarille', 'ravintoloille', 'verbeille', 'jaloille', 'menestyksille', 'paidoille', 'leiville', 'kupeille', 'hintoille', 'keittiöille', 'lauluille', 'kuukausille', 'tulille', 'lääkäreille', 'töille', 'vastauksille', 'aamiaisille', 'kirjastoille', 'säille', 'insinööreille', 'lipuille', 'viesteille', 'aamuille', 'kävelyille', 'länsille', 'silmiin', 'perheille', 'valoille', 'opiskelijoille', 'laukuille', 'jäniksille', 'tilaisuuksille', 'puutarhoille', 'busseille', 'ystäville', 'auringoille', 'unille', 'hauille', 'sateille', 'palveluille', 'viikoille', 'sanakirjoille', 'ihmisille', 'ongelmille', 'rakennuksille', 'matkoille', 'pojille', 'makuuhuoneille', 'ilmalle', 'laseille', 'oppitunneille', 'kirjeille', 'hatuille', 'lajeille', 'suille', 'askelille', 'kaduille', 'adjektiiveille', 'tapahtumille', 'kaupoille', 'paloille', 'vihjeille', 'tuelle', 'seuduille', 'kesille', 'tunneille', 'asiakkaille', 'pareille', 'tietokoneille', 'linnuille', 'hetkille', 'juomille', 'pisteille', 'tiedoille', 'koille', 'kännyköille', 'kakuille', 'kartoille', 'valinnoille', 'tosiasioille', 'tyttärille', 'tilanteille', 'pinnoille', 'vanhemmille', 'sängyille', 'määrille', 'oraville', 'terveyksille', 'juhlille', 'suunnille', 'kasvoille', 'alkuillle', 'metsille', 'pankeille', 'lomille', 'yliopistoille', 'herroille', 'toimituksille', 'kelloille', 'itäille', 'tyypeille', 'pihoille', 'yhteiskunnille', 'maidolle', 'kulmille', 'vieraille', 'nojatuoleille', 'kaloille', 'arvoille', 'männyille', 'säännöille', 'joille', 'ajatuksille', 'ympyröille', 'eläimille', 'järjestelmille', 'merkeille', 'hiuksille', 'klubeille', 'oransseille', 'profiileille', 'puistoille', 'isolle', 'hyville', 'pitkille', 'pienille', 'valkoisille', 'ensimmäisille', 'korkeille', 'uusille', 'kiville', 'vapaille', 'nuorille', 'keltaisille', 'läheisille', 'lyhyille', 'muille', 'iloisille', 'oikeille', 'tyytyväisille', 'vanhoille', 'helpoille', 'punaisille', 'selkeille', 'mielenkiintoisille', 'matalille', 'koille', 'lämpimille', 'kylmille', 'kallisille', 'tärkeille', 'kauniille', 'seuraaville', 'tavallisille', 'sinisille', 'hienoille', 'tehokkaille', 'myöhäisille', 'pyöreille', 'samoille', 'huonoille', 'kokeneille', 'kuuluisille', 'nopeille', 'samanlaisille', 'onnellisille', 'vaikeille', 'söpöille', 'vihreille', 'jännittäville', 'maukkaille', 'hyödyllisille', 'tyhjille', 'vahvoille', 'klassisille', 'ruskeille', 'vääriille', 'ihanoille', 'omille', 'aikaisille', 'ystävällisille', 'merkittäville', 'makeille', 'luoville', 'ylimääräisille', 'rauhallisille', 'halvoille', 'ainutlaatuisille', 'hitaille', 'hauskoille', 'pimeille', 'suosituille', 'täysille', 'pehmeille', 'väsyneille', 'saataville', 'avoinille', 'paksuille', 'kiinnostuneille', 'harmaille', 'aurinkoisille', 'leveille', 'nykyisille', 'sopiville', 'rakkaille', 'suljetuille', 'rikkaille', 'harvinaisille', 'ohuille', 'viihtyisille', 'kultaisille', 'mustille', 'uteliaille', 'vaarallisille', 'pilvisille', 'suosikeille', 'syville', 'mukaville', 'koville', 'valmiille', 'mahdollisille', 'muodikkaille'];
+
+let present_mina_arr = ['olen', 'menen', 'voin', 'puhun', 'teen', 'tulen', 'opin', 'näen', 'matkustan', 'avaan', 'haluan', 'ajattelen', 'syön', 'luen', 'asun', 'tiedän', 'odotan', 'sanon', 'juon', 'vien', 'kuuntelen', 'pidän', 'seison', 'autan', 'kävelen', 'alan', 'lisään', 'kerron', 'tuon', 'ymmärrän', 'suljen', 'opiskelen', 'saan', 'elän', 'toivotan', 'juoksen', 'löydän', 'osaan', 'laulan', 'jatkan', 'kysyn', 'ostan', 'muistan', 'tarvitsen', 'istun', 'kirjoitan', 'annan', 'yritän', 'jään', 'vastaan', 'toistan', 'ajan', 'valmistan', 'käyn', 'keskustelen', 'tunnen', 'näytän', 'seuraan', 'lopetan', 'tarkistan', 'etsin', 'onnistun', 'lennän', 'päätän', 'juhlin', 'luon', 'katson', 'harjoittelen', 'nukun', 'käytän', 'pelään', 'uskon', 'liityn', 'nousen', 'rakastan', 'tilaan', 'pesen', 'valitsen', 'suunnittelen', 'parannan', 'riittää', 'unohdan', 'soitan', 'tapaan', 'saavun', 'toimin', 'kuulen', 'lähetän', 'tutustun', 'palaan', 'maalaan', 'laitan', 'hymyilen', 'uin', 'lepään', 'siivoan', 'suoritan', '—', 'käännyn', 'unelmoin'];
+
+let present_sina_arr = ['olet','menet','voit','puhut','teet','tulet','opit','näet','matkustat','avaat','haluat','ajattelet','syöt','luet','asut','tiedät','odotat','sanot','juot','viet','kuuntelet','pidät','seisot','autat','kävelet','alat','lisäät','kerrot','tuot','ymmärrät','suljet','opiskelet','saat','elät','toivotat','juokset','löydät','osaat','laulat','jatkat','kysyt','ostat','muistat','tarvitset','istut','kirjoitat','annat','yrität','jäät','vastaat','toistat','ajat','valmistat','käyt','keskustelet','tunnet','näytät','seuraat','lopetat','tarkistat','etsit','onnistut','lennät','päätät','juhlit','luot','katsot','harjoittelet','nukut','käytät','peläät','uskot','liityt','nouset','rakastat','tilaat','peset','valitset','suunnittelet','parannat','riittää','unohdat','soitat','tapaat','saavut','toimit','kuulet','lähetät','tutustut','palaat','maalaat','laitat','hymyilet','uit','lepäät','siivoat','suoritat','—','käännyt','unelmoit'];
+
+let present_han_arr = ['on', 'menee', 'voi', 'puhuu', 'tekee', 'tulee', 'oppii', 'näkee', 'matkustaa', 'avaa', 'haluaa', 'ajattelee', 'syö', 'lukee', 'asuu', 'tietää', 'odottaa', 'sanoo', 'juo', 'vie', 'kuuntelee', 'pitää', 'seisoo', 'auttaa', 'kävelee', 'alkaa', 'lisää', 'kertoo', 'tuo', 'ymmärtää', 'sulkee', 'opiskelee', 'saa', 'elää', 'toivottaa', 'juoksee', 'löytää', 'osaa', 'laulaa', 'jatkaa', 'kysyy', 'ostaa', 'muistaa', 'tarvitsee', 'istuu', 'kirjoittaa', 'antaa', 'yrittää', 'jää', 'vastaa', 'toistaa', 'ajaa', 'valmistaa', 'käy', 'keskustelee', 'tuntee', 'näyttää', 'seuraa', 'lopettaa', 'tarkistaa', 'etsii', 'onnistuu', 'lentää', 'päättää', 'juhlii', 'luo', 'katsoo', 'harjoittaa', 'nukkuu', 'käyttää', 'pelaa', 'uskoo', 'liittyy', 'nousee', 'rakastaa', 'tilaa', 'pesee', 'valitsee', 'suunnittelee', 'parantaa', 'riittää', 'unohtaa', 'soittaa', 'tapaa', 'saapuu', 'toimii', 'kuulee', 'lähettää', 'tutustuu', 'palaa', 'maalaa', 'laittaa', 'hymyilee', 'ui', 'lepää', 'siivoaa', 'suorittaa', 'tapahtuu', 'kääntää', 'unelmoi'];
+
+let present_me_arr = ['olemme','menemme','voimme','puhumme','teemme','tulemme','opimme','näemme','matkustamme','avaamme','haluamme','ajattelemme','syömme','luemme','asumme','tiedämme','odotamme','sanomme','juomme','viemme','kuuntelemme','pidämme','seisomme','autamme','kävelemme','alamme','lisäämme','kerromme','tuomme','ymmärrämme','suljemme','opiskelemme','saamme','elämme','toivotamme','juoksemme','löydämme','osaamme','laulamme','jatkamme','kysymme','ostamme','muistamme','tarvitsemme','istumme','kirjoitamme','annamme','yritämme','jäämme','vastaamme','toistamme','ajamme','valmistamme','käymme','keskustelemme','tunnemme','näytämme','seuraamme','lopetamme','tarkistamme','etsimme','onnistumme','lennämme','päätämme','juhlimme','luomme','katsomme','harjoittelemme','nukumme','käytämme','peläämme','uskomme','liitymme','nousemme','rakastamme','tilaamme','pesemme','valitsemme','suunnittelemme','parannamme','riittää','unohdamme','soitamme','tapaamme','saavumme','toimimme','kuulemme','lähetämme','tutustumme','palaamme','maalaamme','laitamme','hymyilemme','uimme','lepäämme','siivoamme','suoritamme','—','käännymme','unelmoimme'];
+
+let present_te_arr = ['olette','menette','voitte','puhutte','teette','tulette','opitte','näette','matkustatte','avaatte','haluatte','ajattelette','syötte','luette','asutte','tiedätte','odotatte','sanotte','juotte','viette','kuuntelette','pidätte','seisotte','autatte','kävelette','alatte','lisäätte','kerrotte','tuotte','ymmärrätte','suljette','opiskelette','saatte','elätte','toivotatte','juoksette','löydätte','osaatte','laulatte','jatkatte','kysytte','ostatte','muistatte','tarvitsette','istutte','kirjoitatte','annatte','yritätte','jäätte','vastaatte','toistatte','ajatte','valmistatte','käytte','keskustelette','tunnette','näytätte','seuraatte','lopetatte','tarkistatte','etsitte','onnistutte','lennätte','päätätte','juhlitte','luotte','katsotte','harjoittelette','nukutte','käytätte','peläätte','uskotte','liitytte','nousette','rakastatte','tilaatte','pesette','valitsette','suunnittelette','parannatte','riittää','unohdatte','soitatte','tapaatte','saavutte','toimitte','kuulette','lähetätte','tutustutte','palaatte','maalaatte','laitatte','hymyilette','uitte','lepäätte','siivoatte','suoritatte','—','käännytte','unelmoitte'];
+
+let present_he_arr = ['ovat', 'menevät', 'voivat', 'puhuvat', 'tekevät', 'tulevat', 'oppivat', 'näkevät', 'matkustavat', 'avaavat', 'haluavat', 'ajattelevat', 'syövät', 'lukevat', 'asuvat', 'tietävät', 'odottavat', 'sanovat', 'juovat', 'vievät', 'kuuntelevat', 'pitävät', 'seisovat', 'auttavat', 'kävelevät', 'alkavat', 'lisäävät', 'kertovat', 'tuovat', 'ymmärtävät', 'sulkevat', 'opiskelevat', 'saavat', 'elävät', 'toivottavat', 'juoksevat', 'löytävät', 'osaavat', 'laulavat', 'jatkavat', 'kysyvät', 'ostavat', 'muistavat', 'tarvitsevat', 'istuvat', 'kirjoittavat', 'antavat', 'yrittävät', 'jäävät', 'vastaavat', 'toistavat', 'ajavat', 'valmistavat', 'käyvät', 'keskustelevat', 'tuntevat', 'näyttävät', 'seuraavat', 'lopettavat', 'tarkistavat', 'etsivät', 'onnistuvat', 'lentävät', 'päättävät', 'juhlivat', 'luovat', 'katsovat', 'harjoittavat', 'nukkuvat', 'käyttävät', 'pelaa', 'uskoisivat', 'liittyvät', 'nousevat', 'rakastavat', 'tilaavat', 'pestävä', 'valitsevat', 'suunnittelevat', 'parantavat', 'riittävät', 'unohtavat', 'soittavat', 'tapaavat', 'saapuvat', 'toimivat', 'kuulevat', 'lähettävät', 'tutustuvat', 'palaavat', 'maalavat', 'laittavat', 'hymyilevät', 'uivat', 'levätä', 'siivoavat', 'suorittavat', 'tapahstuvat', 'kääntävät', 'unelmoivat'];
+
+let past_mina_arr = ['olin', 'menin', 'voin', 'puhuin', 'tein', 'tulin', 'opin', 'näin', 'matkustin', 'avasin', 'halusin', 'ajattelin', 'söin', 'luin', 'asuin', 'tiesin', 'odotin', 'sanoin', 'join', 'vein', 'kuuntelin', 'pidin', 'seisoin', 'autoin', 'kävelin', 'aloin', 'lisäsin', 'kerroin', 'toin', 'ymmärsin', 'suljin', 'opiskelin', 'sain', 'elin', 'toivotin', 'juoksin', 'löysin', 'osasin', 'lauloin', 'jatkoin', 'kysyin', 'ostin', 'muistin', 'tarvitsin', 'istuin', 'kirjoitin', 'annoin', 'yritin', 'jäin', 'vastasin', 'toistin', 'ajoin', 'valmistin', 'kävin', 'keskustelin', 'tunsin', 'näytin', 'seurasin', 'lopetin', 'tarkistin', 'etsin', 'onnistuin', 'lensin', 'päätin', 'juhlin', 'loin', 'katsoin', 'harjoitin', 'nukuin', 'käytin', 'pelasin', 'uskoin', 'liittyin', 'nousin', 'rakastin', 'tilasin', 'pesin', 'valitsin', 'suunnittelin', 'paransin', 'riitti', 'unohdin', 'soitin', 'tapasin', 'saavuin', 'toimin', 'kuulin', 'lähetin', 'tutustuin', 'palasin', 'maalasin', 'laitoin', 'hymyilin', 'uin', 'lepäsin', 'siivosin', 'suoritin', '—', 'käänsin', 'unelmoin'];
+
+let past_sina_arr = ['olit','menit','voit','puhuit','teit','tulit','opit','näit','matkustit','avasit','halusit','ajattelit','söit','luit','asuit','tiesit','odotit','sanoit','joit','veit','kuuntelit','pidit','seisoit','autoit','kävelit','aloit','lisäsit','kerroit','toit','ymmärsit','suljit','opiskelit','sait','elit','toivotit','juoksit','löysit','osasit','lauloit','jatkoit','kysyit','ostit','muistit','tarvitsit','istuit','kirjoitit','annoit','yritit','jäit','vastasit','toistit','ajoit','valmistit','kävit','keskustelit','tunsit','näytit','seurasit','lopetit','tarkistit','etsit','onnistuit','lensit','päätit','juhlit','loit','katsoit','harjoitit','nukuit','käytit','pelasit','uskoit','liittyit','nousit','rakastit','tilasit','pesit','valitsit','suunnittelit','paransit','riitti','unohdit','soitit','tapasit','saavuit','toimit','kuulit','lähetit','tutustuit','palasit','maalasit','laitoit','hymyilit','uit','lepäsit','siivosit','suoritit','—','käänsit','unelmoit']
+
+let past_han_arr = ['oli', 'meni', 'voi', 'puhui', 'teki', 'tuli', 'oppi', 'näki', 'matkusti', 'avasi', 'halusi', 'ajatteli', 'söi', 'luki', 'asui', 'tiesi', 'odotti', 'sanoi', 'joi', 'vei', 'kuunteli', 'piti', 'seisoi', 'auttoi', 'käveli', 'alkoi', 'lisäsi', 'kertoi', 'toi', 'ymmärsi', 'sulki', 'opiskeli', 'sai', 'eli', 'toivotti', 'juoksi', 'löysi', 'osasi', 'lauloi', 'jatkoi', 'kysyi', 'osti', 'muisti', 'tarvitsi', 'istui', 'kirjoitti', 'antoi', 'yritti', 'jäi', 'vastasi', 'toisti', 'ajoi', 'valmisti', 'kävi', 'keskusteli', 'tunsi', 'näytti', 'seurasi', 'lopetti', 'tarkisti', 'etsi', 'onnistui', 'lensi', 'päätti', 'juhli', 'loi', 'katsoi', 'harjoitti', 'nukkui', 'käytti', 'pelasi', 'uskoi', 'liittyi', 'nousi', 'rakasti', 'tilasi', 'pesi', 'valitsi', 'suunnitteli', 'paransi', 'riitti', 'unohti', 'soitti', 'tapasi', 'saapui', 'toimi', 'kuuli', 'lähetti', 'tutustui', 'palasi', 'maalasi', 'laittoi', 'hymyili', 'ui', 'lepoi', 'siivosi', 'suoritti', 'tapahtui', 'käänsi', 'unelmoi'];
+
+let past_me_arr = ['olimme','menimme','voimme','puhuimme','teimme','tulimme','opimme','näimme','matkustimme','avasimme','halusimme','ajattelimme','söimme','luimme','asuimme','tiesimme','odotimme','sanoimme','joimme','veimme','kuuntelimme','pidimme','seisoimme','autoimme','kävelimme','aloimme','lisäsimme','kerroimme','toimme','ymmärsimme','suljimme','opiskelimme','saimme','elimme','toivotimme','juoksimme','löysimme','osasimme','lauloimme','jatkoimme','kysyimme','ostimme','muistimme','tarvitsimme','istuimme','kirjoitimme','annoimme','yritimme','jäimme','vastasimme','toistimme','ajoimme','valmistimme','kävimme','keskustelimme','tunsimme','näytimme','seurasimme','lopetimme','tarkistimme','etsimme','onnistuimme','lensimme','päätimme','juhlimme','loimme','katsoimme','harjoitimme','nukuimme','käytimme','pelasimme','uskoimme','liittyimme','nousimme','rakastimme','tilasimme','pesimme','valitsimme','suunnittelimme','paransimme','riitti','unohdimme','soitimme','tapasimme','saavuimme','toimimme','kuulimme','lähetimme','tutustuimme','palasimme','maalasimme','laitoimme','hymyilimme','uimme','lepäsimme','siivosimme','suoritimme','—','käänsimme','unelmoimme']
+
+let past_te_arr = ['olitte','menitte','voitte','puhuitte','teitte','tulitte','opitte','näitte','matkustitte','avasitte','halusitte','ajattelitte','söitte','luitte','asuitte','tiesitte','odotitte','sanoitte','joitte','veitte','kuuntelitte','piditte','seisoitte','autoitte','kävelitte','aloitte','lisäsitte','kerroitte','toitte','ymmärsitte','suljitte','opiskelitte','saitte','elitte','toivotitte','juoksitte','löysitte','osasitte','lauloitte','jatkoitte','kysyitte','ostitte','muistitte','tarvitsitte','istuitte','kirjoititte','annoitte','yrititte','jäitte','vastasitte','toistitte','ajoitte','valmistitte','kävitte','keskustelitte','tunsitte','näytitte','seurasitte','lopetitte','tarkistitte','etsitte','onnistuitte','lensitte','päätitte','juhlitte','loitte','katsoitte','harjoititte','nukuitte','käytitte','pelasitte','uskoitte','liittyitte','nousitte','rakastitte','tilasitte','pesitte','valitsitte','suunnittelitte','paransitte','riitti','unohditte','soititte','tapasitte','saavuitte','toimitte','kuulitte','lähetitte','tutustuitte','palasitte','maalasitte','laitoitte','hymyilitte','uitte','lepäsitte','siivositte','suorititte','—','käänsitte','unelmoitte'];
+
+let past_he_arr = ['olivat', 'menivät', 'voivat', 'puhuivat', 'tekivät', 'tulivat', 'oppivat', 'näkivät', 'matkustivat', 'avasivat', 'halusivat', 'ajattelivat', 'söivät', 'lukivat', 'asuivat', 'tiesivät', 'odottivat', 'sanoivat', 'joivat', 'veivät', 'kuuntelivat', 'pitivät', 'seisoivat', 'auttoivat', 'kävelivät', 'alkoivat', 'lisäsivät', 'kertoivat', 'toivat', 'ymmärsivät', 'sulkivat', 'opiskelivat', 'saivat', 'elivät', 'toivottivat', 'juoksivat', 'löysivät', 'osasivat', 'lauloivat', 'jatkoivat', 'kysyivät', 'ostivat', 'muistivat', 'tarvitsivat', 'istuivat', 'kirjoittivat', 'antoivat', 'yrittivät', 'jäivät', 'vastasivat', 'toistivat', 'ajoivat', 'valmistivat', 'kävivät', 'keskustelivat', 'tunsivat', 'näyttivät', 'seurasivat', 'lopettivat', 'tarkistivat', 'etsivät', 'onnistuivat', 'lensivät', 'päättivät', 'juhlivat', 'loivat', 'katsoivat', 'harjoittivat', 'nukkuivat', 'käyttivät', 'pelasivat', 'uskovat', 'liittyivät', 'nousivat', 'rakastivat', 'tilasivat', 'pesivät', 'valitsivat', 'suunnittelivat', 'paransivat', 'riitti', 'unohtivat', 'soittivat', 'tapasivat', 'saapuivat', 'toimivat', 'kuulivat', 'lähettivät', 'tutustuivat', 'palasivat', 'maalasivat', 'laittoivat', 'hymyilivät', 'uivat', 'lepäsivät', 'siivosivat', 'suorittivat', 'tapahtuivat', 'käänsivät', 'unelmoivat'];
+
+let cond_mina_arr = ['olisin', 'menisin', 'voisin', 'puhuisin', 'tekisin', 'tulisin', 'oppisin', 'näkisin', 'matkustaisin', 'avaisin', 'haluaisin', 'ajattelisin', 'söisin', 'lukisin', 'asuisin', 'tietäisin', 'odottaisin', 'sanoisin', 'joisin', 'veisin', 'kuuntelisin', 'pitäisin', 'seisoisin', 'auttaisin', 'kävelisin', 'alkaisin', 'lisäisin', 'kertoisin', 'toisin', 'ymmärtäisin', 'sulkisin', 'opiskelisin', 'saisin', 'eläisin', 'toivottaisin', 'juoksisin', 'löytäisin', 'osaisin', 'laulaisin', 'jatkaisin', 'kysyisin', 'ostaisin', 'muistaisin', 'tarvitsisin', 'istuisin', 'kirjoittaisin', 'antaisin', 'yrittäisin', 'jäisin', 'vastaisin', 'toistaisin', 'ajaisin', 'valmistaisin', 'kävisin', 'keskustelisin', 'tuntisin', 'näyttäisin', 'seuraisin', 'lopettaisin', 'tarkistaisin', 'etsisin', 'onnistuisin', 'lentäisin', 'päättäisin', 'juhlisin', 'loisin', 'katsoisin', 'harjoittelisin', 'nukkuisin', 'käyttäisin', 'pelaisin', 'uskoisin', 'liittyisin', 'nousisin', 'rakastaisin', 'tilaisin', 'pesisin', 'valitsisin', 'suunnittelisin', 'parantaisin', 'riittäisin', 'unohtaisin', 'soittaisin', 'täyttäisin', 'saapuisin', 'toimisin', 'kuulisin', 'lähettäisin', 'tutustuisin', 'palaisin', 'maalaisin', 'laittaisin', 'hymyilisin', 'uisin', 'lepäisin', 'siivoaisin', 'suorittaisin', '—', 'kääntäisin', 'unelmoisin'];
+
+let cond_sina_arr = ['olisit','menisit','voisit','puhuisit','tekisit','tulisit','oppisit','näkisit','matkustaisit','avaisit','haluaisit','ajattelisit','söisit','lukisit','asuisit','tietäisit','odottaisit','sanoisit','joisit','veisit','kuuntelisit','pitäisit','seisoisit','auttaisit','kävelisit','alkaisit','lisäisit','kertoisit','toisit','ymmärtäisit','sulkisit','opiskelisit','saisit','eläisit','toivottaisit','juoksisit','löytäisit','osaisit','laulaisit','jatkaisit','kysyisit','ostaisit','muistaisit','tarvitsisit','istuisit','kirjoittaisit','antaisit','yrittäisit','jäisit','vastaisit','toistaisit','ajaisit','valmistaisit','kävisit','keskustelisit','tuntisit','näyttäisit','seuraisit','lopettaisit','tarkistaisit','etsisit','onnistuisit','lentäisit','päättäisit','juhlisit','loisit','katsoisit','harjoittelisit','nukkuisit','käyttäisit','pelaisit','uskoisit','liittyisit','nousisit','rakastaisit','tilaisit','pesisit','valitsisit','suunnittelisit','parantaisit','riittäisit','unohtaisit','soittaisit','täyttäisit','saapuisit','toimisit','kuulisit','lähettäisit','tutustuisit','palaisit','maalaisit','laittaisit','hymyilisit','uisit','lepäisit','siivoaisit','suorittaisit','—','kääntäisit','unelmoisit'];
+
+let cond_han_arr = ['olisi','menisi','voisi','puhuisi','tekisi','tulisi','oppisi','näkisi','matkustaisi','avaisi','haluaisi','ajattelisi','söisi','lukisi','asuisi','tietäisi','odottaisi','sanoisi','joisi','veisi','kuuntelisi','pitäisi','seisoisi','auttaisi','kävelisi','alkaisi','lisäisi','kertoisi','toisi','ymmärtäisi','sulkisi','opiskelisi','saisi','eläisi','toivottaisi','juoksisi','löytäisi','osaisi','laulaisi','jatkaisi','kysyisi','ostaisi','muistaisi','tarvitsisi','istuisi','kirjoittaisi','antaisi','yrittäisi','jäisi','vastaisi','toistaisi','ajaisi','valmistaisi','kävisi','keskustelisi','tuntisi','näyttäisi','seuraisi','lopettaisi','tarkistaisi','etsisi','onnistuisi','lentäisi','päättäisi','juhlisi','loisi','katsoisi','harjoittelisi','nukkuisi','käyttäisi','pelaisi','uskoisi','liittyisi','nousisi','rakastaisi','tilaisi','pesisi','valitsisi','suunnittelisi','parantaisi','riittäisi','unohtaisi','soittaisi','täyttäisi','saapuisi','toimisi','kuulisi','lähettäisi','tutustuisi','palaisi','maalaisi','laittaisi','hymyilisi','uisi','lepäisi','siivoaisi','suorittaisi','—','kääntäisi','unelmoisi'];
+
+let cond_me_arr = ['olisimme','menisimme','voisimme','puhuisimme','tekisimme','tulisimme','oppisimme','näkisimme','matkustaisimme','avaisimme','haluaisimme','ajattelisimme','söisimme','lukisimme','asuisimme','tietäisimme','odottaisimme','sanoisimme','joisimme','veisimme','kuuntelisimme','pitäisimme','seisoisimme','auttaisimme','kävelisimme','alkaisimme','lisäisimme','kertoisimme','toisimme','ymmärtäisimme','sulkisimme','opiskelisimme','saisimme','eläisimme','toivottaisimme','juoksisimme','löytäisimme','osaisimme','laulaisimme','jatkaisimme','kysyisimme','ostaisimme','muistaisimme','tarvitsisimme','istuisimme','kirjoittaisimme','antaisimme','yrittäisimme','jäisimme','vastaisimme','toistaisimme','ajaisimme','valmistaisimme','kävisimme','keskustelisimme','tuntisimme','näyttäisimme','seuraisimme','lopettaisimme','tarkistaisimme','etsisimme','onnistuisimme','lentäisimme','päättäisimme','juhlisimme','loisimme','katsoisimme','harjoittelisimme','nukkuisimme','käyttäisimme','pelaisimme','uskoisimme','liittyisimme','nousisimme','rakastaisimme','tilaisimme','pesisimme','valitsisimme','suunnittelisimme','parantaisimme','riittäisimme','unohtaisimme','soittaisimme','täyttäisimme','saapuisimme','toimisimme','kuulisimme','lähettäisimme','tutustuisimme','palaisimme','maalaisimme','laittaisimme','hymyilisimme','uisimme','lepäisimme','siivoaisimme','suorittaisimme','—','kääntäisimme','unelmoisimme'];
+
+let cond_te_arr = ['olisitte','menisitte','voisitte','puhuisitte','tekisitte','tulisitte','oppisitte','näkisitte','matkustaisitte','avaisitte','haluaisitte','ajattelisitte','söisitte','lukisitte','asuisitte','tietäisitte','odottaisitte','sanoisitte','joisitte','veisitte','kuuntelisitte','pitäisitte','seisoisitte','auttaisitte','kävelisitte','alkaisitte','lisäisitte','kertoisitte','toisitte','ymmärtäisitte','sulkisitte','opiskelisitte','saisitte','eläisitte','toivottaisitte','juoksisitte','löytäisitte','osaisitte','laulaisitte','jatkaisitte','kysyisitte','ostaisitte','muistaisitte','tarvitsisitte','istuisitte','kirjoittaisitte','antaisitte','yrittäisitte','jäisitte','vastaisitte','toistaisitte','ajaisitte','valmistaisitte','kävisitte','keskustelisitte','tuntisitte','näyttäisitte','seuraisitte','lopettaisitte','tarkistaisitte','etsisitte','onnistuisitte','lentäisitte','päättäisitte','juhlisitte','loisitte','katsoisitte','harjoittelisitte','nukkuisitte','käyttäisitte','pelaisitte','uskoisitte','liittyisitte','nousisitte','rakastaisitte','tilaisitte','pesisitte','valitsisitte','suunnittelisitte','parantaisitte','riittäisitte','unohtaisitte','soittaisitte','täyttäisitte','saapuisitte','toimisitte','kuulisitte','lähettäisitte','tutustuisitte','palaisitte','maalaisitte','laittaisitte','hymyilisitte','uisitte','lepäisitte','siivoaisitte','suorittaisitte','—','kääntäisitte','unelmoisitte'];
+
+let cond_he_arr = ['olisivat','menisivät','voisivat','puhuisivat','tekisivät','tulisivat','oppisivat','näkisivät','matkustaisivat','avaisivat','haluaisivat','ajattelisivat','söisivät','lukisivat','asuisivat','tietäisivät','odottaisivat','sanoisivat','joisivat','veisivät','kuuntelisivat','pitäisivät','seisoisivat','auttaisivat','kävelisivät','alkaisivat','lisäisivät','kertoisivat','toisivat','ymmärtäisivät','sulkisivat','opiskelisivat','saisivat','eläisivät','toivottaisivat','juoksisivat','löytäisivät','osaisivat','laulaisivat','jatkaisivat','kysyisivät','ostaisivat','muistaisivat','tarvitsisivat','istuisivat','kirjoittaisivat','antaisivat','yrittäisivät','jäisivät','vastaisivat','toistaisivat','ajaisivat','valmistaisivat','kävisivät','keskustelisivat','tuntisivat','näyttäisivät','seuraisivat','lopettaisivat','tarkistaisivat','etsisivät','onnistuisivat','lentäisivät','päättäisivät','juhlisivat','loisivat','katsoisivat','harjoittelisivat','nukkuisivat','käyttäisivät','pelaisivat','uskoisivat','liittyisivät','nousisivat','rakastaisivat','tilaisivat','pesisivät','valitsisivat','suunnittelisivat','parantaisivat','riittäisivät','unohtaisivat','soittaisivat','täyttäisivät','saapuisivat','toimisivat','kuulisivat','lähettäisivät','tutustuisivat','palaisivat','maalaisivat','laittaisivat','hymyilisivät','uisivat','lepäisivät','siivoaisivat','suorittaisivat','—','kääntäisivät','unelmoisivat'];
+
+let perf_par = ['ollut', 'mennyt', 'voinut', 'puhunut', 'tehnyt', 'tullut', 'oppinut', 'nähnyt', 'matkustanut', 'avannut', 'halunnut', 'ajatellut', 'syönyt', 'lukenut', 'asunut', 'tiennyt', 'odottanut', 'sanonut', 'juonut', 'viennyt', 'kuunnellut', 'pitänyt', 'seisonut', 'auttanut', 'kävellyt', 'alkanut', 'lisännyt', 'kertonut', 'tuonut', 'ymmärtänyt', 'sulkenut', 'opiskellut', 'saanut', 'elänyt', 'toivottanut', 'juossut', 'löytänyt', 'osannut', 'laulanut', 'jatkanut', 'kysynyt', 'ostanut', 'muistanut', 'tarvinnut', 'istunut', 'kirjoittanut', 'antanut', 'yrittänyt', 'jäänyt', 'vastannut', 'toistanut', 'ajanut', 'valmistanut', 'käynyt', 'keskustellut', 'tuntenut', 'näyttänyt', 'seurannut', 'lopettanut', 'tarkistanut', 'etsinyt', 'onnistunut', 'lentänyt', 'päättänyt', 'juhlinut', 'luonut', 'katsellut', 'harjoittanut', 'nukkunut', 'käyttänyt', 'pelannut', 'uskonut', 'liittynyt', 'noussut', 'rakastanut', 'tilannut', 'pesänut', 'valinnut', 'suunnitellut', 'parantanut', 'riittänyt', 'unohtanut', 'soittanut', 'tavannut', 'saapunut', 'toiminut', 'kuullut', 'lähettänyt', 'tutustunut', 'palannut', 'maalannut', 'laittanut', 'hymyillyt', 'uinut', 'levoänut', 'siivonnut', 'suorittanut', 'tapahtunut', 'kääntynyt', 'unelmoinut'];
+
+let imp_te_arr = ['olkaa', 'menkää', 'voikaa', 'puhukaa', 'tehkää', 'tulkaa', 'oppikaa', 'nähkää', 'matkustakaa', 'avatkaa', 'halutkaa', 'ajatelkaa', 'syökää', 'lukekaa', 'asukaa', 'tietäkää', 'odottakaa', 'sanokaa', 'juokaa', 'viekää', 'kuunnelkaa', 'pitäkää', 'seisokää', 'auttakaa', 'kävelkää', 'alkakaa', 'lisätkää', 'kertokaa', 'tuokaa', 'ymmärtäkää', 'sulkekaa', 'opiskelkaa', 'saakaa', 'eläkää', 'toivottakaa', 'juoskaa', 'löytäkää', 'osatkaa', 'laulakaa', 'jatkakaa', 'kysykää', 'ostakaa', 'muistakaa', 'tarvitkaa', 'istukaa', 'kirjoittakaa', 'antakaa', 'yrittäkää', 'jääkää', 'vastatkaa', 'toistakaa', 'ajakaa', 'valmistakaa', 'käykää', 'keskustelkaa', 'tuntekaa', 'näyttäkää', 'seuratkaa', 'lopettakaa', 'tarkistakaa', 'etsikää', 'onnistukaa', 'lentäkää', 'päättäkää', 'juhlikaa', 'luokaa', 'katsokaa', 'harjoittakaa', 'nukkukaa', 'käyttäkää', 'pelatkaa', 'uskokaa', 'liittykää', 'nouskaa', 'rakastakaa', 'tilatkaa', 'peskää', 'valitkaa', 'suunnitelkaa', 'parantakaa', 'riittäkää', 'unohtakaa', 'soittakaa', 'tavatkaa', 'saapukaa', 'toimikaa', 'kuulkaa', 'lähettäkää', 'tutustukaa', 'palatkaa', 'maalatkaa', 'laittakaa', 'hymyilkää', 'uikaa', 'levätkää', 'siivotkaa', 'suorittakaa', 'tapahtukaa', 'kääntäkää', 'unelmoikaa'];
+
+let passive_arr = ['ollaan', 'mennään', 'voidaan', 'puhutaan', 'tehdään', 'tullaan', 'opitaan', 'nähdään', 'matkustetaan', 'avataan', 'halutaan', 'ajatellaan', 'syödään', 'luetaan', 'asutaan', 'tiedetään', 'odotetaan', 'sanotaan', 'juodaan', 'viedään', 'kuunnellaan', 'pidetään', 'seisotaan', 'autetaan', 'kävellään', 'aletaan', 'lisätään', 'kerrotaan', 'tuodaan', 'ymmärretään', 'suljetaan', 'opiskellaan', 'saadaan', 'eletään', 'toivotetaan', 'juostaan', 'löydetään', 'osataan', 'lauletaan', 'jatketaan', 'kysytään', 'ostetaan', 'muistetaan', 'tarvitaan', 'istutaan', 'kirjoitetaan', 'annetaan', 'yritetään', 'jäädään', 'vastataan', 'toistetaan', 'ajetaan', 'valmistetaan', 'käydään', 'keskustellaan', 'tunnetaan', 'näytetään', 'seurataan', 'lopetetaan', 'tarkistetaan', 'etsitään', 'onnistutaan', 'lennetään'];
+
+let massa_arr = ['olemassa', 'menemässä', 'voimassa', 'puhumassa', 'tekemässä', 'tulemassa', 'oppimassa', 'näkemässä', 'matkustamassa', 'avaamassa', 'haluamassa', 'ajattelemassa', 'syömässä', 'lukemassa', 'asumassa', 'tietämässä', 'odottamassa', 'sanomassa', 'juomassa', 'viemässä', 'kuuntelemassa', 'pitämässä', 'seisomassa', 'auttamassa', 'kävelemässä', 'alkamassa', 'lisäämässä', 'kertomassa', 'tuomassa', 'ymmärtämässä', 'sulkemassa', 'opiskelemassa', 'saamassa', 'elämässä', 'toivottamassa', 'juoksemassa', 'löytämässä', 'osaamassa', 'laulamassa', 'jatkamassa', 'kysymässä', 'ostamassa', 'muistamassa', 'tarvitsemassa', 'istumassa', 'kirjoittamassa', 'antamassa', 'yrittämässä', 'jäämässä', 'vastaamassa', 'toistamassa', 'ajamassa', 'valmistamassa', 'käymässä', 'keskustelemassa', 'tuntemassa', 'näyttämässä', 'seuraamassa', 'lopettamassa', 'tarkistamassa', 'etsimässä', 'onnistumassa', 'lentämässä'];
+
+let minen_arr = ['oleminen', ' meneminen', 'voiminen', 'puhuminen', 'tekeminen', 'tuleminen', 'oppiminen', 'näkeminen', 'matkustaminen', 'avaaminen', 'haluaminen', 'ajatteleminen', 'syöminen', 'lukeminen', 'asuminen', 'tietäminen', 'odottaminen', 'sanominen', 'juominen', 'vieminen', 'kuunteleminen', 'pitäminen', 'seisominen', 'auttaminen', 'käveleminen', 'alkaminen', 'lisääminen', 'kertominen', 'tuominen', 'ymmärtäminen', 'sulkeminen', 'opiskeleminen', 'saaminen', 'eläminen', 'toivottaminen', 'juokseminen', 'löytäminen', 'osaaminen', 'laulaminen', 'jatkaminen', 'kysyminen', 'ostaminen', 'muistaminen', 'tarvitseminen', 'istuminen', 'kirjoittaminen', 'antaminen', 'yrittäminen', 'jääminen', 'vastaaminen', 'toistaminen', 'ajaminen', 'valmistaminen', 'käyminen', 'keskusteleminen', 'tunteminen', 'näyttäminen', 'seuraaminen', 'lopettaminen', 'tarkistaminen', 'etsiminen', 'onnistuminen', 'lentäminen'];
 
 let count = 0;
 let a = 500;
@@ -80,12 +126,355 @@ list[4].addEventListener('click', () => {
 
 function tab1() {
 	for (let i = 0; i < tab_els.length; i++) {
-		tab_els[i].classList.remove('att');
+		tab_els[1].classList.remove('att');
+		tab_els[2].classList.remove('att');
+		tab_els[4].classList.remove('att');
+		tab_els[5].classList.remove('att');
+		tab_els[7].classList.remove('att');
+		tab_els[8].classList.remove('att');
+		tab_els[10].classList.remove('att');
+		tab_els[11].classList.remove('att');
+		tab_els[13].classList.remove('att');
+		tab_els[14].classList.remove('att');
+		tab_els[16].classList.remove('att');
+		tab_els[17].classList.remove('att');
+		tab_els[19].classList.remove('att');
+		tab_els[20].classList.remove('att');
+		tab_els[22].classList.remove('att');
+		tab_els[23].classList.remove('att');
+		tab_els[25].classList.remove('att');
+		tab_els[26].classList.remove('att');
 	}			
 	
 }
 
+function tab2() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[1].classList.remove('att');
+		tab_els[2].classList.add('att');
+		tab_els[4].classList.add('att');
+		tab_els[5].classList.remove('att');
+		tab_els[7].classList.remove('att');
+		tab_els[8].classList.remove('att');
+		tab_els[10].classList.add('att');
+		tab_els[11].classList.add('att');
+		tab_els[13].classList.add('att');
+		tab_els[14].classList.add('att');
+		tab_els[16].classList.remove('att');
+		tab_els[17].classList.remove('att');
+		tab_els[19].classList.add('att');
+		tab_els[20].classList.add('att');
+		tab_els[22].classList.add('att');
+		tab_els[23].classList.add('att');
+		tab_els[25].classList.add('att');
+		tab_els[26].classList.add('att');
+	}			
+	
+}
+
+function tab3() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[1].classList.remove('att');
+		tab_els[2].classList.add('att');
+		tab_els[4].classList.add('att');
+		tab_els[5].classList.add('att');
+		tab_els[7].classList.remove('att');
+		tab_els[8].classList.add('att');
+		tab_els[10].classList.add('att');
+		tab_els[11].classList.add('att');
+		tab_els[13].classList.add('att');
+		tab_els[14].classList.add('att');
+		tab_els[16].classList.add('att');
+		tab_els[17].classList.add('att');
+		tab_els[19].classList.add('att');
+		tab_els[20].classList.add('att');
+		tab_els[22].classList.add('att');
+		tab_els[23].classList.add('att');
+		tab_els[25].classList.add('att');
+		tab_els[26].classList.add('att');
+	}			
+	
+}
+
+function tab4() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[1].classList.remove('att');
+		tab_els[2].classList.add('att');
+		tab_els[4].classList.add('att');
+		tab_els[5].classList.remove('att');
+		tab_els[7].classList.remove('att');
+		tab_els[8].classList.remove('att');
+		tab_els[10].classList.add('att');
+		tab_els[11].classList.remove('att');
+		tab_els[13].classList.add('att');
+		tab_els[14].classList.remove('att');
+		tab_els[16].classList.remove('att');
+		tab_els[17].classList.remove('att');
+		tab_els[19].classList.add('att');
+		tab_els[20].classList.remove('att');
+		tab_els[22].classList.add('att');
+		tab_els[23].classList.remove('att');
+		tab_els[25].classList.add('att');
+		tab_els[26].classList.remove('att');
+	}			
+	
+}
+
+function tab5() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.remove('att');
+		tab_els[28].classList.remove('att');
+		tab_els[29].classList.remove('att');
+		tab_els[30].classList.remove('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.remove('att');
+		tab_els[33].classList.remove('att');
+		tab_els[34].classList.remove('att');		
+		tab_els[35].classList.remove('att');
+		tab_els[36].classList.remove('att');
+		tab_els[37].classList.remove('att');
+		tab_els[38].classList.remove('att');
+		tab_els[39].classList.remove('att');
+		tab_els[40].classList.remove('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.remove('att');
+		tab_els[43].classList.remove('att');
+		tab_els[44].classList.remove('att');		
+		tab_els[45].classList.remove('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.remove('att');
+		tab_els[48].classList.remove('att');
+		tab_els[49].classList.remove('att');		
+		tab_els[50].classList.remove('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.remove('att');
+		tab_els[53].classList.remove('att');
+		tab_els[54].classList.remove('att');		
+		tab_els[55].classList.remove('att');
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.remove('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.remove('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.remove('att');	
+	}			
+	
+}
+
+function tab6() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.add('att');
+		tab_els[28].classList.add('att');
+		tab_els[29].classList.remove('att');
+		tab_els[30].classList.remove('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.add('att');
+		tab_els[33].classList.add('att');
+		tab_els[34].classList.remove('att');		
+		tab_els[35].classList.remove('att');
+		tab_els[36].classList.add('att');
+		tab_els[37].classList.remove('att');
+		tab_els[38].classList.remove('att');
+		tab_els[39].classList.remove('att');
+		tab_els[40].classList.remove('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.add('att');
+		tab_els[43].classList.add('att');
+		tab_els[44].classList.remove('att');		
+		tab_els[45].classList.remove('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.add('att');
+		tab_els[48].classList.add('att');
+		tab_els[49].classList.remove('att');		
+		tab_els[50].classList.remove('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.remove('att');
+		tab_els[53].classList.remove('att');
+		tab_els[54].classList.remove('att');		
+		tab_els[55].classList.remove('att');		
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.add('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.remove('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.remove('att');			
+	}			
+	
+}
+
+function tab7() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.add('att');
+		tab_els[28].classList.add('att');
+		tab_els[29].classList.add('att');
+		tab_els[30].classList.remove('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.add('att');
+		tab_els[33].classList.add('att');
+		tab_els[34].classList.add('att');		
+		tab_els[35].classList.remove('att');
+		tab_els[36].classList.add('att');
+		tab_els[37].classList.add('att');
+		tab_els[38].classList.add('att');
+		tab_els[39].classList.add('att');
+		tab_els[40].classList.remove('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.add('att');
+		tab_els[43].classList.add('att');
+		tab_els[44].classList.add('att');		
+		tab_els[45].classList.remove('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.add('att');
+		tab_els[48].classList.add('att');
+		tab_els[49].classList.add('att');		
+		tab_els[50].classList.remove('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.add('att');
+		tab_els[53].classList.add('att');
+		tab_els[54].classList.add('att');		
+		tab_els[55].classList.remove('att');
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.remove('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.add('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.add('att');			
+	}			
+	
+}
+
+function tab8() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.add('att');
+		tab_els[28].classList.add('att');
+		tab_els[29].classList.remove('att');
+		tab_els[30].classList.remove('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.add('att');
+		tab_els[33].classList.add('att');
+		tab_els[34].classList.remove('att');		
+		tab_els[35].classList.remove('att');
+		tab_els[36].classList.add('att');
+		tab_els[37].classList.remove('att');
+		tab_els[38].classList.add('att');
+		tab_els[39].classList.remove('att');
+		tab_els[40].classList.remove('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.add('att');
+		tab_els[43].classList.add('att');
+		tab_els[44].classList.remove('att');		
+		tab_els[45].classList.remove('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.add('att');
+		tab_els[48].classList.add('att');
+		tab_els[49].classList.remove('att');		
+		tab_els[50].classList.remove('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.remove('att');
+		tab_els[53].classList.add('att');
+		tab_els[54].classList.remove('att');		
+		tab_els[55].classList.remove('att');		
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.add('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.remove('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.remove('att');			
+	}			
+	
+}
+
+function tab9() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.remove('att');
+		tab_els[28].classList.remove('att');
+		tab_els[29].classList.remove('att');
+		tab_els[30].classList.remove('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.remove('att');
+		tab_els[33].classList.remove('att');
+		tab_els[34].classList.remove('att');		
+		tab_els[35].classList.remove('att');
+		tab_els[36].classList.remove('att');
+		tab_els[37].classList.add('att');
+		tab_els[38].classList.remove('att');
+		tab_els[39].classList.remove('att');
+		tab_els[40].classList.remove('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.remove('att');
+		tab_els[43].classList.remove('att');
+		tab_els[44].classList.remove('att');		
+		tab_els[45].classList.remove('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.remove('att');
+		tab_els[48].classList.remove('att');
+		tab_els[49].classList.remove('att');		
+		tab_els[50].classList.remove('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.add('att');
+		tab_els[53].classList.remove('att');
+		tab_els[54].classList.remove('att');		
+		tab_els[55].classList.remove('att');
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.remove('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.remove('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.remove('att');			
+	}			
+	
+}
+
+function tab10() {
+	for (let i = 0; i < tab_els.length; i++) {
+		tab_els[27].classList.add('att');
+		tab_els[28].classList.add('att');
+		tab_els[29].classList.remove('att');
+		tab_els[30].classList.add('att');		
+		tab_els[31].classList.remove('att');
+		tab_els[32].classList.add('att');
+		tab_els[33].classList.add('att');
+		tab_els[34].classList.remove('att');		
+		tab_els[35].classList.add('att');
+		tab_els[36].classList.add('att');
+		tab_els[37].classList.remove('att');
+		tab_els[38].classList.add('att');
+		tab_els[39].classList.remove('att');
+		tab_els[40].classList.add('att');		
+		tab_els[41].classList.remove('att');
+		tab_els[42].classList.add('att');
+		tab_els[43].classList.add('att');
+		tab_els[44].classList.remove('att');		
+		tab_els[45].classList.add('att');
+		tab_els[46].classList.remove('att');		
+		tab_els[47].classList.add('att');
+		tab_els[48].classList.add('att');
+		tab_els[49].classList.remove('att');		
+		tab_els[50].classList.add('att');		
+		tab_els[51].classList.remove('att');
+		tab_els[52].classList.remove('att');
+		tab_els[53].classList.add('att');
+		tab_els[54].classList.remove('att');		
+		tab_els[55].classList.add('att');		
+		tab_els[56].classList.remove('att');
+		tab_els[57].classList.remove('att');		
+		tab_els[58].classList.add('att');		
+		tab_els[59].classList.remove('att');
+		tab_els[60].classList.remove('att');
+		tab_els[61].classList.remove('att');	
+		tab_els[62].classList.remove('att');			
+	}			
+	
+}
+
+
 let trying = document.getElementById('try');
+let trying2 = document.getElementById('try2');
 let hear = document.getElementById('hear');
 let show = document.getElementById('show');
 let result = document.getElementById('result');
@@ -105,6 +494,14 @@ function randomPick() {
 	count = Math.floor(Math.random() * a + b);
 }
 
+function numFunc() {
+	if (type.innerHTML !== NaN) {
+		return type.innerHTML
+	} else {
+		return "?";
+	}
+}
+
 function gen() {
 	files.setAttribute('src', `aud${count}.mp3`);
 	switch (count) {
@@ -114,6 +511,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '1/200';
+		tab1()
 		break;
 		case 2:
 		result.innerHTML = 'talo';
@@ -121,6 +519,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '2/200';	
+		tab1()
 		break;
 		case 3:
 		result.innerHTML = 'teksti';
@@ -128,6 +527,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '3/200';	
+		tab1()
 		break;	
 		case 4:
 		result.innerHTML = 'aika';
@@ -135,6 +535,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'IK-J';
 		rating.innerHTML = '4/200';
+		tab2()
 		break;
 		case 5:
 		result.innerHTML = 'kaupunki';
@@ -142,20 +543,23 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'NK-NG';
 		rating.innerHTML = '5/200';		
+		tab2()
 		break;
 		case 6:
 		result.innerHTML = 'omena';
 		trad.innerHTML = 'apple';
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '6/200';		
+		rating.innerHTML = '6/200';	
+		tab1()
 		break;
 		case 7:
 		result.innerHTML = 'poika';
 		trad.innerHTML = 'boy';
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'IK-J';
-		rating.innerHTML = '7/200';			
+		rating.innerHTML = '7/200';		
+		tab2()
 		break;
 		case 8:
 		result.innerHTML = 'auto';
@@ -163,6 +567,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '8/200';	
+		tab1()
 		break;	
 		case 9:
 		result.innerHTML = 'kuva';
@@ -170,6 +575,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '9/200';			
+		tab1()
 		break;
 		case 10:
 		result.innerHTML = 'elämä';
@@ -177,13 +583,15 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '10/200';	
+		tab1()
 		break;	
 		case 11:
 		result.innerHTML = 'käsi';
 		trad.innerHTML = 'hand';
 		type.innerHTML = '19 (noun)';
 		gradation.innerHTML = 'T-D';
-		rating.innerHTML = '11/200';		
+		rating.innerHTML = '11/200';	
+		tab4()
 		break;				
 		case 12:
 		result.innerHTML = 'alue';
@@ -191,6 +599,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '12/200';		
+		tab1()
 		break;
 		case 13:
 		result.innerHTML = 'kieli';
@@ -198,6 +607,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '13/200';		
+		tab1()
 		break;		
 		case 14:
 		result.innerHTML = 'tie';
@@ -205,6 +615,7 @@ function gen() {
 		type.innerHTML = '18 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '14/200';		
+		tab1()
 		break;		
 		case 15:
 		result.innerHTML = 'tyttö';
@@ -212,6 +623,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '15/200';		
+		tab2()
 		break;		
 		case 16:
 		result.innerHTML = 'koulu';
@@ -219,6 +631,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '16/200';		
+		tab1()
 		break;		
 		case 17:
 		result.innerHTML = 'asia';
@@ -226,6 +639,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '17/200';		
+		tab1()
 		break;		
 		case 18:
 		result.innerHTML = 'päivä';
@@ -233,6 +647,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '18/200';		
+		tab1()
 		break;		
 		case 19:
 		result.innerHTML = 'maailma';
@@ -240,6 +655,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '19/200';		
+		tab1()
 		break;		
 		case 20:
 		result.innerHTML = 'huone';
@@ -247,6 +663,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '20/200';		
+		tab1()
 		break;				
 		case 21:
 		result.innerHTML = 'mies';
@@ -254,6 +671,7 @@ function gen() {
 		type.innerHTML = 'irregular (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '21/200';		
+		tab1()
 		break;				
 		case 22:
 		result.innerHTML = 'lista';
@@ -261,6 +679,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '22/200';		
+		tab1()
 		break;
 		case 23:
 		result.innerHTML = 'nimi';
@@ -268,6 +687,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '23/200';		
+		tab1()
 		break;		
 		case 24:
 		result.innerHTML = 'vuosi';
@@ -275,6 +695,7 @@ function gen() {
 		type.innerHTML = '19 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '24/200';		
+		tab4()
 		break;		
 		case 25:
 		result.innerHTML = 'sana';
@@ -282,6 +703,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '25/200';		
+		tab1()
 		break;		
 		case 26:
 		result.innerHTML = 'ovi';
@@ -289,6 +711,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '26/200';		
+		tab1()
 		break;		
 		case 27:
 		result.innerHTML = 'koira';
@@ -296,6 +719,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '27/200';		
+		tab1()
 		break;		
 		case 28:
 		result.innerHTML = 'maa';
@@ -303,6 +727,7 @@ function gen() {
 		type.innerHTML = '15 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '28/200';		
+		tab1()
 		break;		
 		case 29:
 		result.innerHTML = 'musiikki';
@@ -310,6 +735,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '29/200';		
+		tab2()
 		break;		
 		case 30:
 		result.innerHTML = 'lapsi';
@@ -317,6 +743,7 @@ function gen() {
 		type.innerHTML = 'irregular (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '30/200';		
+		tab1()
 		break;				
 		case 31:
 		result.innerHTML = 'paikka';
@@ -324,6 +751,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '31/200';		
+		tab2()
 		break;				
 		case 32:
 		result.innerHTML = 'kukka';
@@ -331,6 +759,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '32/200';		
+		tab2()
 		break;
 		case 33:
 		result.innerHTML = 'nainen';
@@ -338,6 +767,7 @@ function gen() {
 		type.innerHTML = '3 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '33/200';		
+		tab1()
 		break;		
 		case 34:
 		result.innerHTML = 'väri';
@@ -345,6 +775,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '34/200';		
+		tab1()
 		break;		
 		case 35:
 		result.innerHTML = 'video';
@@ -352,6 +783,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '35/200';		
+		tab1()
 		break;		
 		case 36:
 		result.innerHTML = 'artikkeli';
@@ -359,6 +791,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '36/200';		
+		tab1()
 		break;		
 		case 37:
 		result.innerHTML = 'kahvila';
@@ -366,6 +799,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '37/200';		
+		tab1()
 		break;		
 		case 38:
 		result.innerHTML = 'pöytä';
@@ -373,6 +807,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '38/200';		
+		tab2()
 		break;		
 		case 39:
 		result.innerHTML = 'luonto';
@@ -380,6 +815,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '39/200';		
+		tab2()
 		break;		
 		case 40:
 		result.innerHTML = 'apu';
@@ -387,6 +823,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'P-V';
 		rating.innerHTML = '40/200';		
+		tab2()
 		break;			
 		case 41:
 		result.innerHTML = 'kissa';
@@ -394,6 +831,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '41/200';		
+		tab1()
 		break;				
 		case 42:
 		result.innerHTML = 'sivu';
@@ -401,6 +839,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '42/200';		
+		tab1()
 		break;
 		case 43:
 		result.innerHTML = 'puhelin';
@@ -408,6 +847,7 @@ function gen() {
 		type.innerHTML = '13 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '43/200';		
+		tab1()
 		break;		
 		case 44:
 		result.innerHTML = 'idea';
@@ -415,6 +855,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '44/200';		
+		tab1()
 		break;		
 		case 45:
 		result.innerHTML = 'ikkuna';
@@ -422,6 +863,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '45/200';		
+		tab1()
 		break;		
 		case 46:
 		result.innerHTML = 'ruoka';
@@ -429,6 +871,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '46/200';		
+		tab2()
 		break;		
 		case 47:
 		result.innerHTML = 'dokumentti';
@@ -436,6 +879,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '47/200';		
+		tab2()
 		break;		
 		case 48:
 		result.innerHTML = 'banaani';
@@ -443,6 +887,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '48/200';		
+		tab1()
 		break;		
 		case 49:
 		result.innerHTML = 'kirkko';
@@ -450,6 +895,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '49/200';		
+		tab2()
 		break;		
 		case 50:
 		result.innerHTML = 'luku';
@@ -457,6 +903,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'K-V';
 		rating.innerHTML = '50/200';		
+		tab2()
 		break;				
 		case 51:
 		result.innerHTML = 'onnellisuus';
@@ -464,6 +911,7 @@ function gen() {
 		type.innerHTML = '9 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '51/200';		
+		tab4()
 		break;				
 		case 52:
 		result.innerHTML = 'veli';
@@ -471,6 +919,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = 'L-LJ';
 		rating.innerHTML = '52/200';		
+		tab2()
 		break;
 		case 53:
 		result.innerHTML = 'liiketoiminta';
@@ -478,6 +927,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '53/200';		
+		tab2()
 		break;		
 		case 54:
 		result.innerHTML = 'sydän';
@@ -485,6 +935,7 @@ function gen() {
 		type.innerHTML = '13 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '54/200';		
+		tab1()
 		break;		
 		case 55:
 		result.innerHTML = 'taivas';
@@ -492,6 +943,7 @@ function gen() {
 		type.innerHTML = '12 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '55/200';		
+		tab1()
 		break;		
 		case 56:
 		result.innerHTML = 'ryhmä';
@@ -499,6 +951,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '56/200';		
+		tab1()
 		break;		
 		case 57:
 		result.innerHTML = 'isä';
@@ -506,6 +959,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '57/200';		
+		tab1()
 		break;		
 		case 58:
 		result.innerHTML = 'kirja';
@@ -513,6 +967,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '58/200';		
+		tab1()
 		break;		
 		case 59:
 		result.innerHTML = 'pää';
@@ -520,6 +975,7 @@ function gen() {
 		type.innerHTML = '15 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '59/200';		
+		tab1()
 		break;		
 		case 60:
 		result.innerHTML = 'rakkaus';
@@ -527,6 +983,7 @@ function gen() {
 		type.innerHTML = '9 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '60/200';		
+		tab4()
 		break;				
 		case 61:
 		result.innerHTML = 'lause';
@@ -534,6 +991,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '61/200';		
+		tab1()
 		break;				
 		case 62:
 		result.innerHTML = 'vesi';
@@ -541,6 +999,7 @@ function gen() {
 		type.innerHTML = '19 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '62/200';		
+		tab4()
 		break;
 		case 63:
 		result.innerHTML = 'kysymys';
@@ -548,6 +1007,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '63/200';		
+		tab1()
 		break;		
 		case 64:
 		result.innerHTML = 'yö';
@@ -555,6 +1015,7 @@ function gen() {
 		type.innerHTML = '18 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '64/200';		
+		tab1()
 		break;		
 		case 65:
 		result.innerHTML = 'silta';
@@ -562,6 +1023,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'LT-LL';
 		rating.innerHTML = '65/200';		
+		tab2()
 		break;		
 		case 66:
 		result.innerHTML = 'opettaja';
@@ -569,6 +1031,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '66/200';		
+		tab1()
 		break;		
 		case 67:
 		result.innerHTML = 'syy';
@@ -576,6 +1039,7 @@ function gen() {
 		type.innerHTML = '15 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '67/200';		
+		tab1()
 		break;		
 		case 68:
 		result.innerHTML = 'äiti';
@@ -583,6 +1047,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '68/200';		
+		tab2()
 		break;		
 		case 69:
 		result.innerHTML = 'osoite';
@@ -590,6 +1055,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = 'T-TT';
 		rating.innerHTML = '69/200';		
+		tab3()
 		break;		
 		case 70:
 		result.innerHTML = 'raha';
@@ -597,6 +1063,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '70/200';		
+		tab1()
 		break;			
 		case 71:
 		result.innerHTML = 'substantiivi';
@@ -604,6 +1071,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '71/200';		
+		tab1()
 		break;				
 		case 72:
 		result.innerHTML = 'meri';
@@ -611,6 +1079,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '72/200';		
+		tab1()
 		break;
 		case 73:
 		result.innerHTML = 'tavoite';
@@ -618,6 +1087,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = 'T-TT';
 		rating.innerHTML = '73/200';		
+		tab3()
 		break;		
 		case 74:
 		result.innerHTML = 'tuoli';
@@ -625,6 +1095,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '74/200';		
+		tab1()
 		break;		
 		case 75:
 		result.innerHTML = 'esimerkki';
@@ -632,6 +1103,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '75/200';		
+		tab2()
 		break;		
 		case 76:
 		result.innerHTML = 'vuori';
@@ -639,6 +1111,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '76/200';		
+		tab1()
 		break;		
 		case 77:
 		result.innerHTML = 'toimisto';
@@ -646,6 +1119,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '77/200';		
+		tab1()
 		break;		
 		case 78:
 		result.innerHTML = 'ilta';
@@ -653,6 +1127,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'LT-LL';
 		rating.innerHTML = '78/200';		
+		tab2()
 		break;		
 		case 79:
 		result.innerHTML = 'sisko';
@@ -660,6 +1135,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '79/200';		
+		tab1()
 		break;		
 		case 80:
 		result.innerHTML = 'ravintola';
@@ -667,6 +1143,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '80/200';		
+		tab1()
 		break;			
 		case 81:
 		result.innerHTML = 'verbi';
@@ -674,6 +1151,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '81/200';		
+		tab1()
 		break;				
 		case 82:
 		result.innerHTML = 'jalka';
@@ -681,6 +1159,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '82/200';		
+		tab2()
 		break;
 		case 83:
 		result.innerHTML = 'menestys';
@@ -688,6 +1167,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '83/200';		
+		tab1()
 		break;		
 		case 84:
 		result.innerHTML = 'paita';
@@ -695,6 +1175,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '84/200';		
+		tab2()
 		break;		
 		case 85:
 		result.innerHTML = 'leipä';
@@ -702,6 +1183,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'P-V';
 		rating.innerHTML = '85/200';		
+		tab2()
 		break;		
 		case 86:
 		result.innerHTML = 'kuppi';
@@ -709,6 +1191,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '86/200';		
+		tab2()
 		break;		
 		case 87:
 		result.innerHTML = 'hinta';
@@ -716,6 +1199,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '87/200';		
+		tab2()
 		break;		
 		case 88:
 		result.innerHTML = 'keittiö';
@@ -723,6 +1207,7 @@ function gen() {
 		type.innerHTML = '10 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '88/200';		
+		tab1()
 		break;		
 		case 89:
 		result.innerHTML = 'laulu';
@@ -730,6 +1215,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '89/200';		
+		tab1()
 		break;		
 		case 90:
 		result.innerHTML = 'kuukausi';
@@ -737,6 +1223,7 @@ function gen() {
 		type.innerHTML = '19 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '90/200';		
+		tab4()
 		break;				
 		case 91:
 		result.innerHTML = 'tuli';
@@ -744,6 +1231,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '91/200';		
+		tab1()
 		break;				
 		case 92:
 		result.innerHTML = 'lääkäri';
@@ -751,6 +1239,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '92/200';		
+		tab1()
 		break;
 		case 93:
 		result.innerHTML = 'työ';
@@ -758,6 +1247,7 @@ function gen() {
 		type.innerHTML = '18 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '93/200';		
+		tab1()
 		break;		
 		case 94:
 		result.innerHTML = 'vastaus';
@@ -765,6 +1255,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '94/200';		
+		tab1()
 		break;		
 		case 95:
 		result.innerHTML = 'aamiainen';
@@ -772,6 +1263,7 @@ function gen() {
 		type.innerHTML = '3 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '95/200';		
+		tab1()
 		break;		
 		case 96:
 		result.innerHTML = 'kirjasto';
@@ -779,6 +1271,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '96/200';		
+		tab1()
 		break;		
 		case 97:
 		result.innerHTML = 'sää';
@@ -786,6 +1279,7 @@ function gen() {
 		type.innerHTML = '15 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '97/200';		
+		tab1()
 		break;		
 		case 98:
 		result.innerHTML = 'insinööri';
@@ -793,6 +1287,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '98/200';		
+		tab1()
 		break;		
 		case 99:
 		result.innerHTML = 'lippu';
@@ -800,6 +1295,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '99/200';		
+		tab2()
 		break;		
 		case 100:
 		result.innerHTML = 'viesti';
@@ -807,6 +1303,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '100/200';		
+		tab1()
 		break;			
 		case 101:
 		result.innerHTML = 'aamu';
@@ -814,6 +1311,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '101/200';		
+		tab1()
 		break;				
 		case 102:
 		result.innerHTML = 'kävely';
@@ -821,6 +1319,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '102/200';		
+		tab1()
 		break;
 		case 103:
 		result.innerHTML = 'länsi';
@@ -828,6 +1327,7 @@ function gen() {
 		type.innerHTML = '24 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '103/200';		
+		tab2()
 		break;		
 		case 104:
 		result.innerHTML = 'silmä';
@@ -835,6 +1335,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '104/200';		
+		tab1()
 		break;		
 		case 105:
 		result.innerHTML = 'perhe';
@@ -842,6 +1343,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '105/200';		
+		tab1()
 		break;		
 		case 106:
 		result.innerHTML = 'valo';
@@ -849,6 +1351,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '106/200';		
+		tab1()
 		break;		
 		case 107:
 		result.innerHTML = 'opiskelija';
@@ -856,6 +1359,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '107/200';		
+		tab1()
 		break;		
 		case 108:
 		result.innerHTML = 'laukku';
@@ -863,6 +1367,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '108/200';		
+		tab2()
 		break;		
 		case 109:
 		result.innerHTML = 'jänis';
@@ -870,6 +1375,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '109/200';		
+		tab1()
 		break;		
 		case 110:
 		result.innerHTML = 'tilaisuus';
@@ -877,6 +1383,7 @@ function gen() {
 		type.innerHTML = '9 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '110/200';		
+		tab4()
 		break;			
 		case 111:
 		result.innerHTML = 'puutarha';
@@ -884,6 +1391,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '111/200';		
+		tab1()
 		break;				
 		case 112:
 		result.innerHTML = 'bussi';
@@ -891,6 +1399,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '112/200';		
+		tab1()
 		break;
 		case 113:
 		result.innerHTML = 'ystävä';
@@ -898,6 +1407,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '113/200';		
+		tab1()
 		break;		
 		case 114:
 		result.innerHTML = 'aurinko';
@@ -905,6 +1415,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'NK-NG';
 		rating.innerHTML = '114/200';		
+		tab2()
 		break;		
 		case 115:
 		result.innerHTML = 'uni';
@@ -912,6 +1423,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '115/200';		
+		tab1()
 		break;		
 		case 116:
 		result.innerHTML = 'haku';
@@ -919,6 +1431,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '116/200';		
+		tab2()
 		break;		
 		case 117:
 		result.innerHTML = 'sade';
@@ -926,6 +1439,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = 'D-T';
 		rating.innerHTML = '117/200';		
+		tab4()
 		break;		
 		case 118:
 		result.innerHTML = 'palvelu';
@@ -933,6 +1447,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '118/200';		
+		tab1()
 		break;		
 		case 119:
 		result.innerHTML = 'viikko';
@@ -940,6 +1455,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '119/200';		
+		tab2()
 		break;		
 		case 120:
 		result.innerHTML = 'sanakirja';
@@ -947,6 +1463,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '120/200';		
+		tab1()
 		break;				
 		case 121:
 		result.innerHTML = 'ihminen';
@@ -954,6 +1471,7 @@ function gen() {
 		type.innerHTML = '3 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '121/200';		
+		tab1()
 		break;				
 		case 122:
 		result.innerHTML = 'ongelma';
@@ -961,6 +1479,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '122/200';		
+		tab1()
 		break;
 		case 123:
 		result.innerHTML = 'rakennus';
@@ -968,6 +1487,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '123/200';		
+		tab1()
 		break;		
 		case 124:
 		result.innerHTML = 'matka';
@@ -975,6 +1495,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '124/200';		
+		tab1()
 		break;		
 		case 125:
 		result.innerHTML = 'poika';
@@ -982,6 +1503,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'IK-J';
 		rating.innerHTML = '125/200';		
+		tab2()
 		break;		
 		case 126:
 		result.innerHTML = 'makuuhuone';
@@ -989,6 +1511,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '126/200';		
+		tab1()
 		break;		
 		case 127:
 		result.innerHTML = 'ilma';
@@ -996,6 +1519,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '127/200';		
+		tab1()
 		break;		
 		case 128:
 		result.innerHTML = 'lasi';
@@ -1003,6 +1527,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '128/200';		
+		tab1()
 		break;		
 		case 129:
 		result.innerHTML = 'oppitunti';
@@ -1010,6 +1535,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '129/200';		
+		tab2()
 		break;		
 		case 130:
 		result.innerHTML = 'kirje';
@@ -1017,6 +1543,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '130/200';		
+		tab1()
 		break;			
 		case 131:
 		result.innerHTML = 'hattu';
@@ -1024,6 +1551,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '131/200';		
+		tab2()
 		break;				
 		case 132:
 		result.innerHTML = 'laji';
@@ -1031,6 +1559,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '132/200';		
+		tab1()
 		break;
 		case 133:
 		result.innerHTML = 'suu';
@@ -1038,6 +1567,7 @@ function gen() {
 		type.innerHTML = '15 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '133/200';		
+		tab1()
 		break;		
 		case 134:
 		result.innerHTML = 'askel';
@@ -1045,6 +1575,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '134/200';		
+		tab1()
 		break;		
 		case 135:
 		result.innerHTML = 'katu';
@@ -1052,6 +1583,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '135/200';		
+		tab4()
 		break;		
 		case 136:
 		result.innerHTML = 'adjektiivi';
@@ -1059,6 +1591,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '136/200';		
+		tab1()
 		break;		
 		case 137:
 		result.innerHTML = 'tapahtuma';
@@ -1066,6 +1599,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '137/200';		
+		tab1()
 		break;		
 		case 138:
 		result.innerHTML = 'kauppa';
@@ -1073,6 +1607,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '138/200';		
+		tab2()
 		break;		
 		case 139:
 		result.innerHTML = 'pala';
@@ -1080,6 +1615,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '139/200';		
+		tab1()
 		break;		
 		case 140:
 		result.innerHTML = 'vihje';
@@ -1087,6 +1623,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '140/200';		
+		tab1()
 		break;			
 		case 141:
 		result.innerHTML = 'tuki';
@@ -1094,6 +1631,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '141/200';		
+		tab2()
 		break;				
 		case 142:
 		result.innerHTML = 'seutu';
@@ -1101,6 +1639,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '142/200';		
+		tab2()
 		break;
 		case 143:
 		result.innerHTML = 'kesä';
@@ -1108,6 +1647,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '143/200';		
+		tab1()
 		break;		
 		case 144:
 		result.innerHTML = 'tunti';
@@ -1115,6 +1655,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '144/200';		
+		tab2()
 		break;		
 		case 145:
 		result.innerHTML = 'asiakas';
@@ -1122,6 +1663,7 @@ function gen() {
 		type.innerHTML = '12 (noun)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '145/200';		
+		tab3()
 		break;		
 		case 146:
 		result.innerHTML = 'pari';
@@ -1129,6 +1671,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '146/200';		
+		tab1()
 		break;		
 		case 147:
 		result.innerHTML = 'tietokone';
@@ -1136,6 +1679,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '147/200';		
+		tab1()
 		break;		
 		case 148:
 		result.innerHTML = 'lintu';
@@ -1143,6 +1687,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '148/200';		
+		tab2()
 		break;		
 		case 149:
 		result.innerHTML = 'hetki';
@@ -1150,6 +1695,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '149/200';		
+		tab1()
 		break;		
 		case 150:
 		result.innerHTML = 'juoma';
@@ -1157,6 +1703,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '150/200';		
+		tab1()
 		break;				
 		case 151:
 		result.innerHTML = 'piste';
@@ -1164,6 +1711,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '151/200';		
+		tab1()
 		break;				
 		case 152:
 		result.innerHTML = 'tieto';
@@ -1171,6 +1719,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '152/200';		
+		tab2()
 		break;
 		case 153:
 		result.innerHTML = 'koko';
@@ -1178,6 +1727,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '153/200';		
+		tab2()
 		break;		
 		case 154:
 		result.innerHTML = 'kännykkä';
@@ -1185,6 +1735,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '154/200';		
+		tab2()
 		break;		
 		case 155:
 		result.innerHTML = 'kakku';
@@ -1192,6 +1743,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '155/200';		
+		tab2()
 		break;		
 		case 156:
 		result.innerHTML = 'kartta';
@@ -1199,6 +1751,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '156/200';		
+		tab2()
 		break;		
 		case 157:
 		result.innerHTML = 'valinta';
@@ -1206,6 +1759,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '157/200';		
+		tab2()
 		break;		
 		case 158:
 		result.innerHTML = 'tosiasia';
@@ -1213,6 +1767,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '158/200';		
+		tab1()
 		break;		
 		case 159:
 		result.innerHTML = 'tytär';
@@ -1220,6 +1775,7 @@ function gen() {
 		type.innerHTML = '14 (noun)';
 		gradation.innerHTML = 'T-TT';
 		rating.innerHTML = '159/200';		
+		tab3()
 		break;		
 		case 160:
 		result.innerHTML = 'tilanne';
@@ -1227,6 +1783,7 @@ function gen() {
 		type.innerHTML = '8 (noun)';
 		gradation.innerHTML = 'NN-NT';
 		rating.innerHTML = '160/200';		
+		tab3()
 		break;			
 		case 161:
 		result.innerHTML = 'pinta';
@@ -1234,6 +1791,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '161/200';		
+		tab2()
 		break;				
 		case 162:
 		result.innerHTML = 'vanhempi';
@@ -1241,6 +1799,7 @@ function gen() {
 		type.innerHTML = '20 (noun)';
 		gradation.innerHTML = 'MP-MM';
 		rating.innerHTML = '162/200';		
+		tab2()
 		break;
 		case 163:
 		result.innerHTML = 'sänky';
@@ -1248,6 +1807,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'NK-NG';
 		rating.innerHTML = '163/200';		
+		tab2()
 		break;		
 		case 164:
 		result.innerHTML = 'määrä';
@@ -1255,6 +1815,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '164/200';		
+		tab1()
 		break;		
 		case 165:
 		result.innerHTML = 'orava';
@@ -1262,6 +1823,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '165/200';		
+		tab1()
 		break;		
 		case 166:
 		result.innerHTML = 'terveys';
@@ -1269,6 +1831,7 @@ function gen() {
 		type.innerHTML = '9 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '166/200';		
+		tab4()
 		break;		
 		case 167:
 		result.innerHTML = 'juhla';
@@ -1276,6 +1839,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '167/200';		
+		tab1()
 		break;		
 		case 168:
 		result.innerHTML = 'suunta';
@@ -1283,6 +1847,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '168/200';		
+		tab2()
 		break;		
 		case 169:
 		result.innerHTML = 'kasvot';
@@ -1290,6 +1855,7 @@ function gen() {
 		type.innerHTML = '2 (noun, plural only)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '169/200';		
+		tab1()
 		break;		
 		case 170:
 		result.innerHTML = 'alku';
@@ -1297,6 +1863,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '170/200';		
+		tab2()
 		break;			
 		case 171:
 		result.innerHTML = 'metsä';
@@ -1304,6 +1871,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '171/200';		
+		tab1()
 		break;				
 		case 172:
 		result.innerHTML = 'pankki';
@@ -1311,6 +1879,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '172/200';		
+		tab2()
 		break;
 		case 173:
 		result.innerHTML = 'loma';
@@ -1318,6 +1887,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '173/200';		
+		tab1()
 		break;		
 		case 174:
 		result.innerHTML = 'yliopisto';
@@ -1325,6 +1895,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '174/200';		
+		tab1()
 		break;		
 		case 175:
 		result.innerHTML = 'herra';
@@ -1332,6 +1903,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '175/200';		
+		tab1()
 		break;		
 		case 176:
 		result.innerHTML = 'toimitus';
@@ -1339,6 +1911,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '176/200';		
+		tab1()
 		break;		
 		case 177:
 		result.innerHTML = 'kello';
@@ -1346,6 +1919,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '177/200';		
+		tab1()
 		break;		
 		case 178:
 		result.innerHTML = 'itä';
@@ -1353,6 +1927,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '178/200';		
+		tab4()
 		break;		
 		case 179:
 		result.innerHTML = 'tyyppi';
@@ -1360,6 +1935,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '179/200';		
+		tab2()
 		break;		
 		case 180:
 		result.innerHTML = 'piha';
@@ -1367,6 +1943,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '180/200';		
+		tab1()
 		break;				
 		case 181:
 		result.innerHTML = 'yhteiskunta';
@@ -1374,6 +1951,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '181/200';		
+		tab2()
 		break;				
 		case 182:
 		result.innerHTML = 'maito';
@@ -1381,6 +1959,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '182/200';		
+		tab2()
 		break;
 		case 183:
 		result.innerHTML = 'kulma';
@@ -1388,6 +1967,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '183/200';		
+		tab1()
 		break;		
 		case 184:
 		result.innerHTML = 'vieras';
@@ -1395,6 +1975,7 @@ function gen() {
 		type.innerHTML = '12 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '184/200';		
+		tab1()
 		break;		
 		case 185:
 		result.innerHTML = 'nojatuoli';
@@ -1402,6 +1983,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '185/200';		
+		tab1()
 		break;		
 		case 186:
 		result.innerHTML = 'kala';
@@ -1409,6 +1991,7 @@ function gen() {
 		type.innerHTML = '5 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '186/200';		
+		tab1()
 		break;		
 		case 187:
 		result.innerHTML = 'arvo';
@@ -1416,6 +1999,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '187/200';		
+		tab1()
 		break;		
 		case 188:
 		result.innerHTML = 'mänty';
@@ -1423,6 +2007,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '188/200';		
+		tab2()
 		break;		
 		case 189:
 		result.innerHTML = 'sääntö';
@@ -1430,6 +2015,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '189/200';		
+		tab2()
 		break;		
 		case 190:
 		result.innerHTML = 'joki';
@@ -1437,6 +2023,7 @@ function gen() {
 		type.innerHTML = '11 (noun)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '190/200';		
+		tab2()
 		break;			
 		case 191:
 		result.innerHTML = 'ajatus';
@@ -1444,6 +2031,7 @@ function gen() {
 		type.innerHTML = '6 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '191/200';		
+		tab1()
 		break;				
 		case 192:
 		result.innerHTML = 'ympyrä';
@@ -1451,6 +2039,7 @@ function gen() {
 		type.innerHTML = '7 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '192/200';		
+		tab1()
 		break;
 		case 193:
 		result.innerHTML = 'eläin';
@@ -1458,6 +2047,7 @@ function gen() {
 		type.innerHTML = '13 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '193/200';		
+		tab1()
 		break;		
 		case 194:
 		result.innerHTML = 'järjestelmä';
@@ -1465,6 +2055,7 @@ function gen() {
 		type.innerHTML = '4 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '194/200';		
+		tab1()
 		break;		
 		case 195:
 		result.innerHTML = 'merkki';
@@ -1472,6 +2063,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '195/200';		
+		tab1()
 		break;		
 		case 196:
 		result.innerHTML = 'hiukset';
@@ -1479,6 +2071,7 @@ function gen() {
 		type.innerHTML = '6 (noun, plural)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '196/200';		
+		tab1()
 		break;		
 		case 197:
 		result.innerHTML = 'klubi';
@@ -1486,6 +2079,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '197/200';		
+		tab1()
 		break;		
 		case 198:
 		result.innerHTML = 'oranssi';
@@ -1493,6 +2087,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '198/200';		
+		tab1()
 		break;		
 		case 199:
 		result.innerHTML = 'profiili';
@@ -1500,6 +2095,7 @@ function gen() {
 		type.innerHTML = '1 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '199/200';		
+		tab1()
 		break;		
 		case 200:
 		result.innerHTML = 'puisto';
@@ -1507,6 +2103,7 @@ function gen() {
 		type.innerHTML = '2 (noun)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '200/200';		
+		tab1()
 		break;					
 		case 201:
 		result.innerHTML = 'iso';
@@ -1514,6 +2111,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '1/100';		
+		tab1()
 		break;				
 		case 202:
 		result.innerHTML = 'hyvä';
@@ -1521,6 +2119,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '2/100';		
+		tab1()
 		break;
 		case 203:
 		result.innerHTML = 'pitkä';
@@ -1528,6 +2127,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '3/100';		
+		tab1()
 		break;		
 		case 204:
 		result.innerHTML = 'pieni';
@@ -1535,6 +2135,7 @@ function gen() {
 		type.innerHTML = '14 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '4/100';		
+		tab1()
 		break;		
 		case 205:
 		result.innerHTML = 'valkoinen';
@@ -1542,6 +2143,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '5/100';		
+		tab1()
 		break;		
 		case 206:
 		result.innerHTML = 'ensimmäinen';
@@ -1549,6 +2151,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '6/100';		
+		tab1()
 		break;		
 		case 207:
 		result.innerHTML = 'korkea';
@@ -1556,6 +2159,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '7/100';		
+		tab1()
 		break;		
 		case 208:
 		result.innerHTML = 'uusi';
@@ -1563,6 +2167,7 @@ function gen() {
 		type.innerHTML = '19 (adjective)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '8/100';		
+		tab4()
 		break;		
 		case 209:
 		result.innerHTML = 'kiva';
@@ -1570,6 +2175,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '9/100';		
+		tab1()
 		break;		
 		case 210:
 		result.innerHTML = 'vapaa';
@@ -1577,6 +2183,7 @@ function gen() {
 		type.innerHTML = '23 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '10/100';		
+		tab1()
 		break;			
 		case 211:
 		result.innerHTML = 'nuori';
@@ -1584,6 +2191,7 @@ function gen() {
 		type.innerHTML = '14 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '11/100';		
+		tab1()
 		break;				
 		case 212:
 		result.innerHTML = 'keltainen';
@@ -1591,6 +2199,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '12/100';		
+		tab1()
 		break;
 		case 213:
 		result.innerHTML = 'läheinen';
@@ -1598,6 +2207,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '13/100';		
+		tab1()
 		break;		
 		case 214:
 		result.innerHTML = 'lyhyt';
@@ -1605,6 +2215,7 @@ function gen() {
 		type.innerHTML = '25 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '14/100';		
+		tab1()
 		break;		
 		case 215:
 		result.innerHTML = 'muu';
@@ -1612,6 +2223,7 @@ function gen() {
 		type.innerHTML = '15 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '15/100';		
+		tab1()
 		break;		
 		case 216:
 		result.innerHTML = 'iloinen';
@@ -1619,6 +2231,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '16/100';		
+		tab1()
 		break;		
 		case 217:
 		result.innerHTML = 'oikea';
@@ -1626,6 +2239,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '17/100';		
+		tab1()
 		break;		
 		case 218:
 		result.innerHTML = 'tyytyväinen';
@@ -1633,6 +2247,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '18/100';		
+		tab1()
 		break;		
 		case 219:
 		result.innerHTML = 'vanha';
@@ -1640,6 +2255,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '19/100';		
+		tab1()
 		break;		
 		case 220:
 		result.innerHTML = 'helppo';
@@ -1647,6 +2263,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '20/100';		
+		tab2()
 		break;				
 		case 221:
 		result.innerHTML = 'punainen';
@@ -1654,6 +2271,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '21/100';		
+		tab1()
 		break;				
 		case 222:
 		result.innerHTML = 'selkeä';
@@ -1661,6 +2279,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '22/100';		
+		tab1()
 		break;
 		case 223:
 		result.innerHTML = 'mielenkiintoinen';
@@ -1668,6 +2287,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '23/100';		
+		tab1()
 		break;		
 		case 224:
 		result.innerHTML = 'matala';
@@ -1675,6 +2295,7 @@ function gen() {
 		type.innerHTML = '7 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '24/100';		
+		tab1()
 		break;		
 		case 225:
 		result.innerHTML = 'koko';
@@ -1682,6 +2303,7 @@ function gen() {
 		type.innerHTML = '—';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '25/100';		
+		tab1()
 		break;		
 		case 226:
 		result.innerHTML = 'lämmin';
@@ -1689,6 +2311,7 @@ function gen() {
 		type.innerHTML = 'irr (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '26/100';		
+		tab1()
 		break;		
 		case 227:
 		result.innerHTML = 'kylmä';
@@ -1696,6 +2319,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '27/100';		
+		tab1()
 		break;		
 		case 228:
 		result.innerHTML = 'kallis';
@@ -1703,6 +2327,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '28/100';		
+		tab1()
 		break;		
 		case 229:
 		result.innerHTML = 'tärkeä';
@@ -1710,6 +2335,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '29/100';		
+		tab1()
 		break;		
 		case 230:
 		result.innerHTML = 'kaunis';
@@ -1717,6 +2343,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '30/100';		
+		tab1()
 		break;			
 		case 231:
 		result.innerHTML = 'seuraava';
@@ -1724,6 +2351,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '31/100';		
+		tab1()
 		break;				
 		case 232:
 		result.innerHTML = 'tavallinen';
@@ -1731,6 +2359,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '32/100';		
+		tab1()
 		break;
 		case 233:
 		result.innerHTML = 'sininen';
@@ -1738,6 +2367,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '33/100';		
+		tab1()
 		break;		
 		case 234:
 		result.innerHTML = 'hieno';
@@ -1745,6 +2375,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '34/100';		
+		tab1()
 		break;		
 		case 235:
 		result.innerHTML = 'tehokas';
@@ -1752,6 +2383,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '35/100';		
+		tab3()
 		break;		
 		case 236:
 		result.innerHTML = 'myöhäinen';
@@ -1759,6 +2391,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '36/100';		
+		tab1()
 		break;		
 		case 237:
 		result.innerHTML = 'pyöreä';
@@ -1766,6 +2399,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '37/100';		
+		tab1()
 		break;		
 		case 238:
 		result.innerHTML = 'sama';
@@ -1773,6 +2407,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '38/100';		
+		tab1()
 		break;		
 		case 239:
 		result.innerHTML = 'huono';
@@ -1780,6 +2415,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '39/100';		
+		tab1()
 		break;		
 		case 240:
 		result.innerHTML = 'kokenut';
@@ -1787,6 +2423,7 @@ function gen() {
 		type.innerHTML = '16 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '40/100';		
+		tab1()
 		break;			
 		case 241:
 		result.innerHTML = 'kuuluisa';
@@ -1794,6 +2431,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '41/100';		
+		tab1()
 		break;				
 		case 242:
 		result.innerHTML = 'nopea';
@@ -1801,6 +2439,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '42/100';		
+		tab1()
 		break;
 		case 243:
 		result.innerHTML = 'samanlainen';
@@ -1808,6 +2447,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '43/100';		
+		tab1()
 		break;		
 		case 244:
 		result.innerHTML = 'onnellinen';
@@ -1815,6 +2455,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '44/100';		
+		tab1()
 		break;		
 		case 245:
 		result.innerHTML = 'vaikea';
@@ -1822,6 +2463,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '45/100';		
+		tab1()
 		break;		
 		case 246:
 		result.innerHTML = 'söpö';
@@ -1829,6 +2471,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '46/100';		
+		tab1()
 		break;		
 		case 247:
 		result.innerHTML = 'vihreä';
@@ -1836,6 +2479,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '47/100';		
+		tab1()
 		break;		
 		case 248:
 		result.innerHTML = 'jännittävä';
@@ -1843,6 +2487,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '48/100';		
+		tab1()
 		break;		
 		case 249:
 		result.innerHTML = 'maukas';
@@ -1850,6 +2495,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '49/100';		
+		tab3()
 		break;		
 		case 250:
 		result.innerHTML = 'hyödyllinen';
@@ -1857,6 +2503,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '50/100';		
+		tab1()
 		break;				
 		case 251:
 		result.innerHTML = 'tyhjä';
@@ -1864,6 +2511,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '51/100';		
+		tab1()
 		break;				
 		case 252:
 		result.innerHTML = 'vahva';
@@ -1871,6 +2519,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '52/100';		
+		tab1()
 		break;
 		case 253:
 		result.innerHTML = 'klassinen';
@@ -1878,6 +2527,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '53/100';		
+		tab1()
 		break;		
 		case 254:
 		result.innerHTML = 'ruskea';
@@ -1885,6 +2535,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '54/100';		
+		tab1()
 		break;		
 		case 255:
 		result.innerHTML = 'väärä';
@@ -1892,6 +2543,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '55/100';		
+		tab1()
 		break;		
 		case 256:
 		result.innerHTML = 'ihana';
@@ -1899,6 +2551,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '56/100';		
+		tab1()
 		break;		
 		case 257:
 		result.innerHTML = 'oma';
@@ -1906,6 +2559,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '57/100';		
+		tab1()
 		break;		
 		case 258:
 		result.innerHTML = 'aikainen';
@@ -1913,6 +2567,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '58/100';		
+		tab1()
 		break;		
 		case 259:
 		result.innerHTML = 'ystävällinen';
@@ -1920,6 +2575,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '59/100';		
+		tab1()
 		break;		
 		case 260:
 		result.innerHTML = 'merkittävä';
@@ -1927,6 +2583,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '60/100';		
+		tab1()
 		break;			
 		case 261:
 		result.innerHTML = 'makea';
@@ -1934,6 +2591,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '61/100';		
+		tab1()
 		break;				
 		case 262:
 		result.innerHTML = 'luova';
@@ -1941,6 +2599,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '62/100';		
+		tab1()
 		break;
 		case 263:
 		result.innerHTML = 'ylimääräinen';
@@ -1948,6 +2607,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '63/100';		
+		tab1()
 		break;		
 		case 264:
 		result.innerHTML = 'rauhallinen';
@@ -1955,6 +2615,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '64/100';		
+		tab1()
 		break;		
 		case 265:
 		result.innerHTML = 'halpa';
@@ -1962,6 +2623,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = 'P-V';
 		rating.innerHTML = '65/100';		
+		tab2()
 		break;		
 		case 266:
 		result.innerHTML = 'ainutlaatuinen';
@@ -1969,6 +2631,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '66/100';		
+		tab1()
 		break;		
 		case 267:
 		result.innerHTML = 'hidas';
@@ -1976,6 +2639,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'D-T';
 		rating.innerHTML = '67/100';		
+		tab3()
 		break;		
 		case 268:
 		result.innerHTML = 'hauska';
@@ -1983,6 +2647,7 @@ function gen() {
 		type.innerHTML = '5 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '68/100';		
+		tab1()
 		break;		
 		case 269:
 		result.innerHTML = 'pimeä';
@@ -1990,6 +2655,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '69/100';		
+		tab1()
 		break;		
 		case 270:
 		result.innerHTML = 'suosittu';
@@ -1997,6 +2663,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '70/100';		
+		tab2()
 		break;			
 		case 271:
 		result.innerHTML = 'täysi';
@@ -2004,6 +2671,7 @@ function gen() {
 		type.innerHTML = '19 (adjective)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '71/100';		
+		tab4()
 		break;				
 		case 272:
 		result.innerHTML = 'pehmeä';
@@ -2011,6 +2679,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '72/100';		
+		tab1()
 		break;
 		case 273:
 		result.innerHTML = 'väsynyt';
@@ -2018,6 +2687,7 @@ function gen() {
 		type.innerHTML = '16 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '73/100';		
+		tab1()
 		break;		
 		case 274:
 		result.innerHTML = 'saatavilla';
@@ -2025,6 +2695,7 @@ function gen() {
 		type.innerHTML = '—';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '74/100';		
+		tab1()
 		break;		
 		case 275:
 		result.innerHTML = 'avoin';
@@ -2032,6 +2703,7 @@ function gen() {
 		type.innerHTML = '13 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '75/100';		
+		tab1()
 		break;		
 		case 276:
 		result.innerHTML = 'paksu';
@@ -2039,6 +2711,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '76/100';		
+		tab1()
 		break;		
 		case 277:
 		result.innerHTML = 'kiinnostunut';
@@ -2046,6 +2719,7 @@ function gen() {
 		type.innerHTML = '16 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '77/100';		
+		tab1()
 		break;		
 		case 278:
 		result.innerHTML = 'harmaa';
@@ -2053,6 +2727,7 @@ function gen() {
 		type.innerHTML = '23 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '78/100';		
+		tab1()
 		break;		
 		case 279:
 		result.innerHTML = 'aurinkoinen';
@@ -2060,6 +2735,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '79/100';		
+		tab1()
 		break;		
 		case 280:
 		result.innerHTML = 'leveä';
@@ -2067,6 +2743,7 @@ function gen() {
 		type.innerHTML = '22 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '80/100';		
+		tab1()
 		break;				
 		case 281:
 		result.innerHTML = 'nykyinen';
@@ -2074,6 +2751,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '81/100';		
+		tab1()
 		break;				
 		case 282:
 		result.innerHTML = 'sopiva';
@@ -2081,6 +2759,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '82/100';		
+		tab1()
 		break;
 		case 283:
 		result.innerHTML = 'rakas';
@@ -2088,6 +2767,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '83/100';		
+		tab3()
 		break;		
 		case 284:
 		result.innerHTML = 'suljettu';
@@ -2095,6 +2775,7 @@ function gen() {
 		type.innerHTML = '2 (adjective)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '84/100';		
+		tab2()
 		break;		
 		case 285:
 		result.innerHTML = 'rikas';
@@ -2102,6 +2783,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '85/100';		
+		tab3()
 		break;		
 		case 286:
 		result.innerHTML = 'harvinainen';
@@ -2109,6 +2791,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '86/100';			
+		tab1()
 		break;
 		case 287:
 		result.innerHTML = 'ohut';
@@ -2116,6 +2799,7 @@ function gen() {
 		type.innerHTML = '25 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '87/100';		
+		tab1()
 		break;		
 		case 288:
 		result.innerHTML = 'viihtyisä';
@@ -2123,6 +2807,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '87/100';		
+		tab1()
 		break;			
 		case 289:
 		result.innerHTML = 'kultainen';
@@ -2130,6 +2815,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '89/100';		
+		tab1()
 		break;		
 		case 290:
 		result.innerHTML = 'musta';
@@ -2137,6 +2823,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '90/100';		
+		tab1()
 		break;			
 		case 291:
 		result.innerHTML = 'utelias';
@@ -2144,6 +2831,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '91/100';		
+		tab1()
 		break;				
 		case 292:
 		result.innerHTML = 'vaarallinen';
@@ -2151,6 +2839,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '92/100';		
+		tab1()
 		break;
 		case 293:
 		result.innerHTML = 'pilvinen';
@@ -2158,6 +2847,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '93/100';		
+		tab1()
 		break;		
 		case 294:
 		result.innerHTML = 'suosikki';
@@ -2165,6 +2855,7 @@ function gen() {
 		type.innerHTML = '1 (adjective)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '94/100';		
+		tab2()
 		break;		
 		case 295:
 		result.innerHTML = 'syvä';
@@ -2172,6 +2863,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '95/100';		
+		tab1()
 		break;		
 		case 296:
 		result.innerHTML = 'mukava';
@@ -2179,6 +2871,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '96/100';		
+		tab1()
 		break;		
 		case 297:
 		result.innerHTML = 'kova';
@@ -2186,6 +2879,7 @@ function gen() {
 		type.innerHTML = '4 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '97/100';		
+		tab1()
 		break;		
 		case 298:
 		result.innerHTML = 'valmis';
@@ -2193,6 +2887,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '98/100';		
+		tab1()
 		break;		
 		case 299:
 		result.innerHTML = 'mahdollinen';
@@ -2200,6 +2895,7 @@ function gen() {
 		type.innerHTML = '3 (adjective)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '99/100';		
+		tab1()
 		break;		
 		case 300:
 		result.innerHTML = 'muodikas';
@@ -2207,6 +2903,7 @@ function gen() {
 		type.innerHTML = '12 (adjective)';
 		gradation.innerHTML = 'K-KK';
 		rating.innerHTML = '100/100';		
+		tab3()
 		break;			
 		case 301:
 		result.innerHTML = 'olla';
@@ -2214,6 +2911,7 @@ function gen() {
 		type.innerHTML = '3/irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '1/100';		
+		tab9()
 		break;				
 		case 302:
 		result.innerHTML = 'mennä';
@@ -2221,6 +2919,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '2/100';		
+		tab5()
 		break;
 		case 303:
 		result.innerHTML = 'voida';
@@ -2228,6 +2927,7 @@ function gen() {
 		type.innerHTML = '13 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '3/100';		
+		tab5()
 		break;		
 		case 304:
 		result.innerHTML = 'puhua';
@@ -2235,6 +2935,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '4/100';		
+		tab5()
 		break;		
 		case 305:
 		result.innerHTML = 'tehdä';
@@ -2242,6 +2943,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '5/100';		
+		tab5()
 		break;		
 		case 306:
 		result.innerHTML = 'tulla';
@@ -2249,6 +2951,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '6/100';		
+		tab5()
 		break;		
 		case 307:
 		result.innerHTML = 'oppia';
@@ -2256,6 +2959,7 @@ function gen() {
 		type.innerHTML = '7 (verb)';
 		gradation.innerHTML = 'PP-P';
 		rating.innerHTML = '7/100';		
+		tab6()
 		break;		
 		case 308:
 		result.innerHTML = 'nähdä';
@@ -2263,6 +2967,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '8/100';		
+		tab5()
 		break;		
 		case 309:
 		result.innerHTML = 'matkustaa';
@@ -2270,6 +2975,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '9/100';		
+		tab5()
 		break;		
 		case 310:
 		result.innerHTML = 'avata';
@@ -2277,6 +2983,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '10/100';		
+		tab5()
 		break;			
 		case 311:
 		result.innerHTML = 'haluta';
@@ -2284,6 +2991,7 @@ function gen() {
 		type.innerHTML = '15 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '11/100';		
+		tab5()
 		break;				
 		case 312:
 		result.innerHTML = 'ajatella';
@@ -2291,13 +2999,15 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = 'T-TT';
 		rating.innerHTML = '12/100';		
+		tab7()
 		break;
 		case 313:
 		result.innerHTML = 'syödä';
 		trad.innerHTML = 'to eat';
 		type.innerHTML = '9 (verb)';
 		gradation.innerHTML = '—';
-		rating.innerHTML = '13/100';		
+		rating.innerHTML = '13/100';
+		tab5()
 		break;		
 		case 314:
 		result.innerHTML = 'lukea';
@@ -2305,6 +3015,7 @@ function gen() {
 		type.innerHTML = '8 (verb)';
 		gradation.innerHTML = '<s>K</s>';
 		rating.innerHTML = '14/200';		
+		tab6()
 		break;		
 		case 315:
 		result.innerHTML = 'asua';
@@ -2312,6 +3023,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '15/200';		
+		tab5()
 		break;		
 		case 316:
 		result.innerHTML = 'tietää';
@@ -2319,6 +3031,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '16/100';		
+		tab10()
 		break;		
 		case 317:
 		result.innerHTML = 'odottaa';
@@ -2326,6 +3039,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '17/100';		
+		tab6()
 		break;		
 		case 318:
 		result.innerHTML = 'sanoa';
@@ -2333,6 +3047,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '18/100';		
+		tab5()
 		break;		
 		case 319:
 		result.innerHTML = 'juoda';
@@ -2340,6 +3055,7 @@ function gen() {
 		type.innerHTML = '9 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '19/200';		
+		tab5()
 		break;		
 		case 320:
 		result.innerHTML = 'viedä';
@@ -2347,6 +3063,7 @@ function gen() {
 		type.innerHTML = '9 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '20/100';		
+		tab5()
 		break;				
 		case 321:
 		result.innerHTML = 'kuunnella';
@@ -2354,6 +3071,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = 'NN-NT';
 		rating.innerHTML = '21/100';		
+		tab7()
 		break;				
 		case 322:
 		result.innerHTML = 'pitää';
@@ -2361,6 +3079,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '22/100';		
+		tab6()
 		break;
 		case 323:
 		result.innerHTML = 'seisoa';
@@ -2368,6 +3087,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '23/100';		
+		tab5()
 		break;		
 		case 324:
 		result.innerHTML = 'auttaa';
@@ -2375,6 +3095,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '24/100';		
+		tab6()
 		break;		
 		case 325:
 		result.innerHTML = 'kävellä';
@@ -2382,6 +3103,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '25/100';		
+		tab5()
 		break;		
 		case 326:
 		result.innerHTML = 'alkaa';
@@ -2389,6 +3111,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = '<s>k</s>';
 		rating.innerHTML = '26/100';		
+		tab6() /* ? */
 		break;		
 		case 327:
 		result.innerHTML = 'lisätä';
@@ -2396,6 +3119,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '27/100';		
+		tab5()
 		break;		
 		case 328:
 		result.innerHTML = 'kertoa';
@@ -2403,6 +3127,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = 'RT-RR';
 		rating.innerHTML = '28/100';		
+		tab6()
 		break;		
 		case 329:
 		result.innerHTML = 'tuoda';
@@ -2410,6 +3135,7 @@ function gen() {
 		type.innerHTML = '9 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '29/100';		
+		tab5()
 		break;		
 		case 330:
 		result.innerHTML = 'ymmärtää';
@@ -2417,6 +3143,7 @@ function gen() {
 		type.innerHTML = '6 (verb)';
 		gradation.innerHTML = 'RT-RR';
 		rating.innerHTML = '30/100';		
+		tab8()
 		break;			
 		case 331:
 		result.innerHTML = 'sulkea';
@@ -2424,6 +3151,7 @@ function gen() {
 		type.innerHTML = '8 (verb)';
 		gradation.innerHTML = 'L-J';
 		rating.innerHTML = '31/100';		
+		tab6()
 		break;				
 		case 332:
 		result.innerHTML = 'opiskella';
@@ -2431,6 +3159,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '32/100';		
+		tab5()
 		break;
 		case 333:
 		result.innerHTML = 'saada';
@@ -2438,6 +3167,7 @@ function gen() {
 		type.innerHTML = '14 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '33/100';		
+		tab5()
 		break;		
 		case 334:
 		result.innerHTML = 'elää';
@@ -2445,6 +3175,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '34/100';		
+		tab5()
 		break;		
 		case 335:
 		result.innerHTML = 'toivottaa';
@@ -2452,6 +3183,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '35/100';		
+		tab6()
 		break;		
 		case 336:
 		result.innerHTML = 'juosta';
@@ -2459,6 +3191,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '36/100';		
+		tab5()
 		break;		
 		case 337:
 		result.innerHTML = 'löytää';
@@ -2466,6 +3199,7 @@ function gen() {
 		type.innerHTML = '6 (verb)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '37/100';		
+		tab8()
 		break;		
 		case 338:
 		result.innerHTML = 'osata';
@@ -2473,6 +3207,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '38/100';		
+		tab5()
 		break;		
 		case 339:
 		result.innerHTML = 'laulaa';
@@ -2480,6 +3215,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '39/100';		
+		tab5()
 		break;		
 		case 340:
 		result.innerHTML = 'jatkaa';
@@ -2487,6 +3223,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '40/100';		
+		tab5()
 		break;			
 		case 341:
 		result.innerHTML = 'kysyä';
@@ -2494,6 +3231,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '41/100';		
+		tab5()
 		break;				
 		case 342:
 		result.innerHTML = 'ostaa';
@@ -2501,6 +3239,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '42/100';		
+		tab5()
 		break;
 		case 343:
 		result.innerHTML = 'muistaa';
@@ -2508,6 +3247,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '43/100';		
+		tab5()
 		break;		
 		case 344:
 		result.innerHTML = 'tarvita';
@@ -2515,6 +3255,7 @@ function gen() {
 		type.innerHTML = '10 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '44/100';		
+		tab5()
 		break;		
 		case 345:
 		result.innerHTML = 'istua';
@@ -2522,6 +3263,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '45/100';		
+		tab5()
 		break;		
 		case 346:
 		result.innerHTML = 'kirjoittaa';
@@ -2529,6 +3271,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '46/100';		
+		tab6()
 		break;		
 		case 347:
 		result.innerHTML = 'antaa';
@@ -2536,6 +3279,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '47/100';		
+		tab6()
 		break;		
 		case 348:
 		result.innerHTML = 'yrittää';
@@ -2543,6 +3287,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '48/100';		
+		tab6()
 		break;		
 		case 349:
 		result.innerHTML = 'jäädä';
@@ -2550,6 +3295,7 @@ function gen() {
 		type.innerHTML = '14 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '49/100';		
+		tab5()
 		break;		
 		case 350:
 		result.innerHTML = 'vastata';
@@ -2557,6 +3303,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '50/100';		
+		tab5()
 		break;				
 		case 351:
 		result.innerHTML = 'toistaa';
@@ -2564,6 +3311,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '51/100';		
+		tab5()
 		break;				
 		case 352:
 		result.innerHTML = 'ajaa';
@@ -2571,6 +3319,7 @@ function gen() {
 		type.innerHTML = '5 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '52/100';		
+		tab5()
 		break;
 		case 353:
 		result.innerHTML = 'valmistaa';
@@ -2578,6 +3327,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '53/100';		
+		tab5()
 		break;		
 		case 354:
 		result.innerHTML = 'käydä';
@@ -2585,6 +3335,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '54/100';		
+		tab5()
 		break;		
 		case 355:
 		result.innerHTML = 'keskustella';
@@ -2592,6 +3343,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '55/100';		
+		tab5()
 		break;		
 		case 356:
 		result.innerHTML = 'tuntea';
@@ -2599,6 +3351,7 @@ function gen() {
 		type.innerHTML = 'irregular (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '56/100';		
+		tab5()
 		break;		
 		case 357:
 		result.innerHTML = 'näyttää';
@@ -2606,6 +3359,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '57/100';		
+		tab6()
 		break;		
 		case 358:
 		result.innerHTML = 'seurata';
@@ -2613,6 +3367,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '58/100';		
+		tab5()
 		break;		
 		case 359:
 		result.innerHTML = 'lopettaa';
@@ -2620,6 +3375,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '59/100';		
+		tab6()
 		break;		
 		case 360:
 		result.innerHTML = 'tarkistaa';
@@ -2627,6 +3383,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '60/100';		
+		tab5()
 		break;			
 		case 361:
 		result.innerHTML = 'etsiä';
@@ -2634,6 +3391,7 @@ function gen() {
 		type.innerHTML = '7 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '61/100';		
+		tab5()
 		break;				
 		case 362:
 		result.innerHTML = 'onnistua';
@@ -2641,6 +3399,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '62/100';		
+		tab5()
 		break;
 		case 363:
 		result.innerHTML = 'lentää';
@@ -2648,6 +3407,7 @@ function gen() {
 		type.innerHTML = '6 (verb)';
 		gradation.innerHTML = 'NT-NN';
 		rating.innerHTML = '63/100';		
+		tab8()
 		break;		
 		case 364:
 		result.innerHTML = 'päättää';
@@ -2655,6 +3415,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '64/100';		
+		tab6()
 		break;		
 		case 365:
 		result.innerHTML = 'juhlia';
@@ -2662,6 +3423,7 @@ function gen() {
 		type.innerHTML = '7 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '65/100';		
+		tab5()
 		break;		
 		case 366:
 		result.innerHTML = 'luoda';
@@ -2669,6 +3431,7 @@ function gen() {
 		type.innerHTML = '9 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '66/100';		
+		tab5()
 		break;		
 		case 367:
 		result.innerHTML = 'katsoa';
@@ -2676,6 +3439,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '67/100';		
+		tab5()
 		break;		
 		case 368:
 		result.innerHTML = 'harjoittaa';
@@ -2683,6 +3447,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '68/100';		
+		tab6()
 		break;		
 		case 369:
 		result.innerHTML = 'nukkua';
@@ -2690,6 +3455,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = 'KK-K';
 		rating.innerHTML = '69/100';		
+		tab6()
 		break;		
 		case 370:
 		result.innerHTML = 'käyttää';
@@ -2697,6 +3463,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '70/100';		
+		tab6()
 		break;			
 		case 371:
 		result.innerHTML = 'pelata';
@@ -2704,6 +3471,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '71/100';		
+		tab5()
 		break;				
 		case 372:
 		result.innerHTML = 'uskoa';
@@ -2711,6 +3479,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '72/100';		
+		tab5()
 		break;
 		case 373:
 		result.innerHTML = 'liittyä';
@@ -2718,6 +3487,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '73/100';		
+		tab6()
 		break;		
 		case 374:
 		result.innerHTML = 'nousta';
@@ -2725,6 +3495,7 @@ function gen() {
 		type.innerHTML = '12 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '74/100';		
+		tab5()
 		break;		
 		case 375:
 		result.innerHTML = 'rakastaa';
@@ -2732,6 +3503,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '75/100';		
+		tab5()
 		break;		
 		case 376:
 		result.innerHTML = 'tilata';
@@ -2739,6 +3511,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '76/100';		
+		tab5()
 		break;		
 		case 377:
 		result.innerHTML = 'pestä';
@@ -2746,6 +3519,7 @@ function gen() {
 		type.innerHTML = '12 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '77/100';		
+		tab5()
 		break;		
 		case 378:
 		result.innerHTML = 'valita';
@@ -2753,6 +3527,7 @@ function gen() {
 		type.innerHTML = '10 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '78/100';		
+		tab5()
 		break;		
 		case 379:
 		result.innerHTML = 'suunnitella';
@@ -2760,6 +3535,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = 'T-TT';
 		rating.innerHTML = '79/100';		
+		tab7()
 		break;		
 		case 380:
 		result.innerHTML = 'parantaa';
@@ -2774,6 +3550,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '81/100';		
+		tab6()
 		break;				
 		case 382:
 		result.innerHTML = 'unohtaa';
@@ -2781,6 +3558,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '82/100';		
+		tab6()
 		break;
 		case 383:
 		result.innerHTML = 'soittaa';
@@ -2788,6 +3566,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '83/100';		
+		tab6()
 		break;		
 		case 384:
 		result.innerHTML = 'tavata';
@@ -2795,6 +3574,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = 'V-P';
 		rating.innerHTML = '84/100';		
+		tab6()
 		break;		
 		case 385:
 		result.innerHTML = 'saapua';
@@ -2802,6 +3582,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = 'P-V';
 		rating.innerHTML = '85/100';		
+		tab6()
 		break;		
 		case 386:
 		result.innerHTML = 'toimia';
@@ -2809,6 +3590,7 @@ function gen() {
 		type.innerHTML = '7 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '86/100';		
+		tab5()
 		break;		
 		case 387:
 		result.innerHTML = 'kuulla';
@@ -2816,6 +3598,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '87/100';		
+		tab5()
 		break;		
 		case 388:
 		result.innerHTML = 'lähettää';
@@ -2823,6 +3606,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '88/100';		
+		tab6()
 		break;		
 		case 389:
 		result.innerHTML = 'tutustua';
@@ -2830,6 +3614,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '89/100';		
+		tab5()
 		break;		
 		case 390:
 		result.innerHTML = 'palata';
@@ -2837,6 +3622,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '90/100';		
+		tab5()
 		break;			
 		case 391:
 		result.innerHTML = 'maalata';
@@ -2844,6 +3630,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '91/100';		
+		tab5()
 		break;				
 		case 392:
 		result.innerHTML = 'laittaa';
@@ -2851,6 +3638,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '92/100';		
+		tab6()
 		break;
 		case 393:
 		result.innerHTML = 'hymyillä';
@@ -2858,6 +3646,7 @@ function gen() {
 		type.innerHTML = '3 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '93/100';		
+		tab5()
 		break;		
 		case 394:
 		result.innerHTML = 'uida';
@@ -2865,6 +3654,7 @@ function gen() {
 		type.innerHTML = '13 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '94/100';		
+		tab5()
 		break;		
 		case 395:
 		result.innerHTML = 'levätä';
@@ -2872,6 +3662,7 @@ function gen() {
 		type.innerHTML = '4 (verb)';
 		gradation.innerHTML = 'V-P';
 		rating.innerHTML = '95/100';		
+		tab6()
 		break;		
 		case 396:
 		result.innerHTML = 'siivota';
@@ -2879,6 +3670,7 @@ function gen() {
 		type.innerHTML = '15 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '96/100';		
+		tab5()
 		break;		
 		case 397:
 		result.innerHTML = 'suorittaa';
@@ -2886,6 +3678,7 @@ function gen() {
 		type.innerHTML = '1 (verb)';
 		gradation.innerHTML = 'TT-T';
 		rating.innerHTML = '97/100';		
+		tab6()
 		break;		
 		case 398:
 		result.innerHTML = 'tapahtua';
@@ -2893,6 +3686,7 @@ function gen() {
 		type.innerHTML = '2 (verb)';
 		gradation.innerHTML = 'T-D';
 		rating.innerHTML = '98/100';		
+		tab6()
 		break;		
 		case 399:
 		result.innerHTML = 'kääntää';
@@ -2907,6 +3701,7 @@ function gen() {
 		type.innerHTML = '13 (verb)';
 		gradation.innerHTML = '—';
 		rating.innerHTML = '100/100';		
+		tab5()
 		break;			
 		case 401:
 		result.innerHTML = 'lisää';
@@ -3610,6 +4405,7 @@ function gen() {
 		break;					
 	}
 	if (count < 300) {
+	nom_info.innerHTML = trad.innerHTML + ', type ' + numFunc() + ' [' + gradation.innerHTML + ']';
 	nom_sin.innerHTML = nom_sin_arr[count - 1];	
 	nom_pl.innerHTML = nom_pl_arr[count - 1];
 	gen_sin.innerHTML = gen_sin_arr[count - 1];
@@ -3628,6 +4424,377 @@ function gen() {
 	abl_pl.innerHTML = abl_pl_arr[count - 1];		
 	all_sin.innerHTML = all_sin_arr[count - 1];
 	all_pl.innerHTML = all_pl_arr[count - 1];		
+	} else if (count > 300 && count < 401) {
+	nom_info.innerHTML = 'Noun/Adjective';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = '—';
+	tab1()
+	verb_info.innerHTML = result.innerHTML + ' (' + trad.innerHTML + '), type ' + numFunc() + ' [' + gradation.innerHTML + ']'; 
+	present_mina.innerHTML = present_mina_arr[count - 301];
+	present_sina.innerHTML = present_sina_arr[count - 301];
+	present_han.innerHTML = present_han_arr[count - 301];
+	present_me.innerHTML = present_me_arr[count - 301];
+	present_te.innerHTML = present_te_arr[count - 301];
+	present_he.innerHTML = present_he_arr[count - 301];
+	past_mina.innerHTML = past_mina_arr[count - 301];
+	past_sina.innerHTML = past_sina_arr[count - 301];
+	past_han.innerHTML = past_han_arr[count - 301];
+	past_me.innerHTML = past_me_arr[count - 301];
+	past_te.innerHTML = past_te_arr[count - 301];
+	past_he.innerHTML = past_he_arr[count - 301];	
+	cond_mina.innerHTML = cond_mina_arr[count - 301];
+	cond_sina.innerHTML = cond_sina_arr[count - 301];
+	cond_han.innerHTML = cond_han_arr[count - 301];
+	cond_me.innerHTML = cond_me_arr[count - 301];
+	cond_te.innerHTML = cond_te_arr[count - 301];
+	cond_he.innerHTML = cond_he_arr[count - 301];
+	perf_mina.innerHTML = 'olen' + ' ' + perf_par[count - 301];
+	perf_sina.innerHTML = 'olet' + ' ' + perf_par[count - 301];
+	perf_han.innerHTML = 'on' + ' ' + perf_par[count - 301];
+	perf_me.innerHTML = 'olemme' + ' ' + perf_par[count - 301].replace('nut', 'neet').replace('nyt', 'neet').replace('llut', 'lleet').replace('llyt', 'lleet').replace('ssut', 'sseet');
+	perf_te.innerHTML = 'olette' + ' ' + perf_par[count - 301].replace('nut', 'neet').replace('nyt', 'neet').replace('llut', 'lleet').replace('llyt', 'lleet').replace('ssut', 'sseet');
+	perf_he.innerHTML = 'ovat' + ' ' + perf_par[count - 301].replace('nut', 'neet').replace('nyt', 'neet').replace('llut', 'lleet').replace('llyt', 'lleet').replace('ssut', 'sseet');
+	imp_sina.innerHTML = present_mina_arr[count - 301].slice(0, present_mina_arr[count - 301].length - 1);
+	imp_te.innerHTML = imp_te_arr[count - 301];
+	passive_res.innerHTML = passive_arr[count - 301];
+	massa_res.innerHTML = massa_arr[count - 301];
+	minen_res.innerHTML = minen_arr[count - 301];
+	} else if (count === 451) {
+	nom_info.innerHTML = 'I [irr.]';
+	nom_sin.innerHTML = 'minä';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'minun';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'minua';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'minussa';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'minusta';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'minuun';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'minulla';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'minulta';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'minulle';
+	all_pl.innerHTML = '—';		
+	} else if (count === 452) {
+	nom_info.innerHTML = 'You (sin.) [irr.]';
+	nom_sin.innerHTML = 'sinä';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'sinun';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'sinua';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'sinussa';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'sinusta';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'sinuun';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'sinulla';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'sinulta';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'sinulle';
+	all_pl.innerHTML = '—';				
+	} else if (count === 453) {
+	nom_info.innerHTML = 'He/she [irr.]';
+	nom_sin.innerHTML = 'hän';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'hänen';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'häntä';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'hänessä';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'hänestä';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'häneen';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'hänellä';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'häneltä';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'hänelle';
+	all_pl.innerHTML = '—';			
+	} else if (count === 454) {
+	nom_info.innerHTML = 'We [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'me';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'meidän';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'meitä';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'meissä';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'meistä';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'meihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'meillä';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'meiltä';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'meille';			
+	} else if (count === 455) {
+	nom_info.innerHTML = 'You (pl.) [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'te';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'teidän';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'teitä';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'teissä';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'teistä';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'teihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'teillä';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'teiltä';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'teille';		
+	} else if (count === 456) {
+	nom_info.innerHTML = 'They [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'he';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'heidän';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'heitä';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'heissä';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'heistä';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'heihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'heillä';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'heiltä';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'heille';		
+	} else if (count === 457) {
+	nom_info.innerHTML = 'it [irr.]';
+	nom_sin.innerHTML = 'se';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'sen';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'sitä';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'siinä';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'siitä';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'siihen';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'sillä';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'siltä';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'sille';
+	all_pl.innerHTML = '—';			
+	} else if (count === 458) {
+	nom_info.innerHTML = 'that [irr.]';
+	nom_sin.innerHTML = 'tuo';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'tuon';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'tuota';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'tuossa';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'tuosta';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'tuohon';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'tuolla';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'tuolta';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'tuolle';
+	all_pl.innerHTML = '—';	
+	} else if (count === 459) {
+	nom_info.innerHTML = 'this [irr.]';
+	nom_sin.innerHTML = 'tämä';	
+	nom_pl.innerHTML = '—';
+	gen_sin.innerHTML = 'tämän';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'tätä';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'tässä';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'tästä';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'tähän';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'tällä';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'tältä';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'tälle';
+	all_pl.innerHTML = '—';	
+	} else if (count === 460) {
+	nom_info.innerHTML = 'They [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'ne';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'niiden';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'niitä';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'niissä';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'niistä';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'niihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'niillä';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'niiltä';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'niille';
+	} else if (count === 461) {
+	nom_info.innerHTML = 'They [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'nuo';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'noiden';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'noita';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'noissa';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'noista';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'noihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'noilla';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'noilta';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'noille';
+	} else if (count === 462) {
+	nom_info.innerHTML = 'They [irr.]';
+	nom_sin.innerHTML = '—';	
+	nom_pl.innerHTML = 'nämä';
+	gen_sin.innerHTML = '—';
+	gen_pl.innerHTML = 'näiden';
+	par_sin.innerHTML = '—';
+	par_pl.innerHTML = 'näitä';
+	ine_sin.innerHTML = '—';
+	ine_pl.innerHTML = 'näissä';	
+	ela_sin.innerHTML = '—';
+	ela_pl.innerHTML = 'näistä';	
+	ill_sin.innerHTML = '—';
+	ill_pl.innerHTML = 'näihin';	
+	ade_sin.innerHTML = '—';
+	ade_pl.innerHTML = 'näillä';		
+	abl_sin.innerHTML = '—';
+	abl_pl.innerHTML = 'näiltä';
+	all_sin.innerHTML = '—';
+	all_pl.innerHTML = 'näille';
+	} else if (count === 463) {
+	nom_info.innerHTML = 'who [irr.]';
+	nom_sin.innerHTML = 'kuka';	
+	nom_pl.innerHTML = 'ketkä';
+	gen_sin.innerHTML = 'kenen';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'ketä';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'kenessä';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'kenestä';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'keneen';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'kenellä';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'keneltä';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'kenelle';
+	all_pl.innerHTML = '—';	
+	} else if (count === 464) {
+	nom_info.innerHTML = 'who, which, every [irr.]';
+	nom_sin.innerHTML = 'joka';	
+	nom_pl.innerHTML = 'jotka';
+	gen_sin.innerHTML = 'jonka';
+	gen_pl.innerHTML = '—';
+	par_sin.innerHTML = 'jota';
+	par_pl.innerHTML = '—';
+	ine_sin.innerHTML = 'jossa';
+	ine_pl.innerHTML = '—';	
+	ela_sin.innerHTML = 'josta';
+	ela_pl.innerHTML = '—';	
+	ill_sin.innerHTML = 'johon';
+	ill_pl.innerHTML = '—';	
+	ade_sin.innerHTML = 'jolla';
+	ade_pl.innerHTML = '—';		
+	abl_sin.innerHTML = 'jolta';
+	abl_pl.innerHTML = '—';
+	all_sin.innerHTML = 'jolle';
+	all_pl.innerHTML = '—';	
+	} else if (count === 465) {
+	nom_info.innerHTML = 'all [irr.]';
+	nom_sin.innerHTML = 'kaikki';	
+	nom_pl.innerHTML = 'kaikki';
+	gen_sin.innerHTML = 'kaiken';
+	gen_pl.innerHTML = 'kaikkien';
+	par_sin.innerHTML = 'kaikkea';
+	par_pl.innerHTML = 'kaikkia';
+	ine_sin.innerHTML = 'kaikessa';
+	ine_pl.innerHTML = 'kaikissa';	
+	ela_sin.innerHTML = 'kaikesta';
+	ela_pl.innerHTML = 'kaikista';	
+	ill_sin.innerHTML = 'kaikkeen';
+	ill_pl.innerHTML = 'kaikkiin';	
+	ade_sin.innerHTML = 'kaikella';
+	ade_pl.innerHTML = 'kaikilla';		
+	abl_sin.innerHTML = 'kaikelta';
+	abl_pl.innerHTML = 'kaikilta';
+	all_sin.innerHTML = 'kaikelle';
+	all_pl.innerHTML = 'kaikille';	
+	} else if (count === 466) {
+	nom_info.innerHTML = 'many [type 11]';
+	nom_sin.innerHTML = 'moni';	
+	nom_pl.innerHTML = 'monet';
+	gen_sin.innerHTML = 'monen';
+	gen_pl.innerHTML = 'monien';
+	par_sin.innerHTML = 'monta';
+	par_pl.innerHTML = 'monia';
+	ine_sin.innerHTML = 'monessa';
+	ine_pl.innerHTML = 'monissa';	
+	ela_sin.innerHTML = 'monesta';
+	ela_pl.innerHTML = 'monista';	
+	ill_sin.innerHTML = 'moneen';
+	ill_pl.innerHTML = 'moniin';	
+	ade_sin.innerHTML = 'monella';
+	ade_pl.innerHTML = 'monilla';		
+	abl_sin.innerHTML = 'monelta';
+	abl_pl.innerHTML = 'monilta';
+	all_sin.innerHTML = 'monelle';
+	all_pl.innerHTML = 'monille';	
 	}
 }
 
@@ -3648,6 +4815,8 @@ show.addEventListener('click', () => {
 
 trying.addEventListener('click', () => { randomPick() });
 trying.addEventListener('click', () => { gen() });
+trying2.addEventListener('click', () => { randomPick() });
+trying2.addEventListener('click', () => { gen() });
 
 let nType = 0;
 
@@ -3687,7 +4856,7 @@ bar_go.addEventListener('click', () => {
 		gen();
 	}
 
-	if (nType == 4 && count > 400 && count < 450) {
+	if (nType == 4 && count > 400 && count < 500) {
 		count = 400 + Number(enter.innerHTML);
 		gen();
 	}	
