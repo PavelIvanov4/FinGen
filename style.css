@@ -30,15 +30,16 @@ nav ul {
 nav ul li {
 	display : none;
 	list-style : none;
-	font : 30px Bebas Neue;
+	font : 22px Bebas Neue;
 	background : black;
 	border : 5px solid rgb(122, 86, 197);
 	color : beige;
-	padding : 12px;
+	padding : 16px 5px 16px 5px;
 	text-align : center;
 	flex-basis : 100%;
 	cursor : default;
 	transition : all 0.6s ease;
+	box-sizing : border-box;
 }
 
 table {
@@ -255,22 +256,153 @@ nav ul li:hover {
 	font-family : Poppins;
 }
 
+@media screen and (max-width : 1080px) {
+	main {
+		padding-left : 0px;
+		padding-right : 0px;
+	}
+}
 
-@media (max-width : 520px) {
- body {
-	background-image : none;
-	background-color : rgb(0, 12, 0);
- }	
- 
- nav ul li {
-	 border-bottom : 1px solid black;
-	 display : block;
+@media screen and (max-width : 950px) {
+	main {
+		display : flex;
+		margin : auto;
+		flex-direction : column;
+		align-items : center;
+	}
+	
+	#generator {
+		margin-bottom : 70px;
+	}
+	
+	#nouns_adjs {
+		width : 510px;
+	}
+	
+	#table_wrapper {
+		padding : 0;
+	}
+}
+
+@media screen and (max-width : 840px) {
+	table td, table th {
+		border : 2px solid steelBlue;
+		outline : 2px solid steelBlue;
+		padding : 6px;
+		min-width : 50px;
+}	
+}
+
+@media screen and (max-width : 760px) {
+	table td {
+		padding : 2px;
+	}
+}
+
+@media screen and (max-width : 715px) {	
+	#nouns_adjs {
+		width : 100%;
+	}
+	
+	#nouns_adjs td {
+		padding-top : 4px;
+		padding-bottom : 4px;
+	}
+	
+	#verb_table {
+		font-size : 2.2vw;
+		width : 100%;
+	}
+}
+
+
+@media screen and (max-width : 520px) {
+	nav ul li {
+		border-bottom : 1px solid black;
+		display : block;
  }
  
-#generator {
-	margin-top : 30px;
-	box-shadow : 0px 0px black;
-	border : 1px solid black;
-	width : 100%;
+	#generator {
+		box-shadow : 0px 0px black;
+		box-sizing : border-box;
+		border-radius : 0;
+		border : 1px solid turquoise;
+		outline : 1px solid turquoise;
  }	
+	#try, #hear, #show, #result {
+		border-radius : 0;
+	}
+}
+
+@media screen and (max-width : 650px) {
+	#generator {
+		width : 100%;
+	}
+	
+	#verb_table tbody {
+		margin-bottom : 70px;
+	}
+	
+	#empty_div {
+		width : 100%;
+		height : 70px;
+	}
+}
+
+@media screen and (max-width : 430px) {
+	#try, #hear, #more {
+		font-size : 23px;
+	}
+	
+	#generator {
+		margin-bottom : 0;
+	}
+	
+	#nouns_adjs, #verb_table {
+		margin-top : 40px;
+	}
+	
+	#bar {
+		width : 95%;
+		grid-column-gap : 5px;
+		font-size : 15px;
+	}
+	
+	#bar div {
+		padding : 1px;
+	}
+	
+	h2 {
+		font-size : 20px;
+	}
+	
+	main {
+		padding : 0;
+		margin-top : 40px;
+	}
+	
+	nav ul li {
+		font-size : 18px;
+		padding : 12px 0 12px 0;
+	}
+}
+
+@media screen and (max-width : 420px) {
+	#verb_table {
+		border-width : 1px;
+	}
+	
+	#verb_table td, #verb_table th {
+		border-width : 1px;
+		min-width : initial;
+	}
+	
+	#verb_table th {
+		font-size : 3vw;
+	}
+	
+	#bar div {
+		padding : 0;
+		min-width : 30px;
+	}
 }
